@@ -1,19 +1,14 @@
 # DevOps Cheat Sheet
 
-Use this to setup your Devops Project. Clone this project and describe your DevOps configuration.
->
->
+*CC-SA-BY 4.0 Patrick Savalle*
+
+Use this to setup or optimize your Devops Project.
+
+
 > Contents:
 >
 > - Overview
 > - Checklist
-    >
-
-- Strategies & methods
-
-> - Standards
->   - Procedures
->   - Tools
 > - Fundamentals
 > - Best Practices
 
