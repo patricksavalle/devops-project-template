@@ -7,45 +7,10 @@ Use this to setup or optimize your Devops Project.
 
 > Contents:
 >
-> - [Overview](#overview)
 > - [Checklist](#checklist)
+> - [Overview](#overview)
 > - [Fundamentals](#fundamentals)
 > - [Best Practices](#best-practices)
-
-## Overview
-
-What is DevOps? (loose definition)
-
-> DevOps is an *iterative* and *incremental* approach to software development with emphasis on *automation*, *continuous
-improvement* and *collaboration*.
-
-There are four main processes in DevOps:
-
-- **Continuous Integration (CI)** - Integration is merging code changes into the production code.
-
-    - Planning
-    - Design and coding
-    - Reviewing and merging
-    - Building and unit testing
-
-
-- **Continuous Delivery (CD)** - Delivery is putting application changes in production.
-    - Provisioning
-    - Configuration
-    - Deploy
-    - Integration Testing
-
-
-- **Continuous Feedback (CF)** - Feedback is collecting optimisations and improvements from production.
-    - Monitoring
-    - Issue tracking
-    - Optimization
-
-
-- **Continuous Operation (CO)** - Operation is keeping the application healthy and responsive.
-    - Orchestration
-    - Incident management
-    - Rollback
 
 ## Checklist
 
@@ -53,7 +18,7 @@ There are four main processes in DevOps:
 
 ### Strategies & methods
 
-- Planning method (determines the content and order of *increments* of the project)
+- [Planning method](#planning-methods) (determines the content and order of *increments* of the project)
     - [ ] Design Driven
     - [ ] Scrum
     - [ ] Kanban
@@ -195,6 +160,41 @@ There are four main processes in DevOps:
 - Observability stack
     - [ ] ................
 
+## Overview
+
+What is DevOps? (loose definition)
+
+> DevOps is an *iterative* and *incremental* approach to software development with emphasis on *automation*, *continuous
+improvement* and *collaboration*.
+
+There are four main processes in DevOps:
+
+- **Continuous Integration (CI)** - Integration is merging code changes into the production code.
+
+  - Planning
+  - Design and coding
+  - Reviewing and merging
+  - Building and unit testing
+
+
+- **Continuous Delivery (CD)** - Delivery is putting application changes in production.
+  - Provisioning
+  - Configuration
+  - Deploy
+  - Integration Testing
+
+
+- **Continuous Feedback (CF)** - Feedback is collecting optimisations and improvements from production.
+  - Monitoring
+  - Issue tracking
+  - Optimization
+
+
+- **Continuous Operation (CO)** - Operation is keeping the application healthy and responsive.
+  - Orchestration
+  - Incident management
+  - Rollback
+
 ## Fundamentals
 
 ### Parts, aspects and modularity
@@ -246,16 +246,17 @@ and changeability.
 
 ### Refactoring
 
-Changing a system’s modularity without changing its functionality is called refactoring.
+Changing a system’s **modularity** without changing its **functionality** is called refactoring.
 
-> Reasons to refactor a system include:
-> - accomodate large changes in requirements
-> - making parts of it reusable in other systems and improving changeability
-> - restoring drift from ideal functional modularity caused by agile (design-less) project planning
+Reasons to refactor a system include:
+
+- accommodate large changes in requirements
+- making parts of it reusable in other systems and improving changeability
+- restoring drift from ideal functional modularity caused by agile (design-less) project planning
 
 ### Encapsulation and Interfaces
 
-To hide (implementation) complexity it needs to be hidden, encapsulated by an interface. Users only need to see the (
+To make (implementation) complexity manageable it needs to be hidden, encapsulated by an interface. Users only need to see the (
 simple) interface, not the (complex) implementation.
 
 A good interface is:
@@ -269,10 +270,12 @@ A good interface is:
 
 ### Development Phases
 
+Alle new systems are built in phases. In agile project these phases are done incrementally. Only trivial systems or experienced teams don't need a functional or technical design.
+
 #### 1. Requirements analysis
 
 Requirements describe, using human language, prototypes and sketches, the functionality and non-functionality of a
-system concise enough to be used for system validation.
+system concise enough to be used for system validation and acceptance testing.
 This stages is done in collaboration with all stake-holder.
 
 #### 2. Functional design
@@ -303,15 +306,19 @@ A POC is an assumption (in)validator. Often multiple POC’s are needed.
 
 A prototype is a functionality / UX demonstrator, without the full set of non-functionals and in one-off fashion.
 
-#### Minimum Viable Product
+#### Minimum Viable Product 
 
-A MVP is a production-grade first version of a product, good enough to start including end-users in your DevOps
-process.
+Minimum Viable Product is that version of the product that enables a full turn of the Build-Measure-Learn loop 
+with a minimum amount of effort and the least amount of development time. 
+It's also a test run for the entire DevOps setup.
 
-### Integration Technology Basics
+#### Beta release
 
-Integration allows modules to interact with each other. It defines the connections between modules. Integration
-tooling needs to decouple communicating modules in location and time.
+The Beta is a production-release which can be tested in a larger, tolerant user group to iron out the last flaws.
+
+### Integration Basics
+
+Integration allows modules to communicate with each other. Integration tooling needs to decouple communicating modules in location and time.
 
 Types of integration:
 
@@ -319,21 +326,21 @@ Types of integration:
 - Resources – (REST) universal resource manipulation (client-server)
 - Messaging – Sending and receiving messages (sender-receiver, producer-consumer)
 
-Types of communication
+Types of communication:
 
 - Synchronous – senders wait for reply
 - Asynchronous – senders do not wait for reply but can be interrupted later with the reply
 - Fire-and-forget – senders do not expect replies
 
-Types of buffers
+Types of buffers:
 
 - Queues - message buffers that allow for asynchronous n:1 messaging
-- Topics – message buffers that allow for asynchronous n:m messaging
+- Topics – message buffers that allow for asynchronous n:m messaging often called PubSub from Publish-Subscribe
 
 ### Planning Methods
 
-DevOps is compatible with many agile project planning (incremental) methods. Often hybrid methods will work best,
-cherry-picking elements from multiple methods.
+DevOps is compatible with many agile project planning (incremental) methods. Often a hybrid approach will work best,
+cherry-picking elements from different methods.
 
 #### Scrum
 
@@ -341,23 +348,38 @@ This method works with a backlog of stories that are planned into sprints of typ
 The team consists of a product-owner, a process-owner (Scrum master) and developers. Often a solution-architect is a
 valuable addition.
 
+> General purpose method that is a good choice for:
+> - Teams of up to 10-12 persons
+> - Medium size, trivial / conventional applications that don't need extensive design 
+> - Applications that have natural increments / modularity like web applications and REST-API's
+
 #### Kanban
 
-This is the simplest and most scalable method. Especially suited for ad hoc, isolated tasks like bug fixing that need
-to be crowd-sourced.
-Kanban has no specific roles or team composition.
+This is the simplest but most scalable method. Especially suited for ad hoc, isolated tasks that need
+to be crowd-sourced. Kanban has no specific roles or team composition.
 
-#### XP
-
-This method places emphasis on small and regular release with the expectation of change and refactoring.
-Build the simplest thing that could possibly work.
-Peer programming, collective code ownership, unit testing.
+> General purpose, scalable method that is a good choice for: 
+> - bug fixing
+> - maintain and evolving existing applications
+> - microtasking
+> - open source collaboration of up to thousands of collaborators
 
 #### DSDM
 
 This method is a best-effort, fixed time and price approach. It uses time-boxes based on MOSCOW prioritization of
 features to be able to deliver as much functionality as possible.
 Uses modeling, prototyping and workshops to define the product.
+
+> Method that is a good choice for
+>  - cost or time-limited projects with higher degree of uncertainty
+>  - projects that can be developed in close collaboration with business and users 
+
+#### LEAN Start-Up
+
+This method is especially well suited for developing applications that are based on new, unproven functionality, technology and/or concepts. 
+Key in LEAN startup is validating the riskiest assumptions as soon and cheap as possible. Every decision is based on representative proof.
+
+In general the development progresses from POC's to prototypes to a MVP.
 
 ### Optimization Methods
 
@@ -384,7 +406,7 @@ elements from multiple methods.
 6. Kaizen is everybody’s business
 7. Make small changes over time
 
-#### Six Sigma
+#### Six Sigma DMAIC)
 
 1. Define
 2. Measure
@@ -394,14 +416,25 @@ elements from multiple methods.
 
 ## Best Practices
 
+### Agile Development
+
+- Prove assumptions and validate functionality before you build
+- Build in short increments
+- Keep validating and monitoring
+- Optimize in short iterations
+- Collaborate using the agile board
+- Communicate
+- Peer review
+- Works as a team
+- Automate
+
 ### Feature Design & Coding
 
-- Use the corporate standards
-- Use industry standard design patterns and solutions
-- Use a branching strategy
+- Use (corporate) standards
+- Use well-known design patternss
 - Use (automated) code linting
 - Use (automated) code formatting
-- Use Design-By-Contract
+- Apply design-by-contract principles
 - Apply const-correctness principles
 - Build automated integration-tests that test for functional properties
 - Build automated unit-tests only for strategic units
@@ -410,7 +443,9 @@ elements from multiple methods.
 ### Optimization
 
 - Premature optimization is the root of all evil
-- Optimize only things that can be tested and measured
+- optimize only what can be quantified
+- make optimality quantifiable
+- continuously backlog sub-optimality
 
 ### Integration
 
