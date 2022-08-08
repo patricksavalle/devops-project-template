@@ -7,10 +7,10 @@ Use this to setup or optimize your Devops Project.
 
 > Contents:
 >
-> - Overview
-> - Checklist
-> - Fundamentals
-> - Best Practices
+> - [Overview](#overview)
+> - [Checklist](#checklist)
+> - [Fundamentals](#fundamentals)
+> - [Best Practices](#best-practices)
 
 ## Overview
 
