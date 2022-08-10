@@ -2,8 +2,7 @@
 
 *CC-SA-BY 4.0 Patrick Savalle*
 
-Use this to setup or optimize your Devops Project.
-
+>>**Clone this repo and use it to setup and document your project.**
 
 > Contents:
 >
@@ -14,83 +13,47 @@ Use this to setup or optimize your Devops Project.
 
 ## Checklist
 
-*(The checked options are optimal for larger REST-based microservices-architectures)*
-
 ### Strategies & methods
 
-- [Planning method](content/planning-method.md) (determines the content and order of *increments* of the project)
-  - [ ] ................
+- [ ] [Project plan](content/project-plan.md)
+
+- [ ] [Planning method](content/planning-method.md) 
+
+- [ ] [Optimization method](content/optimization-method.md) 
+
+- [ ] [Delivery Strategy](content/delivery-strategy.md)
+
+- [ ] [Test strategy](content/test-strategy.md)
+
+- [ ][Versioning strategy](content/versioning-strategy.md)
+
+- [ ] [GIT Branching strategy](content/branching-strategy.md)
 
 
-- [Optimization method](content/optimization-method.md) (determines the content and order of *iterations* of the project)
-    - [ ] ................
-
-
-- Versioning scheme
-    - [ ] SimVer (```major.minor```)
-    - [ ] SemVer (```major.minor.patch```)
-    - [ ] CalVer (```year.release.build-status```)
-    - [ ] GitTags
-    - [ ] ................
-
-
-- Test strategy
-    - [ ] TDD (test-driven)
-    - [ ] BDD (behavioral-driven)
-    - [ ] Classic ATDD (acceptance test-driven)
-    - [ ] ................
-
-
-- GIT Branching strategy
-    - [ ] Git-flow
-    - [ ] Github-flow
-    - [ ] GitLab-flow
-    - [ ] ................
-
-
-- Delivery Strategy
-    - [ ] Classic DTAP (permanent environments)
-    - [ ] Staged (temporary environments)
-    - [ ] NoTA (testing in production)
-    - [ ] ................
-
+- Ops setup
+  -  [ ] Team 
+  -  [ ] SRE  
+ 
 ### Standards
 
-- Coding standard
-    - [ ] ................
-  
+- [ ] Coding standard
 
-- API standard
-    - [ ] ................
+- [ ] API standard
 
-
-- Integration standard
-    - [ ] ................
+- [ ] Integration guidelines
 
 ### Procedures
 
-- Incident management
-    - [ ] ................
+- [ ] Incident management
 
-
-- Rollback procedure
-    - [ ] ................
+- [ ] Rollback procedure
 
 ### Tools
 
-- Code collaboration and version control (GIT)
-    - [ ] GitLab
-    - [ ] GitHub
-    - [ ] BitBucket
-    - [ ] Azure DevOps
-    - [ ] ................
+- [ ] Code collaboration and version control (GIT)
 
 
-- Agile board
-    - [ ] JIRA
-    - [ ] Gitlab
-    - [ ] Azure DevOps
-    - [ ] ................
+- [ ] Agile board
 
 
 - Build tool
@@ -262,54 +225,6 @@ A good interface is:
 - Consistent
 - Documented
 
-### Development Phases
-
-Alle new systems are built in phases. In agile project these phases are done incrementally. Only trivial systems or experienced teams don't need a functional or technical design.
-
-#### 1. Requirements analysis
-
-Requirements describe, using human language, prototypes and sketches, the functionality and non-functionality of a
-system concise enough to be used for system validation and acceptance testing.
-This stages is done in collaboration with all stake-holder.
-
-#### 2. Functional design
-
-Functional design creates the desired modularity of the system based on functional dependencies and architecture. It
-formally describes the behaviour of it using pseudocoding, UML, BPML etc.
-A functional design needs to be complete to be useful.
-
-#### 3. Technical design
-
-Technical design translates the functional design into codeable constructions, using the appropriate technical
-standards, architectures and patterns.
-The design is formulated in UML.
-Technical design is not meant to be complete, just complete enough to manage coding complexity.
-
-#### 4. Implementation (code)
-
-Coding creates an instantiable image of the software application.
-De code defines the state space (type) of the application. The user-interactions define its actual state (instance).
-
-### Product Stages
-
-#### Proof-of-concept
-
-A POC is an assumption (in)validator. Often multiple POC’s are needed.
-
-#### Prototype
-
-A prototype is a functionality / UX demonstrator, without the full set of non-functionals and in one-off fashion.
-
-#### Minimum Viable Product 
-
-Minimum Viable Product is that version of the product that enables a full turn of the Build-Measure-Learn loop 
-with a minimum amount of effort and the least amount of development time. 
-It's also a test run for the entire DevOps setup.
-
-#### Beta release
-
-The Beta is a production-release which can be tested in a larger, tolerant user group to iron out the last flaws.
-
 ### Integration Basics
 
 Integration allows modules to communicate with each other. Integration tooling needs to decouple communicating modules in location and time.
@@ -335,14 +250,6 @@ Types of buffers:
 
 ### Agile Development
 
-- Validate assumptions before you start building, riskiest assumptions first
-- Create in short increments and optimize in short iterations
-- Optimize only what can be measured
-- Collaborate using the agile board
-- Communicate
-- Peer review
-- Automate
-- Monitor
 
 ### Feature Design & Coding
 

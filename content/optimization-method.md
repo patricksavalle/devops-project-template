@@ -1,13 +1,16 @@
 # Optimization Methods
 
+>>**Clone this repo and document your specific choice here.**
+
+
 > Content
-> - [Unified DevOps](#unified-devops)
+> - [Best Practices](#best-practices)
 > - [LEAN](#lean)
 > - [Kaizen](#kaizen)
 > - [6Sigma](#six-sigma-dmaic)
 
 
-DevOps is compatible with many optimization methods. Often hybrid methods will work best, cherry-picking
+Determines the  *iterations* of the project. DevOps is compatible with many optimization methods. Often hybrid methods will work best, cherry-picking
 elements from multiple methods. Optimization is an iterative process based on feedback or learning loops.
 Establish the learning loop as early in the project as practical but no later than the MVP phase.
 
@@ -21,7 +24,7 @@ Optimizations include:
 - Removing slack, engineering debt or TODO's
 - Redesign weak functionality
 
-## Unified DevOps
+## Best Practices
 
 - Build for observability (logging, tracing, monitoring)
 - Explicitly define optimality, make deviations objective
@@ -49,7 +52,7 @@ Optimizations include:
 6. Kaizen is everybody’s business
 7. Make small changes over time
 
-## Six Sigma DMAIC)
+## Six Sigma (DMAIC)
 
 1. Define
 2. Measure

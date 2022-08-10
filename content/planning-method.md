@@ -1,21 +1,37 @@
 # Planning methods
 
-DevOps is compatible with many agile project planning (incremental) methods. Often a hybrid approach will work best,
-cherry-picking elements from different methods.
+>>**Clone this repo and document your specific choice here.**
+
 
 > Content
-> - [Design Driven](#design-driven)
+> - [Waterfall](#waterfall)
 > - [Scrum](#scrum)
 > - [Kanban](#kanban)
 > - [DSDM](#dsdm)
 
-## Design Driven
+The planning method determines the content and order of increments. DevOps is compatible with many agile project planning (incremental) methods. Often a hybrid approach will work best,
+cherry-picking elements from different methods.
+
+
+
+
+## Waterfall
+
+Waterfall projects have the classic planning increments:
+
+- Requirements engineering
+- Functional design and architecture
+- Technical and solution design
+- Implementation (coding)
 
 ## Scrum
 
-This method works with a backlog of stories that are planned into sprints of typical 2 weeks during refinements.  
+This method works with a product backlog of stories that are planned into sprints of typical 2 weeks during refinements.  
 The team consists of a product-owner, a process-owner (Scrum master) and developers. Often a solution-architect is a
 valuable addition.
+
+Requirements Engineering, Functional design ans architecture are done before the actual Scrum process and results in a product backlog.
+Without a functional design a much higher refactoring load can be expected as correct modularity needs to be discovered and corrected on the fly.
 
 > General purpose method that is a good choice for:
 > - Teams of up to 10-12 persons
