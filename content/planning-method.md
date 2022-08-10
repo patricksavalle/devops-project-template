@@ -9,8 +9,6 @@ cherry-picking elements from different methods.
 > - [Kanban](#kanban)
 > - [DSDM](#dsdm)
 
-##  
-
 ## Design Driven
 
 ## Scrum

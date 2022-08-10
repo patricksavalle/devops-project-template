@@ -22,7 +22,7 @@ Use this to setup or optimize your Devops Project.
   - [ ] ................
 
 
-- Optimization method (determines the content and order of *iterations* of the project)
+- [Optimization method](content/optimisation-method.md) (determines the content and order of *iterations* of the project)
     - [ ] LEAN
     - [ ] Kaizen
     - [ ] 6SIGMA
@@ -334,39 +334,6 @@ Types of buffers:
 - Queues - message buffers that allow for asynchronous n:1 messaging
 - Topics – message buffers that allow for asynchronous n:m messaging often called PubSub from Publish-Subscribe
 
-### Optimization Methods
-
-DevOps is compatible with many optimization (iterative) methods. Often hybrid methods will work best, cherry-picking
-elements from multiple methods.
-
-#### LEAN
-
-1. Eliminate waste
-2. Building Quality In
-3. Amplify Knowledge
-4. Decide as late as possible
-5. Deliver as fast as possible
-6. Empower the team
-7. Optimize the whole
-
-#### Kaizen
-
-1. Good processes bring good results
-2. Go see for yourself to grasp the current situation
-3. Speak with data, manage by facts
-4. Take action to contain and correct root causes of problems
-5. Work as a team
-6. Kaizen is everybody’s business
-7. Make small changes over time
-
-#### Six Sigma DMAIC)
-
-1. Define
-2. Measure
-3. Analyse
-4. Improve
-5. Control
-
 ## Best Practices
 
 ### Agile Development
@@ -391,13 +358,6 @@ elements from multiple methods.
 - Build automated integration-tests that test for functional properties
 - Build automated unit-tests only for strategic units
 - Code for testability and observability
-
-### Optimization
-
-- Premature optimization is the root of all evil
-- optimize only what can be quantified
-- make optimality quantifiable
-- continuously backlog sub-optimality
 
 ### Integration
 
