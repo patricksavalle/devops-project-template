@@ -18,13 +18,8 @@ Use this to setup or optimize your Devops Project.
 
 ### Strategies & methods
 
-- [Planning method](#planning-methods) (determines the content and order of *increments* of the project)
-    - [ ] Design Driven
-    - [ ] Scrum
-    - [ ] Kanban
-    - [ ] DSDM
-    - [ ] XP
-    - [ ] ................
+- [Planning method](content/planning-method.md) (determines the content and order of *increments* of the project)
+  - [ ] ................
 
 
 - Optimization method (determines the content and order of *iterations* of the project)
@@ -66,8 +61,12 @@ Use this to setup or optimize your Devops Project.
 
 - Coding standard
     - [ ] ................
+  
+
 - API standard
     - [ ] ................
+
+
 - Integration standard
     - [ ] ................
 
@@ -75,6 +74,8 @@ Use this to setup or optimize your Devops Project.
 
 - Incident management
     - [ ] ................
+
+
 - Rollback procedure
     - [ ] ................
 
@@ -207,26 +208,22 @@ A selection of the system based on functionality present in all subsystems is ca
 > - the rooms of a house are subsystems, the electrical wiring and the plumbing are aspectsystems
 > - the pixels of a display are subsystems or parts, all red parts of the pixels together form an aspectsystem
 
-### Iterations and increments
-
-Workflows are made up of increments that sequentially add new parts or aspects and iterations that repetitively improve
-existing parts or aspects.
-Increments make systems more complete based on feed-forward (design), iterations make it more perfect based on
-feed-back.
-
-### Modularity and Natural Order
-
 Parts of modular systems have a natural mutual order visualized by the a directed graph.
-This dependency graph visualizes how parts depend on other parts, how changes propagate and what is the most efficient
-order in which to build the system.
+This dependency graph visualizes how parts changes propagate and what is the most efficient
+order in which to build the system. To determine this order it's layering must be determined:
+1. Modules with no outgoing dependencies have layer 0
+1. A module's layer number is the longest path to layer 0
+1. Modules that have mutual / cyclic dependencies are on the same layer
+1. The system must be build in ascending order of layers
 
 The Modularity Principle states that programs should be built from cohesive, loosely coupled modules in order of their
 dependencies.
 
-> To determine natural order
-> 1. Modules with no dependencies have order 0
-> 1. ther parts have the number of dependencies in the longest path o the furthest order 0 module as their order
-> 1. Modules that have mutual cyclic dependencies are one single module
+### Iterations and increments
+
+Workflows are made up of increments that sequentially add new parts or aspects and iterations that repetitively improve
+existing parts or aspects. Increments make systems more complete based on feed-forward (design), iterations make it more perfect based on
+feed-back.
 
 ### Complexity
 
@@ -337,50 +334,6 @@ Types of buffers:
 - Queues - message buffers that allow for asynchronous n:1 messaging
 - Topics – message buffers that allow for asynchronous n:m messaging often called PubSub from Publish-Subscribe
 
-### Planning Methods
-
-DevOps is compatible with many agile project planning (incremental) methods. Often a hybrid approach will work best,
-cherry-picking elements from different methods.
-
-#### Scrum
-
-This method works with a backlog of stories that are planned into sprints of typical 2 weeks during refinements.  
-The team consists of a product-owner, a process-owner (Scrum master) and developers. Often a solution-architect is a
-valuable addition.
-
-> General purpose method that is a good choice for:
-> - Teams of up to 10-12 persons
-> - Medium size, trivial / conventional applications that don't need extensive design 
-> - Applications that have natural increments / modularity like web applications and REST-API's
-
-#### Kanban
-
-This is the simplest but most scalable method. Especially suited for ad hoc, isolated tasks that need
-to be crowd-sourced. Kanban has no specific roles or team composition.
-
-> General purpose, scalable method that is a good choice for: 
-> - bug fixing
-> - maintain and evolving existing applications
-> - microtasking
-> - open source collaboration of up to thousands of collaborators
-
-#### DSDM
-
-This method is a best-effort, fixed time and price approach. It uses time-boxes based on MOSCOW prioritization of
-features to be able to deliver as much functionality as possible.
-Uses modeling, prototyping and workshops to define the product.
-
-> Method that is a good choice for
->  - cost or time-limited projects with higher degree of uncertainty
->  - projects that can be developed in close collaboration with business and users 
-
-#### LEAN Start-Up
-
-This method is especially well suited for developing applications that are based on new, unproven functionality, technology and/or concepts. 
-Key in LEAN startup is validating the riskiest assumptions as soon and cheap as possible. Every decision is based on representative proof.
-
-In general the development progresses from POC's to prototypes to a MVP.
-
 ### Optimization Methods
 
 DevOps is compatible with many optimization (iterative) methods. Often hybrid methods will work best, cherry-picking
@@ -418,20 +371,19 @@ elements from multiple methods.
 
 ### Agile Development
 
-- Prove assumptions and validate functionality before you build
-- Build in short increments
-- Keep validating and monitoring
-- Optimize in short iterations
+- Validate assumptions before you start building, riskiest assumptions first
+- Create in short increments and optimize in short iterations
+- Optimize only what can be measured
 - Collaborate using the agile board
 - Communicate
 - Peer review
-- Works as a team
 - Automate
+- Monitor
 
 ### Feature Design & Coding
 
 - Use (corporate) standards
-- Use well-known design patternss
+- Use well-known design patterns
 - Use (automated) code linting
 - Use (automated) code formatting
 - Apply design-by-contract principles
@@ -457,3 +409,11 @@ elements from multiple methods.
 - The consuming (client) modules do data transformation, never the producing (server)
 - Decentralize integration -> application side
 - Do not rely on infrastructure, applications should be independent of platform
+
+- Communicate eer via het platform met andere applicaties
+Bouw voor een onvertrouwde omgeving (CoSI  ), de applicatie moet overal kunnen draaien
+Interfaces mogen geen implementatiedetails ontsluiten
+Asynchroon, niet synchroon, indien toepasselijk (IRA 4.4.3)
+Maak gedeelde services en resources toestandsloos (IRA 4.4.4)
+Verstuur notificaties en doe dit naar een trigger-topic op het platform (event-driven architecture)
+
