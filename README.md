@@ -22,10 +22,7 @@ Use this to setup or optimize your Devops Project.
   - [ ] ................
 
 
-- [Optimization method](content/optimisation-method.md) (determines the content and order of *iterations* of the project)
-    - [ ] LEAN
-    - [ ] Kaizen
-    - [ ] 6SIGMA
+- [Optimization method](content/optimization-method.md) (determines the content and order of *iterations* of the project)
     - [ ] ................
 
 
