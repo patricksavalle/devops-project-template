@@ -22,31 +22,10 @@ improvement* and *collaboration*.
 
 There are four main processes in DevOps:
 
-- **Continuous Integration (CI)** - Integration is merging code changes into the production code.
-
-  - Planning
-  - Design and coding
-  - Reviewing and merging
-  - Building and unit testing
-
-
-- **Continuous Delivery (CD)** - Delivery is putting application changes in production.
-  - Provisioning
-  - Configuration
-  - Deploy
-  - Integration Testing
-
-
-- **Continuous Feedback (CF)** - Feedback is collecting optimisations and improvements from production.
-  - Monitoring
-  - Issue tracking
-  - Optimization
-
-
-- **Continuous Operation (CO)** - Operation is keeping the application healthy and responsive.
-  - Orchestration
-  - Incident management
-  - Rollback
+- **Continuous Integration (CI)** - Merging code changes into the production code.
+- **Continuous Delivery (CD)** - Putting application changes in production.
+- **Continuous Feedback (CF)** - Collecting optimisations and improvements.
+- **Continuous Operation (CO)** - Keeping the application healthy and responsive.
 
 
 ## Checklist
@@ -67,7 +46,7 @@ There are four main processes in DevOps:
 
 - [ ] [GIT Branching strategy](content/branching-strategy.md)
 
-- [ ] Ops Strategy
+- [ ] [Ops Strategy](content/operations-setup.md)
 
  
 ### Standards & Guidelines
