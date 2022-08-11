@@ -25,20 +25,20 @@
 
 - [ ] [Test strategy](content/test-strategy.md)
 
-- [ ][Versioning strategy](content/versioning-strategy.md)
+- [ ] [Versioning strategy](content/versioning-strategy.md)
 
 - [ ] [GIT Branching strategy](content/branching-strategy.md)
 
+- [ ] Ops Strategy
 
-- Ops setup
-  -  [ ] Team 
-  -  [ ] SRE  
  
-### Standards
+### Standards & Guidelines
 
 - [ ] Coding standard
 
-- [ ] API standard
+- [ ] Code formatting standard
+
+- [ ] [API standard](content/api-standard.md)
 
 - [ ] Integration guidelines
 
@@ -51,9 +51,16 @@
 ### Tools
 
 - [ ] Code collaboration and version control (GIT)
-
+  - [ ] GitHub
+  - [ ] GitLab
+  - [ ] Azure DevOps
+  - [ ] ................
 
 - [ ] Agile board
+  - [ ] Jira
+  - [ ] GitLab
+  - [ ] Azure DevOps
+  - [ ] ................
 
 
 - Build tool
@@ -247,8 +254,6 @@ Types of buffers:
 - Topics – message buffers that allow for asynchronous n:m messaging often called PubSub from Publish-Subscribe
 
 ## Best Practices
-
-### Agile Development
 
 
 ### Feature Design & Coding
