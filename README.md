@@ -6,12 +6,48 @@
 
 > Contents:
 >
-> - [Checklist](#checklist)
 > - [Overview](#overview)
+> - [Checklist](#checklist)
 > - [Fundamentals](#fundamentals)
 > - [Best Practices](#best-practices)
 
+## Overview
+
+What is DevOps? (loose definition)
+
+> DevOps is an *iterative* and *incremental* approach to software development with emphasis on *automation*, *continuous
+improvement* and *collaboration*.
+
 ![DevOps overview](devops-overview.png)
+
+There are four main processes in DevOps:
+
+- **Continuous Integration (CI)** - Integration is merging code changes into the production code.
+
+  - Planning
+  - Design and coding
+  - Reviewing and merging
+  - Building and unit testing
+
+
+- **Continuous Delivery (CD)** - Delivery is putting application changes in production.
+  - Provisioning
+  - Configuration
+  - Deploy
+  - Integration Testing
+
+
+- **Continuous Feedback (CF)** - Feedback is collecting optimisations and improvements from production.
+  - Monitoring
+  - Issue tracking
+  - Optimization
+
+
+- **Continuous Operation (CO)** - Operation is keeping the application healthy and responsive.
+  - Orchestration
+  - Incident management
+  - Rollback
+
 
 ## Checklist
 
@@ -129,41 +165,6 @@
 
 - Observability stack
     - [ ] ................
-
-## Overview
-
-What is DevOps? (loose definition)
-
-> DevOps is an *iterative* and *incremental* approach to software development with emphasis on *automation*, *continuous
-improvement* and *collaboration*.
-
-There are four main processes in DevOps:
-
-- **Continuous Integration (CI)** - Integration is merging code changes into the production code.
-
-  - Planning
-  - Design and coding
-  - Reviewing and merging
-  - Building and unit testing
-
-
-- **Continuous Delivery (CD)** - Delivery is putting application changes in production.
-  - Provisioning
-  - Configuration
-  - Deploy
-  - Integration Testing
-
-
-- **Continuous Feedback (CF)** - Feedback is collecting optimisations and improvements from production.
-  - Monitoring
-  - Issue tracking
-  - Optimization
-
-
-- **Continuous Operation (CO)** - Operation is keeping the application healthy and responsive.
-  - Orchestration
-  - Incident management
-  - Rollback
 
 ## Fundamentals
 
