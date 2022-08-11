@@ -1,4 +1,4 @@
-# DevOps Cheat Sheet
+# DevOps Project Template
 
 *CC-SA-BY 4.0 Patrick Savalle*
 
