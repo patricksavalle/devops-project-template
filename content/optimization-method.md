@@ -1,8 +1,11 @@
 # Optimization Methods
 
->>**Clone this repo and document your specific choice here.**
+```
+Clone this repo and document your specific choice here:
 
 
+
+```
 > Content
 > - [Best Practices](#best-practices)
 > - [LEAN](#lean)

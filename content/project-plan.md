@@ -1,6 +1,16 @@
 # Project plan
 
->>**Clone this repo and document your specific choice here.**
+```
+Clone this repo and document your specific choice here:
+
+
+
+```
+> Content
+> - Best Practices
+> - Development Phases
+> - Product Stages
+> - Architectures
 
 ## Best Practices 
 
