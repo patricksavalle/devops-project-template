@@ -11,6 +11,8 @@
 > - [Fundamentals](#fundamentals)
 > - [Best Practices](#best-practices)
 
+![DevOps overview](devops-overview.png)
+
 ## Checklist
 
 ### Strategies & methods
