@@ -8,14 +8,12 @@ Clone this repo and document your specific choice here:
 ```
 > Content
 > - [Best practices](#best-practices)
-> - [Acceptence test driven development](#atdd-acceptance-test-driven)
+> - [Ring Deployment](#user-rings)
+> - [Feature Flags](#feature-flags)
+> - [Canary Deployments](#canary-deployment)
+> - [Blue-Green Deployments](#blue-green-deployment)
 
 **Acceptance testing** is used to check if a new deployment can be put into production.
-
-The acceptance test strategy and the delivery strategy are closely linked. 
-Traditionally acceptance testing is done on a separated environment which after acceptance is then promotod to production.
-For more complex microservices architectures a testing-in-production strategy is more effective. 
-Using user rings and canary deployments to limit the blast radius of bugs.
 
 Acceptance testing uses the same principles as [Unit Testing](unit-test-methodology.md) but implemented in different technology and always on a production (-like) deployment.
 An acceptance test is an integration test based on a use-case or scenario instead of a feature.
@@ -28,8 +26,10 @@ Depending on the type of use-case there are different types of acceptance tests:
 - Black Box Testing
 - etc.
 
-
-![img](https://cache404.net/wp-content/uploads/2020/08/deployment-pattern-summary-1.jpg)
+The acceptance test strategy and the delivery strategy are closely linked.
+Traditionally acceptance testing is done on a separated environment which after acceptance is then promotod to production.
+For more complex microservices architectures a testing-in-production strategy is more effective.
+Using user rings and canary deployments to limit the blast radius of bugs.
 
 see: https://cache404.net/understanding-azure-devops-deployment-patterns/
 
@@ -37,5 +37,12 @@ see: https://cache404.net/understanding-azure-devops-deployment-patterns/
 
 - [ ] Test in production
 - [ ] Use a [No-TA delivery strategy](delivery-strategy.md#no-ta)
-- [ ] Use user rings, canary deployments or blue-green to allow for acceptance testing in production
+- [ ] Use user rings to allow for acceptance testing in production while limiting impact
 
+## User Rings
+
+## Feature Flags
+
+## Canary Deployment
+
+## Blue Green Deployment
