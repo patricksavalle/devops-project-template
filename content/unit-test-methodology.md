@@ -33,14 +33,14 @@ Unit and integration tests are run manually during development and automated dur
 
 ## Best Practices
 
-- Implement Design-by-Contract to complement testing
-- Write high level (integration) tests for the whole feature as a black box first, before implementing the feature's functionality
-- Write (unit) tests for the internal parts **after** the implementation passes the high-level tests and initial modularity is satisfactory
-- Be flexible with this when needed
-- Test functionality so you can optimize implementation without breaking tests
-- Automate as many tests as you can
-- Tests that are not 100% reliable and representative must be removed
-- Leave it up to the planning and optimisation methods to add more features and tests, and to optimize existing ones
+- [ ] Use Design-by-Contract to complement testing
+- [ ] Write high level (integration) tests for feature as a black box before implementing the feature's functionality
+- [ ] Write (unit) tests for the internal parts **after** the implementation passes the high-level tests and initial modularity is satisfactory
+- [ ] Be flexible with this when needed
+- [ ] Test functionality so you can optimize implementation without breaking tests
+- [ ] Automate as many tests as you can
+- [ ] Remove tests that are not 100% reliable and representative
+- [ ] Leave it up to the planning and optimisation methods to add more features and tests, and to optimize existing ones
 
 See: https://techbeacon.com/app-dev-testing/6-best-practices-integration-testing-continuous-integration 
 
