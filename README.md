@@ -27,7 +27,6 @@ There are four main processes in DevOps:
 - **Continuous Feedback (CF)** - Collecting optimisations and improvements.
 - **Continuous Operation (CO)** - Keeping the application healthy and responsive.
 
-
 ## Checklist
 
 ### Strategies & methods
@@ -38,9 +37,11 @@ There are four main processes in DevOps:
 
 - [ ] [Optimization method](content/optimization-method.md) 
 
-- [ ] [Delivery Strategy](content/delivery-strategy.md)
+- [ ] [Delivery strategy](content/delivery-strategy.md)
 
-- [ ] [Test strategy](content/test-strategy.md)
+- [ ] [Unit Test methodology](content/unit-test-methodology.md)
+
+- [ ] [Acceptance Test strategy](content/acceptance-test-strategy.md)
 
 - [ ] [Versioning strategy](content/versioning-strategy.md)
 
@@ -238,17 +239,6 @@ Types of buffers:
 ## Best Practices
 
 
-### Feature Design & Coding
-
-- Use (corporate) standards
-- Use well-known design patterns
-- Use (automated) code linting
-- Use (automated) code formatting
-- Apply design-by-contract principles
-- Apply const-correctness principles
-- Build automated integration-tests that test for functional properties
-- Build automated unit-tests only for strategic units
-- Code for testability and observability
 
 ### Integration
 

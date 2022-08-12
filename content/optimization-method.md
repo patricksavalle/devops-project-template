@@ -30,7 +30,7 @@ Optimizations include:
 
 ## Best Practices
 
-- Build for observability (logging, tracing, monitoring) and testing in production
+- Build for observability (logging, tracing, monitoring) and testing in production (fault injection, user rings)
 - Explicitly define optimality, make deviations objective
 - optimize only what can be measured or monitored
 - continuously monitor and backlog sub-optimality 

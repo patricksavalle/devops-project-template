@@ -13,10 +13,12 @@ Clone this repo and document your specific choice here:
 > - [DSDM](#dsdm)
 
 The planning method determines the content and order of increments. DevOps is compatible with many agile project planning (incremental) methods. Often a hybrid approach will work best,
-cherry-picking elements from different methods.
+cherry-picking elements from different methods, like ScrumBan.
 
 
+## Best Practices
 
+- Include an architect
 
 ## Waterfall
 
