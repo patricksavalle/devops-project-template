@@ -14,7 +14,8 @@ Clone this repo and document your specific choice here:
 
 The trick of testing in general is to fail as fast as possible when bugs still have minimal impact.
 
-Unit (and integration) testing is used to validate the application code before it is even deployed.
+Developer (unit and integration) testing is used to check if the application code is ready to be deployed. 
+As opposed to **acceptance testing** that used after it is deployed to check if a new deployment can be put into production.
 
 ## Unit vs integration tests
 
