@@ -11,7 +11,6 @@ Clone this repo and document your specific choice here:
 > - [Best practices](#best-practices)
 > - [Test driven development](#tdd-test-driven)
 > - [Behavioral driven development](#bdd-behavioral-driven)
-> - [Acceptance test driven development](#atdd-classic-acceptance-test-driven)
 
 The trick of testing in general is to fail as fast as possible when bugs still have minimal impact.
 
@@ -34,13 +33,21 @@ Unit and integration tests are run manually during development and automated dur
 ## Best Practices
 
 - [ ] Use Design-by-Contract to complement testing
-- [ ] Write high level (integration) tests for feature as a black box before implementing the feature's functionality
-- [ ] Write (unit) tests for the internal parts **after** the implementation passes the high-level tests and initial modularity is satisfactory
-- [ ] Be flexible with this when needed
-- [ ] Test functionality so you can optimize implementation without breaking tests
+
+
+- [ ] Write high level (integration) tests for a feature as a black box before implementing the feature's functionality
+
+
+- [ ] Write lower level (unit) tests for the internal parts **after** the implementation passes the high-level tests and modularity / design is satisfactory
+
+
+- [ ] Always only test functionality so you can optimize implementation without breaking tests
+
+
 - [ ] Automate as many tests as you can
+
+
 - [ ] Remove tests that are not 100% reliable and representative
-- [ ] Leave it up to the planning and optimisation methods to add more features and tests, and to optimize existing ones
 
 See: https://techbeacon.com/app-dev-testing/6-best-practices-integration-testing-continuous-integration 
 
