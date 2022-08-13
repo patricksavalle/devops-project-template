@@ -1,7 +1,7 @@
-# Unit Test Methodology
+# Unit Testing Methodology
 
 ```
-Clone this repo and document your specific choice here:
+Clone this repo and document your specific methodology here:
 
 
 
@@ -24,10 +24,12 @@ As opposed to **acceptance testing** that used after it is deployed to check if 
 Unit tests test modules in isolation using mocks that represent their integrations.
 Integrations tests test modules with their integrations.
 Integration tests become unit tests when integrations are mocked.
-**The difference is isolation**. A better name for unit test would be **isolation test**.
+**The difference is isolation**. 
+
+> A better name for unit test would be **isolation test**.
 
 Unit and integration tests exist on different levels of aggregation, following application architecture.
-A method or function can be a unit, a class or an entire microservice can be units too.
+A method or function can be a unit, a class an even entire microservice's can be units too.
 
 Unit and integration tests are run manually during development and automated during continuous integration and delivery.
 
@@ -36,13 +38,14 @@ Unit and integration tests are run manually during development and automated dur
 - [ ] Use Design-by-Contract to complement testing
 
 
-- [ ] Write high level (integration) tests for a feature as a black box before implementing the feature's functionality
+- [ ] Write high level tests for the new feature as a whole before implementing the feature's functionality
 
 
-- [ ] Write lower level (unit) tests for the internal parts **after** the implementation passes the high-level tests and modularity / design is satisfactory
+- [ ] Write lower level tests for the feature's internal parts **after** the implementation passes the high-level tests and it's design is satisfactory. 
+(to prevent continuously having to refactor the tests while the implementation's design still changes)
 
 
-- [ ] Always only test functionality so you can optimize implementation without breaking tests
+- [ ] Always only test interfaces so you can optimize implementation without breaking tests
 
 
 - [ ] Automate as many tests as you can
@@ -50,15 +53,16 @@ Unit and integration tests are run manually during development and automated dur
 
 - [ ] Remove tests that are not 100% reliable and representative
 
+
 See: https://techbeacon.com/app-dev-testing/6-best-practices-integration-testing-continuous-integration 
 
 ## DBC
 
 DBC (Design-by-contract) is a strategy of decorating functions and methods with precondition, post-condition and invariant checks.
-Often using assert-code that can be disabled at runtime.
+Often using assert-code that can be disabled in production.
 
 DBC is a *fail-fast at runtime strategy* that can complement TDD, which is a *fail-fast at build time strategy*.
-Contrary to TDD, DBC can test not just for preconditions and post-conditions but also for invariants. DBC can also be used in production code.
+Contrary to TDD, DBC can test not just for preconditions and post-conditions but also for invariants. DBC can also be used in production code. DBC is always on, continuously checking the state of the appication.
 
 see: https://en.wikipedia.org/wiki/Design_by_contract and https://www.eiffel.com/values/design-by-contract/introduction/
 
