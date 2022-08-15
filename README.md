@@ -34,7 +34,7 @@ There are four main processes in DevOps:
 - [ ] [Project plan](content/project-plan.md)
 
 - [ ] [Planning method](content/planning-method.md) 
-
+  
 - [ ] [Optimization method](content/optimization-method.md) 
 
 - [ ] [Delivery strategy](content/delivery-strategy.md)
@@ -48,6 +48,8 @@ There are four main processes in DevOps:
 - [ ] [GIT Branching strategy](content/branching-strategy.md)
 
 - [ ] [Ops Strategy](content/operations-setup.md)
+
+- [ ] [Monitoring Strategy](content/monitoring-strategy.md)
 
  
 ### Standards & Guidelines

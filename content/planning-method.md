@@ -13,12 +13,15 @@ Clone this repo and document your specific choice here:
 > - [DSDM](#dsdm)
 
 The planning method determines the content and order of increments. DevOps is compatible with many agile project planning (incremental) methods. Often a hybrid approach will work best,
-cherry-picking elements from different methods, like ScrumBan.
-
+cherry-picking elements from different methods, like ScrumBan. 
 
 ## Best Practices
 
-- Include an architect
+- Scrum is a good default if the problem has natural modularity (see [Project Plan](project-plan.md)) 
+- Progressively move to Scrumban en ultimately Kanban (team-less crowdsourcing) as functionality stabilizes
+- Include an architect in the team, he can also be the DevOps coach
+- Experienced teams don't need a Scrum-master they are the Scrum-master
+- Allocate 50% of the board to the other parts of the DevOps process, often non-functionals
 
 ## Waterfall
 
@@ -39,9 +42,11 @@ Requirements Engineering, Functional design ans architecture are done before the
 Without a functional design a much higher refactoring load can be expected as correct modularity needs to be discovered and corrected on the fly.
 
 > General purpose method that is a good choice for:
-> - Teams of up to 10-12 persons
+> - Teams of up to 10 persons
 > - Medium size, trivial / conventional applications that don't need extensive design
 > - Applications that have natural increments / modularity like web applications and REST-API's
+> - Scrum is not suited for maintenance-dominant projects or operations / incident-management, 
+once the functionality stabilizes, Kanban is a better choice
 
 ## Kanban
 
