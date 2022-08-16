@@ -36,8 +36,13 @@ see: https://cache404.net/understanding-azure-devops-deployment-patterns/
 ## Best practices
 
 - [ ] Test in production
+
+
 - [ ] Use a [No-TA delivery strategy](delivery-strategy.md#no-ta)
+
+
 - [ ] Use user rings to allow for acceptance testing in production while limiting impact
+
 
 ## User Rings
 

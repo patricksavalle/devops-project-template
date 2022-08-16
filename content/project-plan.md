@@ -14,15 +14,37 @@ Clone this repo and document your specific choice here:
 
 ## Best Practices 
 
-- Validate RAT's before you start the project 
-- Create in short increments and optimize in short iterations
-- Include all stakeholders in all phases
-- Optimize only what can be measured
-- Collaborate using the agile board
-- Communicate
-- Peer review
-- Automate
-- Monitor
+- [ ] Validate the riskiest assumptions before you start the project 
+
+
+- [ ] Create in short increments and optimize in short iterations
+
+
+- [ ] Include all stakeholders in the project
+
+
+- [ ] Allocate 50% of the board to non-functionals and DevOps process maintenance
+
+
+- [ ] Move progressively to Kanban and [innersourding](https://about.gitlab.com/topics/version-control/what-is-innersource/)
+
+
+- [ ] Peer review everything
+
+
+- [ ] Automate as much as possible
+
+
+- [ ] Optimize only what can be measured
+
+
+- [ ] Log, trace and monitor only metrics that are actually used for optimization
+
+
+- [ ] Include the end-users in the learning loop as soon as possible but no later than the MVP
+
+
+- [ ] Prefer self-documentation and inline-documentation over external documentation
 
 ## Development Phases
 
@@ -30,9 +52,11 @@ Alle new systems are built in phases. In agile project these phases are done inc
 
 ### 1. Requirements engineering and RAT's
 
-Requirements describe, using human language, prototypes and sketches, the functionality and non-functionality of a
-system concise enough to be used for system validation and acceptance testing.
-This stages is done in collaboration with all stake-holder.
+Requirements engineering is the process of defining, documenting, and maintaining requirements in the engineering design process.
+
+Requirements describe, using human language, prototypes and sketches, the service a system must provide
+concise enough to be used for system building and validation.
+This stage is done in collaboration with all stake-holder.
 
 #### RAT's
 
@@ -41,16 +65,19 @@ The objective in this phase is to fail as cheap and soon as possible. If that fa
 
 ### 2. Functional design and architecture
 
-Functional design creates the desired modularity of the system based on functional dependencies and architecture. It
-formally describes the behaviour of it using pseudocoding, UML, BPML etc.
-A functional design needs to be complete to be useful.
+Functional design creates the desired modularity of the system based on functional dependencies and architecture. 
+It formally describes the functional structure using pseudocoding, UML, BPML etc.
+A functional design needs to be complete to be useful. This phase needs to be done by experienced architects.
 
 #### Architecture
 
-The architecture defines the most basic patterns of the application, often based on corporate standards. Architecture has many aspects:
+Architecture applies regularity to system design by mandating patterns. This in turn creates flexibility and maintainabiity. 
+Architecture has many aspects, such as:
 - Security
 - Integration
 - Application
+
+In modern application landscapes the [integration architecture](integration-standard.md) is often leading.
 
 ### 3. Technical design
 
@@ -62,7 +89,8 @@ Technical design is not meant to be complete, just complete enough to manage cod
 ### 4. Implementation (coding)
 
 Coding creates an instantiable image of the software application.
-De code defines the state space (type) of the application. The user-interactions define its actual state (instance).
+De code defines the state space (type) of the application. 
+User-interactions define its actual state (instance).
 
 ## Product Stages
 

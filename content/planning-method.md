@@ -17,11 +17,22 @@ cherry-picking elements from different methods, like ScrumBan.
 
 ## Best Practices
 
-- Scrum is a good default if the problem has natural modularity (see [Project Plan](project-plan.md)) 
-- Progressively move to Scrumban en ultimately Kanban (team-less crowdsourcing) as functionality stabilizes
-- Include an architect in the team, he can also be the DevOps coach
-- Experienced teams don't need a Scrum-master they are the Scrum-master
-- Allocate 50% of the board to the other parts of the DevOps process, often non-functionals
+- [ ] Building large or functionally complex applications without a good functional design is not a good plan 
+
+
+- [ ] Scrum is a good default if the application has clear natural increments (e.g. the screens of UI's or endpoints of API's) (see [Project Plan](project-plan.md)) 
+
+
+- [ ] Progressively move to Scrumban en ultimately Kanban (team-less crowdsourcing) as functionality stabilizes
+
+
+- [ ] Include an architect in the team, certainly if he can also be the DevOps coach
+
+
+- [ ] Experienced teams don't need a Scrum-master they are the Scrum-master
+
+
+- [ ] Allocate 50% of the board to the non-functionals in the DevOps process, not for the PO to control
 
 ## Waterfall
 
@@ -31,6 +42,8 @@ Waterfall projects have the classic planning increments:
 - Functional design and architecture
 - Technical and solution design
 - Implementation (coding)
+- Testing
+- Maintenance
 
 ## Scrum
 
