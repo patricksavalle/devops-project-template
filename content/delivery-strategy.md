@@ -28,17 +28,26 @@ In general:
 
 - [ ] Simple web project can work very well with DTAP
 
+- [ ] Use deployment rings to progressively expose new features to a wider audience
+
 
 ## DTAP
 
 Classic model. Phases new releases through permanent test, acceptance and production environments (development is always the developer’s local environment)
 
-## Staged
+## Stage
 
 Creates on-demand temporary environment for different stages, production is the only permanent environment
 
 ## No-TA
 
 Only has Development and Production environments. Uses coded and configured mechanisms (feature flags, user rings, canary deployments) that allow for testing-in-production
+
+Large modular systems (s.a. microservices architectures) are difficult to continuously deliver using ‘classic DTAP’ and testing-strategies. 
+Non-production environments are often not representative for tests either. The solution is Testing-in-Operation. Techniques includes:
+- Feature flags
+- Ring deployments
+- Blue Green  
+
 
 

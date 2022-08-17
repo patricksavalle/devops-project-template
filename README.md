@@ -18,7 +18,7 @@ What is DevOps? (loose definition)
 > DevOps is an *iterative* and *incremental* approach to software development with emphasis on *automation*, *continuous
 improvement* and *collaboration*.
 
-![DevOps overview](devops-overview.png)
+![DevOps overview](content/devops-overview.png)
 
 There are four main processes in DevOps:
 
@@ -39,13 +39,13 @@ There are four main processes in DevOps:
 
 - [ ] [Delivery strategy](content/delivery-strategy.md)
 
-- [ ] [Unit Test methodology](content/unit-test-methodology.md)
+- [ ] [Unit Testing strategy](content/unit-test-methodology.md)
 
-- [ ] [Acceptance Test strategy](content/acceptance-test-strategy.md)
+- [ ] [Acceptance Testing strategy](content/acceptance-test-strategy.md)
 
 - [ ] [Versioning strategy](content/versioning-strategy.md)
 
-- [ ] [GIT Branching strategy](content/branching-strategy.md)
+- [ ] [Branching strategy](content/branching-strategy.md)
 
 - [ ] [Ops Strategy](content/operations-setup.md)
 
@@ -54,13 +54,12 @@ There are four main processes in DevOps:
  
 ### Standards & Guidelines
 
-- [ ] Coding standard
-
-- [ ] Code formatting standard
+- [ ] [Coding standard](content/coding-standard.md)
 
 - [ ] [API standard](content/api-standard.md)
 
-- [ ] Integration guidelines
+- [ ] [Integration guidelines](content/integration-standard.md)
+
 
 ### Procedures
 

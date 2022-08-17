@@ -44,10 +44,5 @@ see: https://cache404.net/understanding-azure-devops-deployment-patterns/
 - [ ] Use user rings to allow for acceptance testing in production while limiting impact
 
 
-## User Rings
+- [ ] Set up for injection of failures for selected rings (latency, error-responses, time-outs, etc.)
 
-## Feature Flags
-
-## Canary Deployment
-
-## Blue Green Deployment

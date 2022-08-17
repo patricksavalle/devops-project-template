@@ -29,7 +29,7 @@ The versioning strategy determines the version numbering of releases. In general
 - [ ] Backward compatibility for major version numbers is sacred
 
 
-- [ ] Keep old versions running for a short but reasonable grace period before deprecation
+- [ ] Keep old versions running in parallel for a short but reasonable grace period before deprecation
 
 
 ## Breaking changes and backward compatibility

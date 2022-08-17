@@ -29,7 +29,7 @@ See: https://www.flagship.io/git-branching-strategies/
 - [ ] Keep features and merge request small, avoid merge hell
 
 
-- [ ] It's personal, let the team decide
+- [ ] Let the team decide, it's their dog food
 
 ## GitFlow
 
@@ -49,7 +49,3 @@ Trunk-based development is a branching strategy that in fact requires no branche
 developers integrate their changes into a shared trunk at least once a day. This shared trunk 
 should be ready for release anytime. This can be done with a feature flag or user ring based [delivery strategy](delivery-strategy.md)
 to keep the new trunks isolated in production.
-
-
-
-

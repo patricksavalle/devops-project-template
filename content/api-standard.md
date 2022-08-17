@@ -9,8 +9,8 @@
 > - [Server Template](#server-template)
 > - [Error code decision table](#error-code-decision-table)
 > - [Asynchronous communication patterns](#asynchronous-communication-patterns)
-    >   - [Using webhooks (server to server / bi-directional)](#using-webhooks-server-to-server--bi-directional)
->   - [Using polling (web to server / uni-directional)](#using-polling-web-to-server--uni-directional)
+>     - [Using webhooks (server to server / bi-directional)](#using-webhooks-server-to-server--bi-directional)
+>     - [Using polling (web to server / uni-directional)](#using-polling-web-to-server--uni-directional)
 >
 > [See also 'REST design patterns'](https://medium.com/@patricksavalle/rest-api-design-as-a-craft-not-an-art-a3fd97ed3ef4)
 
