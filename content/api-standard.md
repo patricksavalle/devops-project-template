@@ -1,10 +1,13 @@
 # REST-API standard
+```
+Clone this repo and document your specific choice here:
 
->>**Clone this repo and document your specific choice here.**
 
+
+```
 > Content:
 >
-> - [Coding Conventions](#coding-conventions)
+> - [Guidelines](#guidelines)
 > - [Interface Quality](#interface-quality)
 > - [Server Template](#server-template)
 > - [Error code decision table](#error-code-decision-table)
@@ -14,7 +17,12 @@
 >
 > [See also 'REST design patterns'](https://medium.com/@patricksavalle/rest-api-design-as-a-craft-not-an-art-a3fd97ed3ef4)
 
-## Coding Conventions
+A REST-API is the industry standard for resources. REST is the preferred architecture of HTTP. 
+
+## Guidelines
+
+- [ ] Mark exceptions to these guidelines as technical debt on your project board
+
 
 - [ ] Build the API with consumers (developers) in mind--as a product in its own right.
     * Not for a specific front-end.

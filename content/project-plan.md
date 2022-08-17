@@ -12,6 +12,10 @@ Clone this repo and document your specific choice here:
 > - Product Stages
 > - Architectures
 
+Every type of project needs a solid plan that outlines specifies which developments phases 
+and what product types  
+
+
 ## Best Practices 
 
 - [ ] Validate the riskiest assumptions before you start the project 
@@ -23,7 +27,7 @@ Clone this repo and document your specific choice here:
 - [ ] Include all stakeholders in the project
 
 
-- [ ] Allocate 50% of the board to non-functionals and DevOps process maintenance
+- [ ] Allocate 50% of the board to non-functionals, optimizations and DevOps process maintenance
 
 
 - [ ] Move progressively to Kanban and [innersourding](https://about.gitlab.com/topics/version-control/what-is-innersource/)
@@ -38,7 +42,7 @@ Clone this repo and document your specific choice here:
 - [ ] Optimize only what can be measured
 
 
-- [ ] Log, trace and monitor only metrics that are actually used for optimization
+- [ ] Log, trace and monitor only metrics or events that are actually used for optimization
 
 
 - [ ] Include the end-users in the learning loop as soon as possible but no later than the MVP

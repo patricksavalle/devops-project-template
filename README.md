@@ -15,7 +15,7 @@
 
 What is DevOps? (loose definition)
 
-> DevOps is an *iterative* and *incremental* approach to software development with emphasis on *automation*, *continuous
+> DevOps is an [iterative and incremental](#iterations-and-increments) approach to software development with emphasis on *automation*, *continuous
 improvement* and *collaboration*.
 
 ![DevOps overview](content/devops-overview.png)
@@ -151,9 +151,9 @@ There are four main processes in DevOps:
 
 ### Parts, aspects and modularity
 
-Systems are made up of interconnected subsystems (partitions or parts), this is called modularity.
-Parts have low coupling externally and high cohesion internally.
-A selection of the system based on functionality present in all subsystems is called an aspectsystem or (aspect).
+Systems are made up of interconnected subsystems (partitions or parts), this is called **modularity**.
+Parts have natural low coupling externally and high cohesion internally.
+A selection of the system based on functionality present across multiple subsystems is called an aspectsystem or (aspect).
 
 > Examples:
 > - the rooms of a house are subsystems, the electrical wiring and the plumbing are aspectsystems
@@ -168,21 +168,22 @@ order in which to build the system. To determine this order it's layering must b
 1. The system must be build in ascending order of layers
 
 The Modularity Principle states that programs should be built from cohesive, loosely coupled modules in order of their
-dependencies.
+dependencies. Modules translate to increments in the [planning](content/planning-method.md). 
 
 ### Iterations and increments
 
 Workflows are made up of increments that sequentially add new parts or aspects and iterations that repetitively improve
-existing parts or aspects. Increments make systems more complete based on feed-forward (design), iterations make it more perfect based on
-feed-back.
+existing parts or aspects. Increments generally make systems more complete based on feed-forward (design), iterations generally make it more perfect based on
+feed-back (bug reports, performance issues, enz.).
 
 ### Complexity
 
-Software complexity can be managed with:
+Complexity is roughly the result of large quantities, diversity and coupling. Software complexity can be managed with:
 
 - Divide-and-conquer
+- White-box / blackbox strategy
 - Encapsulation
-- Patterns
+- Patterns or symmetry
 - Abstraction
 
 ### Functionals vs. Non-functionals
@@ -236,26 +237,4 @@ Types of buffers:
 
 - Queues - message buffers that allow for asynchronous n:1 messaging
 - Topics – message buffers that allow for asynchronous n:m messaging often called PubSub from Publish-Subscribe
-
-## Best Practices
-
-
-
-### Integration
-
-- Use integration for reliable and decoupled communication
-- Do not use integration for:
-    - Transformation
-    - Storage
-    - Security
-- The consuming (client) modules do data transformation, never the producing (server)
-- Decentralize integration -> application side
-- Do not rely on infrastructure, applications should be independent of platform
-
-- Communicate eer via het platform met andere applicaties
-Bouw voor een onvertrouwde omgeving (CoSI  ), de applicatie moet overal kunnen draaien
-Interfaces mogen geen implementatiedetails ontsluiten
-Asynchroon, niet synchroon, indien toepasselijk (IRA 4.4.3)
-Maak gedeelde services en resources toestandsloos (IRA 4.4.4)
-Verstuur notificaties en doe dit naar een trigger-topic op het platform (event-driven architecture)
 
