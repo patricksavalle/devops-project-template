@@ -15,7 +15,7 @@
 
 What is DevOps? (loose definition)
 
-> DevOps is an [iterative and incremental](#iterations-and-increments) approach to software development with emphasis on *automation*, *continuous
+> DevOps is an [iterative and incremental](#iterations-and-increments) approach to software development with emphasis on *autononmy*, *automation*, *continuous
 improvement* and *collaboration*.
 
 ![DevOps overview](content/devops-overview.png)

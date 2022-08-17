@@ -12,7 +12,7 @@ Clone this repo and document your specific choice here:
 >
 
 The integration platform is a set of tooling that must be used to connect applications to each other.
-It typically consists of gateways, load-balancers, queues, topics and caches.
+It typically consists of gateways, load-balancers, routers, queues, topics and caches.
 
 A good integration platform has a very dedicated function: decoupling of communication from location and in time (asynchronization).
 
@@ -51,32 +51,31 @@ It avoid lock-in on specific technology at the expense of some overhead in the a
 - [ ] Always use fully qualified domain names
 
 
-- [ ] Use standard and well-known integration patterns
+- [ ] Use standard and well-supported [integration patterns](https://www.enterpriseintegrationpatterns.com/)
 
 
-- [ ] Consuming modules do their own data transformation
-  - producing modules never do transformations
-  - avoid using a unified intermediate format or canonical datamodel
+- [ ] Consumers, never producers, do data transformation (as a producer may never do assumptions on consumers' needs)
+
+
+- { ] Avoid using a unified intermediate format or canonical data model (as this is incompatible with the autonomy in the DevOps model) 
 
 
 - [ ] Decentralize integration to application side as much as possible. Smart endpoints, dumb pipes!
-  - Avoid:
-    - central hubs
-  - Prefer:
-    - application side queueing
-    -  
 
 
-- [ ] Applications should be independent of platform, put integration in layer 7 of the OSI-stack
+- [ ] Build for an untrusted environment 
 
 
 - [ ] Applications always connect to the integration platform never directly to other applications
 
 
-- 
-  Bouw voor een onvertrouwde omgeving (CoSI  ), de applicatie moet overal kunnen draaien
-  Interfaces mogen geen implementatiedetails ontsluiten
-  Asynchroon, niet synchroon, indien toepasselijk (IRA 4.4.3)
-  Maak gedeelde services en resources toestandsloos (IRA 4.4.4)
-  Verstuur notificaties en doe dit naar een trigger-topic op het platform (event-driven architecture)
+- [ ] Integrations may not disclose implementation details
 
+
+- [ ] Asynchronous, not synchronous when possible
+
+
+- [ ] Make shared services and resources state-less when possible
+
+
+- [ ] Share reusable data, resources and services opportunistically (but secure) on the platform
