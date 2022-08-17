@@ -38,11 +38,16 @@ see: https://cache404.net/understanding-azure-devops-deployment-patterns/
 - [ ] Test in production
 
 
+-	Risk based testing: highest risk module get highest test coverage
+
+
 - [ ] Use a [No-TA delivery strategy](delivery-strategy.md#no-ta)
 
 
 - [ ] Use user rings to allow for acceptance testing in production while limiting impact
 
 
-- [ ] Set up for injection of failures for selected rings (latency, error-responses, time-outs, etc.)
+- [ ] Set up for chaos engineering for selected rings (latency, error-responses, time-outs, etc.)
 
+
+- [ ] Share test results with appropriate partners

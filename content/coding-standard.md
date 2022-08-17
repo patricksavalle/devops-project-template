@@ -7,9 +7,7 @@ Clone this repo and document your specific choice here:
 
 ```
 > Content
-> - [GitFlow](#gitflow)
-> - [GitLabFlow](#gitlabflow)
-> - [GitHubFlow](#githubflow)
+> - [Best practices](#best-practices)
 
 
 ## Best practices
@@ -17,13 +15,19 @@ Clone this repo and document your specific choice here:
 - [ ] Use applicable corporate standards
 
 
-- [ ] Use well-known design patterns
+- [ ] Code must be self-documenting (readability first)
+
+
+- [ ] Add inline documentation when needed
+
+
+- [ ] Use well-known design patterns as they document the solution
 
 
 - [ ] Use (automated) code linting
 
 
-- [ ] Use (automated) code formatting
+- [ ] Use (automated) code formatting on commit
 
 
 - [ ] Apply [design-by-contract](https://www.eiffel.com/values/design-by-contract/introduction/) principles
@@ -35,4 +39,7 @@ Clone this repo and document your specific choice here:
 - [ ] Build automated integration-tests that test for functional properties
 
 
-- [ ] Code for testing-in-operation and observability
+- [ ] Code for testing-in-operation according to the [acceptance testing strategy](acceptance-test-strategy.md)
+
+
+- [ ] Code for observability according to the [optimization method](optimization-method.md)

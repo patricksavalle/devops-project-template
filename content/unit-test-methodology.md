@@ -38,11 +38,13 @@ Unit and integration tests are run manually during development and automated dur
 - [ ] Use Design-by-Contract to complement testing
 
 
-- [ ] Write high level tests for the new feature as a whole before implementing the feature's functionality
+- [ ] Write high level tests for the new feature as a whole **before** implementing the feature's functionality
 
 
-- [ ] Write lower level tests for the feature's internal parts **after** the implementation passes the high-level tests and it's design is satisfactory. 
-(to prevent continuously having to refactor the tests while the implementation's design still changes)
+- [ ] Write lower level tests for the feature's parts **after** the implementation passes the high-level tests and it's design is satisfactory. 
+   - this prevent continuously having to refactor the tests while implementation's design still changes
+   - these test now serve to prevent and help locate regression during refactors
+   - write these test based on requirements, not based on knowledge of the implementation
 
 
 - [ ] Always only test interfaces so you can optimize implementation without breaking tests
@@ -51,7 +53,7 @@ Unit and integration tests are run manually during development and automated dur
 - [ ] Automate as many tests as you can
 
 
-- [ ] Remove tests that are not 100% reliable and representative
+- [ ] Remove tests that are not 100% reliable or representative
 
 
 See: https://techbeacon.com/app-dev-testing/6-best-practices-integration-testing-continuous-integration 

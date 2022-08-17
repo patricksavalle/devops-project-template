@@ -21,16 +21,17 @@ Establish the learning loop as early in the project as practical but no later th
 Incident management is not optimization. Optimizations are fed back to the planning process whereas incidents are handled immediately.  
 
 Optimizations include:
-- Refactorings to improve modularity or to better match functional modularity
-- Improving performance
-- Reduce resource usage
-- Improving UX
+- Refactorings to improve modularity or remove weak design
+- Improving performance and resource usage
+- Improving UX and functionality
 - Removing slack, engineering debt or TODO's
-- Redesign weak functionality
 
 ## Best Practices
 
-- [ ] Build for observability (logging, tracing, monitoring) and testing in production (fault injection, user rings)
+- [ ] Build for observability (logging, tracing, monitoring)
+
+
+- [ ] Build for testing in production (fault injection, user rings)
 
 
 - [ ] Explicitly define optimality, make deviations objective
