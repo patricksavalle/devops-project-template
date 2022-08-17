@@ -1,4 +1,4 @@
-# Rollback strategy
+# Incident management procedure
 
 ```
 Clone this repo and document your specific choice here:
@@ -8,7 +8,7 @@ Clone this repo and document your specific choice here:
 ```
 > Content
 > - [Best practices](#best-practices)
- 
+
 ## Best practices
 
 - [ ] Avoid large rollbacks, with small releases

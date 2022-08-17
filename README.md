@@ -64,11 +64,11 @@ There are four main processes in DevOps:
 
 ### Procedures and tooling
 
-- [ ] Incident management procedure
+- [ ] [Incident management procedure](content/incident-management-procedure.md)
 
-- [ ] Rollback procedure
+- [ ] [Rollback procedure](content/rollback-strategy.md)
 
-- [ ] Tools
+- [ ] [Tools](content/tools.md)
 
 
 ## Fundamentals
@@ -102,7 +102,7 @@ feed-back (bug reports, performance issues, enz.).
 
 ### Complexity
 
-Complexity is roughly the result of large quantities, diversity and coupling. Software complexity can be managed with:
+Complexity is roughly the result of quantity, diversity and coupling. Software complexity can be managed with:
 
 - Divide-and-conquer
 - White-box / blackbox strategy
@@ -126,6 +126,7 @@ Reasons to refactor a system include:
 - accommodate large changes in requirements
 - making parts of it reusable in other systems and improving changeability
 - restoring drift from ideal functional modularity caused by agile (design-less) project planning
+
 
 ### Encapsulation and Interfaces
 
@@ -157,7 +158,7 @@ Types of communication:
 - Asynchronous – senders do not wait for reply but can be interrupted later with the reply
 - Fire-and-forget – senders do not expect replies
 
-Types of buffers:
+Types of asynchronization buffers:
 
 - Queues - message buffers that allow for asynchronous n:1 messaging
 - Topics – message buffers that allow for asynchronous n:m messaging often called PubSub from Publish-Subscribe
