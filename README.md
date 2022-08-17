@@ -1,8 +1,8 @@
 # DevOps Project Template
 
-*CC-SA-BY 4.0 Patrick Savalle*
+*[CC-NC-SA-BY 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) By Patrick Savalle*
 
->>**Clone this repo and use it to setup and document your project.**
+>>**Clone this repo and use it to setup and document your project configuration.**
 
 > Contents:
 >
