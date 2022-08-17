@@ -21,7 +21,7 @@ A REST-API is the industry standard for resources. REST is the preferred archite
 
 ## Guidelines
 
-- [ ] Mark exceptions to these guidelines as technical debt on your project board
+- [ ] Backlog exceptions to these guidelines as technical debt
 
 
 - [ ] Build the API with consumers (developers) in mind--as a product in its own right.

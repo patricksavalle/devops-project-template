@@ -31,6 +31,9 @@ See: https://www.flagship.io/git-branching-strategies/
 
 - [ ] Let the team decide, it's their dog food
 
+
+- [ ] Consider trunk based strategy for maximum agility
+
 ## GitFlow
 
 Complex, only needed when multiple concurrent releases must be supported.

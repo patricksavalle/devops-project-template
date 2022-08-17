@@ -39,7 +39,7 @@ Optimizations include:
 - [ ] optimize only what can be measured or monitored
 
 
-- [ ] continuously monitor and backlog sub-optimality 
+- [ ] continuously monitor **and** backlog sub-optimality 
 
 
 - [ ] never sacrifice simplicity and elegance (if an optimization doesn't feel right, redesign the entire solution)

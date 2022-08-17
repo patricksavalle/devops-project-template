@@ -12,15 +12,17 @@ Clone this repo and document your specific choice here:
 > - [Staged](#staged)
 > - [No-TA](#no-ta)
 
-Delivery strategy determines how new deployments are tested before put into production. 
+The delivery strategy determines how new deployments are tested before they're put into production. 
 
 In general:
-- Delivery strategy should be aligned with application architecture and rollback- and testing-strategy
+- Delivery strategy should be aligned with application architecture and [rollback](rollback-strategy)- and [testing-strategy](acceptance-test-strategy.md)
 - DevOps combines well with microservices-architectures which are very difficult to continuously deliver with classic DTAP
 
 ## Best practices
 
 - [ ] Choose a strategy that matches your architecture and project
+  - larger microservices architectures combine well with No-TA
+  - classic web applications combine well with DTAP
 
 
 - [ ] Larger microservices architectures probably work best with No-TA

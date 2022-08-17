@@ -11,18 +11,18 @@ Clone this repo and document your specific choice here:
 > - [Guidelines](#guidelines)
 >
 
-The integration platform is a set of tooling that must be used to connect applications to each other.
-It typically consists of gateways, load-balancers, routers, queues, topics and caches.
+The integration platform is a set of tools, patterns and guidelines that *must* be used to connect applications to each other.
+A modern platform typically consists of (API-) gateways, proxies, load-balancers, routers, message queues and caches. 
 
-A good integration platform has a very dedicated function: decoupling of communication from location and in time (asynchronization).
+The platform has a very dedicated function: decoupling of communication from location and in time (asynchronization).
 
 ## Guidelines
 
-There are different approaches to integration. These guidelines provide maximal flexibility and agility. 
-It avoid lock-in on specific technology at the expense of some overhead in the applications.
+There are different approaches to integration. These guidelines provide maximal team autonomy and agility, matchting DevOps. 
+They avoid lock-in on specific technology, at the expense of having to include some extra non-functionality in the applications.
 
 
-- [ ] Mark exceptions to these guidelines as technical debt on your project board
+- [ ] Backlog exceptions to these guidelines as technical debt
 
 
 - [ ] Teams are responsible for their own integrations
@@ -34,6 +34,11 @@ It avoid lock-in on specific technology at the expense of some overhead in the a
 - [ ] Use the integration platform for reliable, scalable and decoupled communication
 
 
+- [ ] Assume the platform has no way of inspection data content
+  
+  Ideally all data it handles is already encrypted at the endpoints
+
+
 - [ ] Do not use the integration platform for:
   - Business logic
   - Transformation
@@ -41,11 +46,13 @@ It avoid lock-in on specific technology at the expense of some overhead in the a
   - Replay
   - Security
 
+  -> this is the responsibility of the application layer
+
 
 - [ ] Use open standards
   - AMQP 1.0 for high-speed messaging, IoT, M2M, A2A, B2B (synchronous and asynchronous, unicast en multicast)
   - HTTP/1.1 and HTTP/2 for IoT, A2A, B2B, C2A (synchronous, services and resources)
-  - MQTT 3.x and 5.x for IoT on lightweight devices as fallback for AMQP 
+  - MQTT 3.x and 5.x for IoT on lightweight and edge devices as fallback for AMQP 
 
 
 - [ ] Always use fully qualified domain names
@@ -54,16 +61,21 @@ It avoid lock-in on specific technology at the expense of some overhead in the a
 - [ ] Use standard and well-supported [integration patterns](https://www.enterpriseintegrationpatterns.com/)
 
 
-- [ ] Consumers, never producers, do data transformation (as a producer may never do assumptions on consumers' needs)
+- [ ] Build producers/servers consumer-agnostic
 
 
-- { ] Avoid using a unified intermediate format or canonical data model (as this is incompatible with the autonomy in the DevOps model) 
+- [ ] Consumers/clients, not producers, do data transformation 
 
 
-- [ ] Decentralize integration to application side as much as possible. Smart endpoints, dumb pipes!
+- [ ] Avoid using a unified intermediate format or canonical data model 
+
+  -> this would be incompatible with DevOps autonomy 
 
 
-- [ ] Build for an untrusted environment 
+- [ ] Smart endpoints, dumb pipes! Decentralize integration.
+
+
+- [ ] Build your application assuming an untrusted environment (the open internet)
 
 
 - [ ] Applications always connect to the integration platform never directly to other applications
@@ -72,10 +84,13 @@ It avoid lock-in on specific technology at the expense of some overhead in the a
 - [ ] Integrations may not disclose implementation details
 
 
-- [ ] Asynchronous, not synchronous when possible
+- [ ] Make communication asynchronous if possible
 
 
-- [ ] Make shared services and resources state-less when possible
+- [ ] Make shared services and resources state-less if possible
 
 
-- [ ] Share reusable data, resources and services opportunistically (but secure) on the platform
+- [ ] Share reusable data and logic opportunistically (but secure) on the platform, even if there are no consumers yet
+  - Share passive data as REST resources (request-response pattern)
+  - Share business logic as XML services (request-response pattern)
+  - Share streaming data on a MQ topic (publish-subscribe pattern)

@@ -33,3 +33,7 @@ Clone this repo and document your specific methodology here:
 
 
 - [ ] Keep dashboard stupid simple
+
+
+- [ ] Formalize your [optimization strategy](optimization-method.md)
+
