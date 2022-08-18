@@ -6,17 +6,12 @@
 
 > Contents:
 >
-> - [Overview](#overview)
 > - [Checklist](#checklist)
-> - [Fundamentals](#fundamentals)
 > - [Best practices](#best-practices)
+> - [Fundamentals](#fundamentals)
 
-## Overview
-
-What is DevOps? (loose definition)
-
-> DevOps is an [iterative and incremental](#iterations-and-increments) approach to software development with emphasis on *autononmy*, *automation*, *continuous
-improvement* and *collaboration*.
+DevOps is an [iterative and incremental](#iterations-and-increments) approach to software development with emphasis on *autononmy*, *automation*, *continuous
+improvement* and *collaboration*. (loose definition)
 
 ![DevOps overview](content/devops-overview.png)
 
@@ -69,6 +64,35 @@ There are four main processes in DevOps:
 - [ ] [Rollback procedure](content/rollback-strategy.md)
 
 - [ ] [Tools](content/tools.md)
+
+
+## Best Practices
+
+- [ ] Create in ever shorter increments and optimize in ever shorter iterations until everything is continuous
+
+
+- [ ] Include end-users in the learning loop as soon as possible
+
+
+- [ ] Allocate 50% of time to non-functionals, optimizations and DevOps infrastructure maintenance
+
+
+- [ ] Move progressively to Kanban and [innersourding](https://about.gitlab.com/topics/version-control/what-is-innersource/) as functionality stabilizes
+
+
+- [ ] Everything is code
+
+
+- [ ] Everything is automated
+
+
+- [ ] Everything is peer reviewed or tested
+
+
+- [ ] Optimize only what can be measured
+
+
+- [ ] Self-documenting over inline-documentation over external documentation
 
 
 ## Fundamentals
@@ -142,30 +166,3 @@ A good interface is:
 - Consistent
 - Documented
 
-## Best Practices
-
-- [ ] Create in ever shorter increments and optimize in ever shorter iterations until everything is continuous
-
-
-- [ ] Include end-users in the learning loop as soon as possible
-
-
-- [ ] Allocate 50% of time to non-functionals, optimizations and DevOps infrastructure maintenance
-
-
-- [ ] Move progressively to Kanban and [innersourding](https://about.gitlab.com/topics/version-control/what-is-innersource/) as functionality stabilizes
-
-
-- [ ] Everything is code
-
-
-- [ ] Everything is automated
-
-
-- [ ] Everything is peer reviewed or tested
-
-
-- [ ] Optimize only what can be measured
-
-
-- [ ] Self-documenting over inline-documentation over external documentation
