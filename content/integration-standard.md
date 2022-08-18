@@ -9,7 +9,7 @@ Clone this repo and document your specific choice here:
 > Content:
 >
 > - [Guidelines](#guidelines)
->
+> - [Basics](#basics)
 
 The integration platform is a set of tools, patterns and guidelines that *must* be used to connect applications to each other.
 A modern platform typically consists of (API-) gateways, proxies, load-balancers, routers, message queues and caches. 
@@ -94,3 +94,30 @@ They avoid lock-in on specific technology, at the expense of having to include s
   - Share passive data as REST resources (request-response pattern)
   - Share business logic as XML services (request-response pattern)
   - Share streaming data on a MQ topic (publish-subscribe pattern)
+
+## Basics
+
+Integration allows modules to communicate with each other. Integration tooling needs to decouple communicating modules in location and time.
+
+### Types of integration
+
+- Services – (SOA) reusable business logic (client-server)
+- Resources – (REST) universal resource manipulation (client-server)
+- Messaging – Sending and receiving messages (sender-receiver, producer-consumer)
+
+### Types of communication
+
+- Synchronous – senders wait for reply
+- Asynchronous – senders do not wait for reply but can be interrupted later with the reply
+- Fire-and-forget – senders do not expect replies
+
+### Basic integration patterns
+
+- Send-Receive - unidirectional communication from sender to receiver
+- Request-Response - bi-directional communication from requester to responder (and back)
+- Publish-Subscribe - unidirectional many-to-many communication from publishers to subscribers
+
+### Types of asynchronization buffers
+
+- Queues - message buffers that allow for asynchronous n:1 messaging
+- Topics – message buffers that allow for asynchronous n:m messaging often called PubSub from Publish-Subscribe

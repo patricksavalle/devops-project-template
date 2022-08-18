@@ -8,17 +8,16 @@ Clone this repo and document your specific choice here:
 ```
 > Content
 > - Best Practices
-> - Development Phases
+> - Project Phases
 > - Product Stages
 > - Architectures
 
-Every type of project needs a solid plan that outlines specifies which developments phases 
-and what product types  
+The project plan outlines the project phasing, product evolution en general development strategy. 
 
 
 ## Best Practices 
 
-- [ ] Validate the riskiest assumptions before you start the project 
+- [ ] Validate the riskiest assumptions first with the least amount of effort 
 
 
 - [ ] Create in short increments and optimize in short iterations
@@ -30,7 +29,7 @@ and what product types
 - [ ] Allocate 50% of the board to non-functionals, optimizations and DevOps process maintenance
 
 
-- [ ] Move progressively to Kanban and [innersourding](https://about.gitlab.com/topics/version-control/what-is-innersource/)
+- [ ] Move progressively to Kanban and [innersourding](https://about.gitlab.com/topics/version-control/what-is-innersource/) as functionality stabilizes
 
 
 - [ ] Peer review everything
@@ -42,13 +41,14 @@ and what product types
 - [ ] Optimize only what can be measured
 
 
-- [ ] Log, trace and monitor only metrics or events that are actually used for optimization
-
-
-- [ ] Include the end-users in the learning loop as soon as possible but no later than the MVP
+- [ ] Include the end-users in the learning loop as soon as possible
 
 
 - [ ] Prefer self-documentation and inline-documentation over external documentation
+
+
+- [ ] Everything is code
+
 
 ## Development Phases
 

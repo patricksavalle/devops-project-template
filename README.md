@@ -9,7 +9,7 @@
 > - [Overview](#overview)
 > - [Checklist](#checklist)
 > - [Fundamentals](#fundamentals)
-> - [Best Practices](#best-practices)
+> - [Best practices](#best-practices)
 
 ## Overview
 
@@ -142,24 +142,30 @@ A good interface is:
 - Consistent
 - Documented
 
-### Integration Basics
+## Best Practices
 
-Integration allows modules to communicate with each other. Integration tooling needs to decouple communicating modules in location and time.
+- [ ] Create in ever shorter increments and optimize in ever shorter iterations until everything is continuous
 
-Types of integration:
 
-- Services – (SOA) reusable business logic (client-server)
-- Resources – (REST) universal resource manipulation (client-server)
-- Messaging – Sending and receiving messages (sender-receiver, producer-consumer)
+- [ ] Include end-users in the learning loop as soon as possible
 
-Types of communication:
 
-- Synchronous – senders wait for reply
-- Asynchronous – senders do not wait for reply but can be interrupted later with the reply
-- Fire-and-forget – senders do not expect replies
+- [ ] Allocate 50% of time to non-functionals, optimizations and DevOps infrastructure maintenance
 
-Types of asynchronization buffers:
 
-- Queues - message buffers that allow for asynchronous n:1 messaging
-- Topics – message buffers that allow for asynchronous n:m messaging often called PubSub from Publish-Subscribe
+- [ ] Move progressively to Kanban and [innersourding](https://about.gitlab.com/topics/version-control/what-is-innersource/) as functionality stabilizes
 
+
+- [ ] Everything is code
+
+
+- [ ] Everything is automated
+
+
+- [ ] Everything is peer reviewed or tested
+
+
+- [ ] Optimize only what can be measured
+
+
+- [ ] Self-documenting over inline-documentation over external documentation
