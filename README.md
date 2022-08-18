@@ -68,7 +68,7 @@ There are four main processes in DevOps:
 
 ## Best Practices
 
-- [ ] Enable projects to function autonomously 
+- [ ] Enable projects to function autonomously
 
 
 - [ ] Create in ever shorter increments and optimize in ever shorter iterations until everything is continuous
@@ -80,7 +80,10 @@ There are four main processes in DevOps:
 - [ ] Allocate 50% of time to non-functionals, optimizations and DevOps infrastructure maintenance
 
 
-- [ ] Move progressively to Kanban and [innersourding](https://about.gitlab.com/topics/version-control/what-is-innersource/) as functionality stabilizes
+- [ ] Move progressively to [Kanban](content/planning-method.md#kanban) and [innersourding](https://about.gitlab.com/topics/version-control/what-is-innersource/) as functionality stabilizes
+
+
+- [ ] Start with [trunk-based development](content/branching-strategy.md#trunk-based) and to switch to a [GitFlow](content/branching-strategy.md) when the product reaches [MVP stage](content/project-plan.md#minimum-viable-product)
 
 
 - [ ] Everything is code

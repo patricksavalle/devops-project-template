@@ -24,17 +24,18 @@ In general:
 - Feature branches are merged back into the production branch when ready 
 - Merging is done using merge-requests which incorporate code review by another developer
 
-See: https://www.flagship.io/git-branching-strategies/ 
+See: 
+
+- [Git branching strategies](https://www.flagship.io/git-branching-strategies/) 
+- [Git to know this before you do Trunk Based Development (TBD)](https://medium.com/contino-engineering/git-to-know-this-before-you-do-trunk-based-development-tbd-476bc8a7c22f)
+- [DevOps tech: Trunk-based development](https://cloud.google.com/architecture/devops/devops-tech-trunk-based-development)
 
 ## Best practices
 
 - [ ] Keep features and merge request small, avoid merge hell
 
 
-- [ ] Let the team decide, it's their dog food
-
-
-- [ ] Consider trunk-based strategy for maximum agility
+- [ ] Start with [trunk-based development](content/branching-strategy.md#trunk-based) and to switch to a [GitFlow](content/branching-strategy.md) when the product reaches [MVP stage](content/project-plan.md#minimum-viable-product) or when the project is crowdsourced
 
 
 ## GitFlow
@@ -51,7 +52,7 @@ Simple, release always tight to the permanent master-branch.
 
 ## Trunk-based
 
-Trunk-based development is a branching strategy that in fact requires no branches but instead, 
+Trunk-based development (TBD) is a branching strategy that in fact requires no branches but instead, 
 developers integrate their changes into a shared trunk at least once a day. This shared trunk 
 should be ready for release anytime. This can be done with a feature flag or user ring based [delivery strategy](delivery-strategy.md)
 to keep the new trunks isolated in production.
