@@ -12,15 +12,17 @@ Clone this repo and document your specific choice here:
 > - [GitLabFlow](#gitlabflow)
 > - [GitHubFlow](#githubflow)
 
-Collaborative coding and revision control  is done using GIT. Integration with GIT is done using merge requests into branches. 
+Branching strategy defines how different new features are developed in parallel and integrated into a new release. 
+
+De industry standard for collaborative coding and revision control is GIT. 
+Integration with GIT is done using merge requests into branches. 
 GIT branching strategy should match life-cycle-, test- and deployment strategy.
 
 In general:
-- There is one permanent master branch representing ‘latest releasable’  
-- Developers work on temporary features or fixes in isolated feature branches
-- Feature branches are merged back into the selected shared release branch 
-- Merging is done using merge-requests which incorporate code review by another team member
-- Gitlab-flow is a practical default on most projects
+- Production code is stored in a permanent branch  
+- New features or fixes are developed in temporary feature branches
+- Feature branches are merged back into the production branch when ready 
+- Merging is done using merge-requests which incorporate code review by another developer
 
 See: https://www.flagship.io/git-branching-strategies/ 
 
@@ -32,7 +34,8 @@ See: https://www.flagship.io/git-branching-strategies/
 - [ ] Let the team decide, it's their dog food
 
 
-- [ ] Consider trunk based strategy for maximum agility
+- [ ] Consider trunk-based strategy for maximum agility
+
 
 ## GitFlow
 

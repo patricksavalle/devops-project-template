@@ -2,7 +2,7 @@
 
 *[CC-NC-SA-BY 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) By Patrick Savalle*
 
->>**Clone this repo and use it to setup and document your project configuration.**
+> ## Clone this repo and use it to setup and document your own project configuration 
 
 > Contents:
 >
@@ -92,7 +92,10 @@ There are four main processes in DevOps:
 - [ ] Everything is peer reviewed or tested
 
 
-- [ ] Optimize only what can be measured
+- [ ] Define optimality 
+
+
+- [ ] Continuously remove sub-optimality 
 
 
 - [ ] Self-documenting over inline-documentation over external documentation
