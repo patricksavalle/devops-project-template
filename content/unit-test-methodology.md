@@ -7,8 +7,9 @@ Clone this repo and document your specific methodology here:
 
 ```
 > Content
-> - [Unit vs integration tests](#unit-vs-integration-tests)
 > - [Best practices](#best-practices)
+> - [Unit vs integration tests](#unit-vs-integration-tests)
+> - [Mock-ups](#mock-ups)
 > - [Test driven development](#tdd-test-driven)
 > - [Behavioral driven development](#bdd-behavioral-driven)
 
@@ -16,22 +17,6 @@ The trick of testing in general is to fail as fast as possible when bugs still h
 
 Developer (unit and integration) testing is used to check if the application code is ready to be deployed. 
 As opposed to **acceptance testing** that used after it is deployed to check if a new deployment can be put into production.
-
-## Unit vs integration tests
-
-*Note I use a different but more intuitive definition compared to conventional wisdom*
-
-Unit tests test modules in isolation using mocks that represent their integrations.
-Integrations tests test modules with their integrations.
-Integration tests become unit tests when integrations are mocked.
-**The difference is isolation**. 
-
-> A better name for unit test would be **isolation test**.
-
-Unit and integration tests exist on different levels of aggregation, following application architecture.
-A method or function can be a unit, a class an even entire microservice's can be units too.
-
-Unit and integration tests are run manually during development and automated during continuous integration and delivery.
 
 ## Best Practices
 
@@ -57,6 +42,26 @@ Unit and integration tests are run manually during development and automated dur
 
 
 See: https://techbeacon.com/app-dev-testing/6-best-practices-integration-testing-continuous-integration 
+
+## Unit vs integration tests
+
+*Note I use a different but more intuitive definition compared to conventional wisdom*
+
+Unit tests test modules in isolation using mocks that represent their integrations.
+Integrations tests test modules with their integrations.
+Integration tests become unit tests when integrations are mocked.
+**The difference is isolation**.
+
+> A better name for unit test would be **isolation test**.
+
+Unit and integration tests exist on different levels of aggregation, following application architecture.
+A method or function can be a unit, a class an even entire microservice's can be units too.
+
+Unit and integration tests are run manually during development and automated during continuous integration and delivery.
+
+## Mock-ups
+
+...
 
 ## DBC
 
