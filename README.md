@@ -10,8 +10,8 @@
 > - [Best practices](#best-practices)
 > - [Fundamentals](#fundamentals)
 
-DevOps is an [iterative and incremental](#iterations-and-increments) approach to software development with emphasis on *autononmy*, *automation*, *continuous
-improvement* and *collaboration*. (loose definition)
+DevOps is an [iterative and incremental](#iterations-and-increments) approach to software development with emphasis on *autonomy*, *automation*, *continuous
+improvement* and *collaboration* (loose definition).
 
 ![DevOps overview](content/devops-overview.png)
 
@@ -67,6 +67,9 @@ There are four main processes in DevOps:
 
 
 ## Best Practices
+
+- [ ] Enable projects to function autonomously 
+
 
 - [ ] Create in ever shorter increments and optimize in ever shorter iterations until everything is continuous
 
