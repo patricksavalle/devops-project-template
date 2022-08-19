@@ -39,7 +39,7 @@ Clone this repo and document your specific choice here:
 - [ ] Build automated integration-tests that test for functional properties
 
 
-- [ ] Code for testing-in-operation according to the [acceptance testing strategy](acceptance-test-strategy.md)
+- [ ] Code for testing-in-operation according to the [acceptance testing strategy](acceptance-testing-strategy.md)
 
 
 - [ ] Code for observability according to the [optimization method](optimization-method.md)

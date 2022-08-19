@@ -3,6 +3,7 @@
 *[CC-NC-SA-BY 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) By Patrick Savalle*
 
 > ## Clone this repo and use it to setup and document your own project configuration 
+> - [x] Review and check all the items
 
 > Contents:
 >
@@ -17,10 +18,10 @@ improvement* and *collaboration* (loose definition).
 
 There are four main processes in DevOps:
 
-- **Continuous Integration (CI)** - Merging code changes into the production code.
+- **Continuous Integration (CI)** - Merging code changes into the application code.
 - **Continuous Delivery (CD)** - Putting application changes in production.
-- **Continuous Feedback (CF)** - Collecting optimisations and improvements.
-- **Continuous Operation (CO)** - Keeping the application healthy and responsive.
+- **Continuous Feedback (CF)** - Detecting sub-optimalities in production.
+- **Continuous Operation (CO)** - Keeping the application up and running.
 
 ## Checklist
 
@@ -34,9 +35,11 @@ There are four main processes in DevOps:
 
 - [ ] [Delivery strategy](content/delivery-strategy.md)
 
-- [ ] [Unit Testing strategy](content/unit-test-methodology.md)
+- [ ] [Developer Testing strategy](content/developer-testing-strategy.md)
 
-- [ ] [Acceptance Testing strategy](content/acceptance-test-strategy.md)
+- [ ] [Acceptance Testing strategy](content/acceptance-testing-strategy.md)
+
+- [ ] [Production Testing strategy](content/production-testing-strategy.md)
 
 - [ ] [Versioning strategy](content/versioning-strategy.md)
 
@@ -71,7 +74,7 @@ There are four main processes in DevOps:
 - [ ] Enable projects to function autonomously
 
 
-- [ ] Create in ever shorter increments and optimize in ever shorter iterations until everything is continuous
+- [ ] Add in ever shorter increments and optimize in ever shorter iterations until everything is continuous
 
 
 - [ ] Include end-users in the learning loop as soon as possible

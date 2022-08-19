@@ -13,7 +13,7 @@ Clone this repo and document your specific choice here:
 > - [No-TA](#no-ta)
 
 The delivery strategy determines how new deployments are tested before they're put into production. 
-The Delivery strategy should be aligned with application architecture and [rollback](rollback-strategy)- and [testing-strategy](acceptance-test-strategy.md)
+The Delivery strategy should be aligned with application architecture and [rollback](rollback-strategy)- and [testing-strategy](acceptance-testing-strategy.md)
 
 ## Best practices
 
@@ -29,7 +29,7 @@ The Delivery strategy should be aligned with application architecture and [rollb
 
 Classic model. Phases new releases through permanent test, acceptance and production environments (development is always the developer’s local environment)
 
-## Stage
+## Staged
 
 Creates on-demand temporary environment for different stages, production is the only permanent environment
 
