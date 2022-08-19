@@ -21,12 +21,12 @@ The project plan outlines:
 - platform
 - general approach
 
-## Best Practices 
+## Best Practices  
 
 - [ ] Never go dark, never assume, include appropriate stakeholders in all phases of the project 
 
 
-- [ ] Make communication and collaboration available to all stakeholders
+- [ ] Make project communication and collaboration available to all stakeholders
 
 
 - [ ] Use [POC](#proof-of-concept)'s to test the riskiest assumptions ([RAT](#rats)) first with the least amount of effort possible
@@ -45,6 +45,16 @@ The project plan outlines:
 
 
 - [ ] Regularly reverse engineer the physical dependency graph and bring back to the desired state (often the functional design)
+
+**Archicture**
+
+- [ ] Base microservices on functional cohesion / a functional design
+
+
+- [ ] In event-based architectures, limit generating internal events as much as possible, reacting predominantly to externally generated events.
+
+
+- [ ] 
 
 
 ## Stakeholders
@@ -75,7 +85,7 @@ The objective in this phase is to fail as cheap and soon as possible. If that fa
 ### 2. Functional design and architecture
 
 Functional design creates the desired modularity of the system based on functional dependencies and architecture. 
-It formally describes the functional structure using pseudocoding, UML, BPML etc.
+It formally describes the functional structure using pseudo-coding, UML, BPML etc.
 A functional design needs to be complete to be useful. This phase needs to be done by experienced architects.
 
 #### Architecture
@@ -123,33 +133,44 @@ The Beta is a production-release which can be tested in a larger, tolerant user 
 
 ## Architectures
 
-Architecture is a pattern that is usually applied to the highest levels of aggregation in the enterprise landscape.
+The architecture is a pattern that is applied to the highest levels of aggregation of the application structure.
 Architectures can be recursively combined. 
 
 ### Microservices
 
+The application is divided into highly autonomous, single purpose, loosely coupled modules that have their own lifecycles and data stores.
+Modules usually have REST-API's through which they interact. 
+- can be combined with an event-based architecture if asynchronous communication is necessary
+- can internally be [layered](#layered)
 
 See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch04.html
 
 ### Layered
 
+The application is divided into layers of decreasing abstraction or separated concerns to manage complexity.
+
 See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch01.html 
 
 ### Event driven
+
+The application is a collection of reactive event-handlers that publish and subscribe to [topics](integration-standard.md#types-of-integration) 
+The risk associated with this architecture is the event cascade where a single external event generates a cascade of internal events, and the tricky observability.
 
 See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch02.html
 
 
 ### Microkernel
 
+The microkernel architecture pattern (sometimes referred to as the plug-in architecture pattern) is a natural pattern for implementing extensible, user configurable applications.
 
 See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch03.html
 
 ### Space based
 
+The space-based architecture pattern is specifically designed to address and solve scalability and concurrency issues. I
+The space-based pattern (also sometimes referred to as the cloud architecture pattern) minimizes the factors that limit application scaling.
 
-See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch05.html 
-
+See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch05.html
 
 ## Platform 
 
