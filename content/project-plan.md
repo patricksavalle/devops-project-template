@@ -44,17 +44,7 @@ The project plan outlines:
 - [ ] Release a MVP as soon as possible, to validate functionality and test-run your DevOps setup
 
 
-- [ ] Regularly reverse engineer the physical dependency graph and bring back to the desired state (often the functional design)
-
-**Archicture**
-
-- [ ] Base microservices on functional cohesion / a functional design
-
-
-- [ ] In event-based architectures, limit generating internal events as much as possible, reacting predominantly to externally generated events.
-
-
-- [ ] 
+- [ ] Regularly reverse engineer the implementation's [dependency graph](../README.md#parts-aspects-and-modularity) and bring back to the desired state (often the functional design)
 
 
 ## Stakeholders
@@ -136,12 +126,15 @@ The Beta is a production-release which can be tested in a larger, tolerant user 
 The architecture is a pattern that is applied to the highest levels of aggregation of the application structure.
 Architectures can be recursively combined. 
 
+See: https://techbeacon.com/app-dev-testing/top-5-software-architecture-patterns-how-make-right-choice
+
 ### Microservices
 
 The application is divided into highly autonomous, single purpose, loosely coupled modules that have their own lifecycles and data stores.
-Modules usually have REST-API's through which they interact. 
-- can be combined with an event-based architecture if asynchronous communication is necessary
-- can internally be [layered](#layered)
+Modules usually have REST-API's through which they interact. Can be combined with an event-based architecture if asynchronous communication is necessary
+Can internally be [layered](#layered)
+
+- [ ] Always base microservices modularity on functional cohesion (preferably a functional design)
 
 See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch04.html
 
@@ -155,6 +148,8 @@ See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491
 
 The application is a collection of reactive event-handlers that publish and subscribe to [topics](integration-standard.md#types-of-integration) 
 The risk associated with this architecture is the event cascade where a single external event generates a cascade of internal events, and the tricky observability.
+
+- [ ] Limit generating internal events as much as possible, reacting predominantly to externally generated (functional) events
 
 See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch02.html
 

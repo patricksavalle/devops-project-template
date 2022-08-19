@@ -1,4 +1,4 @@
-# DevOps Project Template v0.1
+# DevOps Project Template
 
 *[CC-NC-SA-BY 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) By Patrick Savalle*
 
