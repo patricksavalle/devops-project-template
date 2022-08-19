@@ -33,7 +33,6 @@ Depending on the type of use-case there are different types of acceptance tests:
 - Black Box Testing
 - etc.
 
-
 see: https://cache404.net/understanding-azure-devops-deployment-patterns/
 
 ## Best practices

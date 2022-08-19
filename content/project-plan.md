@@ -7,48 +7,53 @@ Clone this repo and document your specific choice here:
 
 ```
 > Content
-> - Best Practices
-> - Project Phases
-> - Product Stages
-> - Architectures
+> - [Best Practices](#best-practices)
+> - [Stakeholders](#stakeholders)
+> - [Project Phases](#product-stages)
+> - [Product Stages](#product-stages)
+> - [Architecture](#architecture)
+> - [Platform](#platform)
 
-The project plan outlines the project phasing, product evolution en general development strategy. 
-
+The project plan outlines:
+- project phases
+- product stages
+- architecture 
+- platform
+- general approach
 
 ## Best Practices 
 
-- [ ] Validate the riskiest assumptions first with the least amount of effort 
+- [ ] Never go dark, never assume, include appropriate stakeholders in all phases of the project 
 
 
-- [ ] Create in short increments and optimize in short iterations
+- [ ] Make communication and collaboration available to all stakeholders
 
 
-- [ ] Include all stakeholders in the project
+- [ ] Use [POC](#proof-of-concept)'s to test the riskiest assumptions ([RAT](#rats)) first with the least amount of effort possible
 
 
-- [ ] Allocate 50% of the board to non-functionals, optimizations and DevOps process maintenance
+- [ ] Use [prototypes](#prototype) to engineer requirements as not all stakeholders understand technical specifications
 
 
-- [ ] Move progressively to Kanban and [innersourding](https://about.gitlab.com/topics/version-control/what-is-innersource/) as functionality stabilizes
+- [ ] Make a functional design when the requirements do not have clear, natural increments or when 'iceberg functionality' exists
 
 
-- [ ] Peer review everything
+- [ ] Make a technical design when the functionality is new to the team
 
 
-- [ ] Automate as much as possible
+- [ ] Release a MVP as soon as possible, to validate functionality and test-run your DevOps setup
 
 
-- [ ] Optimize only what can be measured
+- [ ] Regularly reverse engineer the physical dependency graph and bring back to the desired state (often the functional design)
 
 
-- [ ] Include the end-users in the learning loop as soon as possible
+## Stakeholders
 
+Dev Includes all people involved in developing software products and services including but not exclusive to:
+- Architects, business representatives, customers, product owners, project managers, quality assurance (QA), testers and analysts, suppliers …
 
-- [ ] Prefer self-documentation and inline-documentation over external documentation
-
-
-- [ ] Everything is code
-
+Ops Includes all people involved in delivering and managing software products and services including but not exclusive to:
+- Information security professionals, systems engineers, system administrators, IT operations engineers, release engineers, database administrators (DBAs), network engineers, support professionals, third party vendors and suppliers…
 
 ## Development Phases
 
@@ -75,7 +80,7 @@ A functional design needs to be complete to be useful. This phase needs to be do
 
 #### Architecture
 
-Architecture applies regularity to system design by mandating patterns. This in turn creates flexibility and maintainabiity. 
+Architecture applies regularity to system design by mandating patterns. This creates flexibility and maintainability. 
 Architecture has many aspects, such as:
 - Security
 - Integration
@@ -118,4 +123,41 @@ The Beta is a production-release which can be tested in a larger, tolerant user 
 
 ## Architectures
 
-### 
+Architecture is a pattern that is usually applied to the highest levels of aggregation in the enterprise landscape.
+Architectures can be recursively combined. 
+
+### Microservices
+
+
+See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch04.html
+
+### Layered
+
+See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch01.html 
+
+### Event driven
+
+See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch02.html
+
+
+### Microkernel
+
+
+See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch03.html
+
+### Space based
+
+
+See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch05.html 
+
+
+## Platform 
+
+### Azure Cloud
+
+### AWS Cloud
+
+### Docker
+
+### Kubernetes
+
