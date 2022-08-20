@@ -47,6 +47,8 @@ There are four main processes in DevOps:
 
 - [ ] [Configuration management](content/configuration-management.md)
 
+- [ ] [Provisioning and Deployment](content/provisioning-deployment.md)
+
 - [ ] [Ops Strategy](content/operations-setup.md)
 
 - [ ] [Monitoring Strategy](content/monitoring-strategy.md)
