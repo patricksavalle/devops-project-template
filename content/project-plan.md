@@ -41,6 +41,9 @@ The project plan outlines:
 - [ ] Make a technical design when the functionality is new to the team
 
 
+- [ ] Choose and implement the architecture well before the MVP phase
+
+
 - [ ] Release a MVP as soon as possible, to validate functionality and test-run your DevOps setup
 
 
@@ -48,6 +51,8 @@ The project plan outlines:
 
 
 ## Stakeholders
+
+Roughly: end-users, the customer, developers, business department, operations.
 
 Dev Includes all people involved in developing software products and services including but not exclusive to:
 - Architects, business representatives, customers, product owners, project managers, quality assurance (QA), testers and analysts, suppliers …

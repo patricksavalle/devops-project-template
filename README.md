@@ -45,6 +45,8 @@ There are four main processes in DevOps:
 
 - [ ] [Branching strategy](content/branching-strategy.md)
 
+- [ ] [Configuration management](content/configuration-management.md)
+
 - [ ] [Ops Strategy](content/operations-setup.md)
 
 - [ ] [Monitoring Strategy](content/monitoring-strategy.md)
@@ -80,7 +82,7 @@ There are four main processes in DevOps:
 - [ ] Include end-users in the learning loop as soon as possible
 
 
-- [ ] Allocate 50% of time to non-functionals, optimizations and DevOps infrastructure maintenance
+- [ ] Make 50% of time allocatable to non-functionals, optimizations and DevOps infrastructure maintenance
 
 
 - [ ] Move progressively to [Kanban](content/planning-method.md#kanban) and [innersourding](https://about.gitlab.com/topics/version-control/what-is-innersource/) as functionality stabilizes
