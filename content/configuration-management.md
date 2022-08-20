@@ -11,6 +11,7 @@ Clone this repo and document your specific choice here:
 > - [IaC](#iac)
 > - [GitOps](#gitops)
 
+Configuration management is a establishing and maintaining the system in a desired, consistent state.
 
 ## Best practices
 

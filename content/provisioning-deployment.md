@@ -13,6 +13,9 @@ Clone this repo and document your specific choice here:
 > - [Kubernetes](#kubernetes)
 > - [Cloud-native](#cloud-native)
 
+Provisioning is the process of setting up IT infrastructure. 
+It can also refer to the steps required to manage access to data and resources, and make them available to users and systems. 
+Once something has been provisioned, the next step is configuration.
 
 ## Best practices
 
