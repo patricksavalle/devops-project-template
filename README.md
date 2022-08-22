@@ -2,7 +2,7 @@
 
 *[CC-NC-SA-BY 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) By Patrick Savalle*
 
-> ## Clone this repo and use it to setup and document your own project configuration 
+> ## Clone this repo and use it to setup, review or document your own project configuration 
 > - [x] Review and check all the items
 
 > Contents:
@@ -25,38 +25,57 @@ There are four main processes in DevOps:
 
 ## Checklist
 
-### Strategies & methods
+### CI
 
 - [ ] [Project plan](content/project-plan.md)
 
 - [ ] [Planning method](content/planning-method.md) 
-  
-- [ ] [Optimization method](content/optimization-method.md) 
-
-- [ ] [Delivery strategy](content/delivery-strategy.md)
-
-- [ ] [Developer Testing strategy](content/developer-testing-strategy.md)
-
-- [ ] [Acceptance Testing strategy](content/acceptance-testing-strategy.md)
-
-- [ ] [Production Testing strategy](content/production-testing-strategy.md)
-
-- [ ] [Versioning strategy](content/versioning-strategy.md)
 
 - [ ] [Branching strategy](content/branching-strategy.md)
 
-- [ ] [Configuration management](content/configuration-management.md)
+- [ ] [Design guidelines](content/design-guidelines.md)
+
+- [ ] [Coding guidelines](content/coding-guidelines.md)
+
+- [ ] [Versioning strategy](content/versioning-strategy.md)
+ 
+- [ ] [Developer Testing strategy](content/developer-testing-strategy.md)
+
+
+### CD
+
+- [ ] [Pipeline setup](content/pipeline-setup.md)
+
+- [ ] [Delivery strategy](content/delivery-strategy.md)
 
 - [ ] [Provisioning and Deployment](content/provisioning-deployment.md)
+
+- [ ] [Configuration management](content/configuration-management.md)
+
+- [ ] [Acceptance Testing strategy](content/acceptance-testing-strategy.md)
+
+
+### CF
+
+- [ ] [Optimization method](content/optimization-method.md)
+
+- [ ] [Production Testing strategy](content/production-testing-strategy.md)
+
+- [ ] [Feature request and issue tracking](content/feature-request-issue-tracking.md)
+
+
+### CO
 
 - [ ] [Ops Strategy](content/operations-setup.md)
 
 - [ ] [Monitoring Strategy](content/monitoring-strategy.md)
 
+- [ ] [Incident management procedure](content/incident-management-procedure.md)
+
+- [ ] [Rollback procedure](content/rollback-strategy.md)
+
  
 ### Standards & Guidelines
-
-- [ ] [Coding standard](content/coding-standard.md)
 
 - [ ] [API standard](content/api-standard.md)
 
@@ -64,11 +83,7 @@ There are four main processes in DevOps:
 
 - [ ] [Security guidelines](content/security-guidelines.md)
 
-### Procedures and tooling
-
-- [ ] [Incident management procedure](content/incident-management-procedure.md)
-
-- [ ] [Rollback procedure](content/rollback-strategy.md)
+### Tools
 
 - [ ] [Tools](content/tools.md)
 
