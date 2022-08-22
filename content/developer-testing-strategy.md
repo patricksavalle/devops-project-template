@@ -32,6 +32,9 @@ As opposed to [acceptance testing](acceptance-testing-strategy.md) that used aft
    - write these test based on requirements, not based on knowledge of the implementation
 
 
+- [ ] Use a framework to mock integrations, turning integration test into isolation tests (unit tests)
+
+
 - [ ] Always only test interfaces so you can optimize implementation without breaking tests
 
 
@@ -39,6 +42,9 @@ As opposed to [acceptance testing](acceptance-testing-strategy.md) that used aft
 
 
 - [ ] Remove tests that are not 100% reliable or representative
+
+
+- [ ] Avoid tests that are so complex they need their own tests
 
 
 See: https://techbeacon.com/app-dev-testing/6-best-practices-integration-testing-continuous-integration 
