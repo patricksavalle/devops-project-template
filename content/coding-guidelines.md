@@ -7,7 +7,7 @@ Clone this repo and document your specific choice here:
 
 ```
 > Content
-> - [Best practices](#best-practices)
+> - [Guidelines](#guidelines)
 > - [Design Patterns](#design-patterns)
 > - [Design-by-Contract](#design-by-contract)
 > - [Const-correctness](#const-correctness)
@@ -18,7 +18,7 @@ Good code is:
 - tested
 - peer-reviewed
 
-## Best practices
+## Guidelines
 
 - [ ] Use industry standards and styles 
 

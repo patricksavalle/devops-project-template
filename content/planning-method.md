@@ -11,14 +11,12 @@ Clone this repo and document your specific choice here:
 > - [Scrum](#scrum)
 > - [Kanban](#kanban)
 > - [DSDM](#dsdm)
+> - [LEAN startup](#lean-start-up)
 
 The planning method determines the content and order of increments. DevOps is compatible with many agile project planning (incremental) methods. Often a hybrid approach will work best,
 cherry-picking elements from different methods, like ScrumBan. 
 
 ## Best Practices
-
-- [ ] Building large or functionally complex applications without a good functional design is not a good plan 
-
 
 - [ ] Scrum is a good default if the application has clear natural increments (e.g. the screens of UI's or endpoints of API's) (see [Project Plan](project-plan.md)) 
 
@@ -26,7 +24,7 @@ cherry-picking elements from different methods, like ScrumBan.
 - [ ] Progressively move to Scrumban en ultimately Kanban (team-less crowdsourcing) as functionality stabilizes
 
 
-- [ ] Include an architect in the team, certainly if he can also be the DevOps coach
+- [ ] Include an architect in the team, certainly if he can also be the Agile coach
 
 
 - [ ] Experienced teams don't need a Scrum-master they are the Scrum-master

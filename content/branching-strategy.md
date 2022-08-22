@@ -35,7 +35,7 @@ See:
 - [ ] Keep features and merge request small, avoid merge hell
 
 
-- [ ] Start with [trunk-based development](content/branching-strategy.md#trunk-based) and to switch to a [GitFlow](content/branching-strategy.md) when the product reaches [MVP stage](content/project-plan.md#minimum-viable-product) or when the project is crowdsourced
+- [ ] Start with [trunk-based development](content/branching-strategy.md#trunk-based) and switch to a [GitFlow](content/branching-strategy.md) when the product reaches [MVP stage](content/project-plan.md#minimum-viable-product) or when the project is crowdsourced
 
 
 ## GitFlow
@@ -56,3 +56,5 @@ Trunk-based development (TBD) is a branching strategy that in fact requires no b
 developers integrate their changes into a shared trunk at least once a day. This shared trunk 
 should be ready for release anytime. This can be done with a feature flag or user ring based [delivery strategy](delivery-strategy.md)
 to keep the new trunks isolated in production.
+
+Good choice for the initial stages of the project when changes in functionality and volatility of solutions make GitFlow's unpractical.
