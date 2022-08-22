@@ -93,7 +93,10 @@ There are four main processes in DevOps:
 - [ ] Enable projects to function autonomously
 
 
-- [ ] Add in ever shorter increments and optimize in ever shorter iterations until everything is continuous
+- [ ] Create in ever shorter increments and optimize in ever shorter iterations until everything is continuous
+
+
+- [ ] Move progressively to [Kanban](content/planning-method.md#kanban) and [innersourding](https://about.gitlab.com/topics/version-control/what-is-innersource/) as functionality stabilizes
 
 
 - [ ] Include end-users in the learning loop as soon as possible
@@ -102,7 +105,7 @@ There are four main processes in DevOps:
 - [ ] Make 50% of time allocatable to non-functionals, optimizations and DevOps infrastructure maintenance
 
 
-- [ ] Move progressively to [Kanban](content/planning-method.md#kanban) and [innersourding](https://about.gitlab.com/topics/version-control/what-is-innersource/) as functionality stabilizes
+- [ ] Open-source as much as (security-wise etc.) possible to allow scaling of collaboration
 
 
 - [ ] Start with [trunk-based development](content/branching-strategy.md#trunk-based) and to switch to a [GitFlow](content/branching-strategy.md) when the product reaches [MVP stage](content/project-plan.md#minimum-viable-product)
@@ -123,7 +126,7 @@ There are four main processes in DevOps:
 - [ ] Continuously remove sub-optimality 
 
 
-- [ ] Self-documenting over inline-documentation over external documentation
+- [ ] Self-documenting over inline documentation over external documentation
 
 
 ## Fundamentals

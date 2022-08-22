@@ -14,12 +14,7 @@ Clone this repo and document your specific choice here:
 > - [Architecture](#architecture)
 > - [Platform](#platform)
 
-The project plan outlines:
-- project phases
-- product stages
-- architecture 
-- platform
-- general approach
+The project plan outlines the (intermediate) deliverables and project stages of the peoject as well as the general DevOps strategy.
 
 ## Best Practices  
 
