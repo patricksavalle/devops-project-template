@@ -23,7 +23,7 @@ The project plan outlines:
 
 ## Best Practices  
 
-- [ ] Never go dark, never assume, include appropriate stakeholders in all phases of the project 
+- [ ] Never go dark, never assume, communicate with appropriate stakeholders in all phases of the project 
 
 
 - [ ] Make project communication and collaboration available to all stakeholders
@@ -32,19 +32,19 @@ The project plan outlines:
 - [ ] Use [POC](#proof-of-concept)'s to test the riskiest assumptions ([RAT](#rats)) first with the least amount of effort possible
 
 
-- [ ] Use [prototypes](#prototype) to engineer requirements as not all stakeholders understand technical specifications
+- [ ] Use [prototypes](#prototype) to engineer requirements because not all stakeholders understand technical specifications
 
 
 - [ ] Make a functional design when the requirements do not have clear, natural increments or when 'iceberg functionality' exists
 
 
-- [ ] Make a technical design when the functionality is new to the team
+- [ ] Make a technical design when the required functionality or the proposed solution is new to the team
 
 
 - [ ] Choose and implement the architecture well before the MVP phase
 
 
-- [ ] Release a MVP as soon as possible, to validate functionality and test-run your DevOps setup
+- [ ] Release a MVP as soon as possible, to get user-driven validation and test-run your DevOps setup
 
 
 - [ ] Regularly reverse engineer the implementation's [dependency graph](../README.md#parts-aspects-and-modularity) and bring back to the desired state (often the functional design)

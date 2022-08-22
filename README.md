@@ -18,7 +18,7 @@ improvement* and *collaboration* (loose definition).
 
 There are four main processes in DevOps:
 
-- **Continuous Integration (CI)** - Merging code changes into the application code.
+- **Continuous Integration (CI)** - Coding and merging features and improvements into the application code.
 - **Continuous Delivery (CD)** - Putting application changes in production.
 - **Continuous Feedback (CF)** - Detecting sub-optimalities in production.
 - **Continuous Operation (CO)** - Keeping the application up and running.
@@ -75,7 +75,7 @@ There are four main processes in DevOps:
 - [ ] [Rollback procedure](content/rollback-strategy.md)
 
  
-### Standards & Guidelines
+## Standards & Guidelines
 
 - [ ] [API standard](content/api-standard.md)
 
@@ -83,7 +83,7 @@ There are four main processes in DevOps:
 
 - [ ] [Security guidelines](content/security-guidelines.md)
 
-### Tools
+## Tools
 
 - [ ] [Tools](content/tools.md)
 
