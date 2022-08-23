@@ -1,4 +1,4 @@
-# DevOps Project Template
+# DevOps/Agile Project Template
 
 *[CC-NC-SA-BY 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) By Patrick Savalle*
 
@@ -18,9 +18,9 @@ improvement* and *collaboration* (loose definition).
 
 There are four main processes in DevOps:
 
-- **Continuous Integration (CI)** - Coding and merging features and improvements into the application code.
+- **Continuous Integration (CI)** - Merging new code into the production code.
 - **Continuous Delivery (CD)** - Putting application changes in production.
-- **Continuous Feedback (CF)** - Detecting sub-optimalities in production.
+- **Continuous Feedback (CF)** - Detecting suboptimalities in processes and deliverables.
 - **Continuous Operation (CO)** - Keeping the application up and running.
 
 ## Checklist
@@ -90,6 +90,10 @@ There are four main processes in DevOps:
 
 ## Best Practices
 
+
+- [ ] Never go dark, never assume, communicate with appropriate stakeholders in all phases of the project
+
+
 - [ ] Enable projects to function autonomously
 
 
@@ -108,7 +112,7 @@ There are four main processes in DevOps:
 - [ ] Open-source as much as (security-wise etc.) possible to allow scaling of collaboration
 
 
-- [ ] Start with [trunk-based development](content/branching-strategy.md#trunk-based) and to switch to a [GitFlow](content/branching-strategy.md) when the product reaches [MVP stage](content/project-plan.md#minimum-viable-product)
+- [ ] Start with [trunk-based development](content/branching-strategy.md#trunk-based) and switch to a [GitFlow](content/branching-strategy.md) when the product reaches [MVP stage](content/project-plan.md#minimum-viable-product)
 
 
 - [ ] Everything is code, all code is in Git
@@ -124,9 +128,6 @@ There are four main processes in DevOps:
 
 
 - [ ] Continuously [remove sub-optimality](content/optimization-method.md) 
-
-
-- [ ] Self-documenting over inline documentation over external documentation
 
 
 ## Fundamentals

@@ -11,43 +11,41 @@ Clone this repo and document your specific choice here:
 > - [Stakeholders](#stakeholders)
 > - [Project Phases](#product-stages)
 > - [Product Stages](#product-stages)
-> - [Architecture](#architecture)
+> - [Architectures](#architectures)
+> - [Design Patterns](#design-patterns)
 > - [Platform](#platform)
 
-The project plan outlines the (intermediate) deliverables and project stages of the peoject as well as the general DevOps strategy.
+The project plan outlines the (intermediate) deliverables and project stages of the project as well as the general development strategy.
 
 ## Best Practices  
 
-- [ ] Never go dark, never assume, communicate with appropriate stakeholders in all phases of the project 
+- [ ] Use [POC](#proof-of-concept)'s to test assumptions as they become visible
 
 
-- [ ] Make project communication and collaboration available to all stakeholders
-
-
-- [ ] Use [POC](#proof-of-concept)'s to test the riskiest assumptions ([RAT](#rats)) first with the least amount of effort possible
+- [ ] Try to identify the [RAT's](#rats) (riskiest assumptions) as early in the project as possible
 
 
 - [ ] Use [prototypes](#prototype) to engineer requirements because not all stakeholders understand technical specifications
 
 
-- [ ] Make a functional design when the requirements do not have clear, natural increments or when 'iceberg functionality' exists
+- [ ] Make a [functional design](#2-functional-design-and-architecture) when the requirements do not have clear, natural increments or when 'iceberg functionality' exists
 
 
-- [ ] Make a technical design when the required functionality or the proposed solution is new to the team
+- [ ] Make a [technical design](#3-technical-design) every time the required functionality or proposed solution of a new feature is new to the team
 
 
-- [ ] Choose and implement the architecture well before the MVP phase
+- [ ] Define and apply an architecture before the [MVP](#minimum-viable-product) phase
 
 
 - [ ] Release a MVP as soon as possible, to get user-driven validation and test-run your DevOps setup
 
 
-- [ ] Regularly reverse engineer the implementation's [dependency graph](../README.md#parts-aspects-and-modularity) and bring back to the desired state (often the functional design)
+- [ ] Regularly reverse engineer the implementation's [dependency graph](../README.md#parts-aspects-and-modularity) and bring back to the desired state (often the functional design's [modularity](../README.md#parts-aspects-and-modularity))
 
 
 ## Stakeholders
 
-Roughly: end-users, the customer, developers, business department, operations.
+**Roughly: user, customer, developer, business, operation.**
 
 Dev Includes all people involved in developing software products and services including but not exclusive to:
 - Architects, business representatives, customers, product owners, project managers, quality assurance (QA), testers and analysts, suppliers …
@@ -57,7 +55,7 @@ Ops Includes all people involved in delivering and managing software products an
 
 ## Development Phases
 
-Alle new systems are built in phases. In agile project these phases are done incrementally. Only trivial systems or experienced teams don't need a functional or technical design.
+Alle new systems are built in phases. In agile projects these phases are done incrementally.
 
 ### 1. Requirements engineering and RAT's
 
@@ -69,22 +67,23 @@ This stage is done in collaboration with all stake-holder.
 
 #### RAT's
 
-RAT or Riskiest Assumptions Tests using POC's en prototypes are done to reduce uncertainty to an acceptable level.
+RAT or Riskiest Assumptions Tests using POC's en prototypes are done to reduce uncertainty to an acceptable level before continuing.
 The objective in this phase is to fail as cheap and soon as possible. If that fails, the project can continue.
 
 ### 2. Functional design and architecture
 
-Functional design creates the desired modularity of the system based on functional dependencies and architecture. 
+An important goal of functional design is to create the desired modularity of the system based on functional cohesion and coupling, and the appropriate architecture. 
 It formally describes the functional structure using pseudo-coding, UML, BPML etc.
 A functional design needs to be complete to be useful. This phase needs to be done by experienced architects.
 
 #### Architecture
 
-Architecture applies regularity to system design by mandating patterns. This creates flexibility and maintainability. 
+Architecture applies regularity to system design by mandating patterns. This creates simplicity, flexibility and maintainability. 
 Architecture has many aspects, such as:
 - Security
 - Integration
 - Application
+- ...
 
 In modern application landscapes the [integration architecture](integration-standard.md) is often leading.
 
@@ -93,7 +92,8 @@ In modern application landscapes the [integration architecture](integration-stan
 Technical design translates the functional design into codeable constructions, using the appropriate technical
 standards, architectures and patterns.
 The design is formulated in UML.
-Technical design is not meant to be complete, just complete enough to manage coding complexity.
+Technical design is not meant to be complete, just complete enough to manage codhttps://beapython.dev/2021/03/07/most-frequently-used-design-patterns-in-software-development/ing complexity.
+
 
 ### 4. Implementation (coding)
 
@@ -105,7 +105,8 @@ User-interactions define its actual state (instance).
 
 ### Proof-of-concept
 
-A POC is an assumption (in)validator. Often multiple POC’s are needed.
+A POC is an assumption (in)validator. Often multiple POC’s are needed. 
+POC's don't need to be in the target technology or environment, they just need to be as cheap as possible.
 
 ### Prototype
 
@@ -124,48 +125,69 @@ The Beta is a production-release which can be tested in a larger, tolerant user 
 ## Architectures
 
 The architecture is a pattern that is applied to the highest levels of aggregation of the application structure.
-Architectures can be recursively combined. 
+Architectures can be recursively combined. Common architectures are: 
 
-See: https://techbeacon.com/app-dev-testing/top-5-software-architecture-patterns-how-make-right-choice
+- Microservices
 
-### Microservices
-
-The application is divided into highly autonomous, single purpose, loosely coupled modules that have their own lifecycles and data stores.
+  The application is divided into highly autonomous, single purpose, loosely coupled modules that have their own lifecycles and data stores.
 Modules usually have REST-API's through which they interact. Can be combined with an event-based architecture if asynchronous communication is necessary
-Can internally be [layered](#layered)
-
-- [ ] Always base microservices modularity on functional cohesion (preferably a functional design)
-
-See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch04.html
-
-### Layered
-
-The application is divided into layers of decreasing abstraction or separated concerns to manage complexity.
-
-See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch01.html 
-
-### Event driven
-
-The application is a collection of reactive event-handlers that publish and subscribe to [topics](integration-standard.md#types-of-integration) 
-The risk associated with this architecture is the event cascade where a single external event generates a cascade of internal events, and the tricky observability.
-
-- [ ] Limit generating internal events as much as possible, reacting predominantly to externally generated (functional) events
-
-See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch02.html
+Can internally be [layered](#layered). 
 
 
-### Microkernel
+-  Layered
 
-The microkernel architecture pattern (sometimes referred to as the plug-in architecture pattern) is a natural pattern for implementing extensible, user configurable applications.
+   The application is divided into layers of decreasing abstraction or separated concerns to manage complexity.
 
-See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch03.html
 
-### Space based
+-  Event driven
 
-The space-based architecture pattern is specifically designed to address and solve scalability and concurrency issues. I
-The space-based pattern (also sometimes referred to as the cloud architecture pattern) minimizes the factors that limit application scaling.
+   The application is a collection of reactive event-handlers that publish and subscribe to [topics](integration-standard.md#types-of-integration) 
+The risk associated with this architecture is the event cascade where a single external event generates a cascade of internal events, and the tricky observability. 
+Limit generating internal events as much as possible, reacting predominantly to externally generated (functional) events
 
-See: https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch05.html
+
+- Microkernel
+
+   The microkernel architecture pattern (sometimes referred to as the plug-in architecture pattern) is a natural pattern for implementing extensible, user configurable applications.
+
+
+- Space based
+
+   The space-based architecture pattern is specifically designed to address and solve scalability and concurrency issues. The space-based pattern (also sometimes referred to as the cloud architecture pattern) minimizes the factors that limit application scaling.
+
+See: 
+- [Software Architecture Patterns by Mark Richards](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch05.html)
+- [The top 5 software architecture patterns: How to make the right choice](https://techbeacon.com/app-dev-testing/top-5-software-architecture-patterns-how-make-right-choice)
+
+Other architectures:
+
+- Layered pattern
+- Client-server pattern
+- Master-slave pattern
+- Pipe-filter pattern
+- Broker pattern
+- Peer-to-peer pattern
+- Event-bus pattern
+- Model-view-controller pattern
+- Blackboard pattern
+- Interpreter pattern
+
+From: [10 Common Software Architectural Patterns in a nutshell](https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013)
+
+## Design Patterns
+
+Design Patterns are 'solution templates'. Using design patterns is considered a best practice in the industry as the design patterns are already tried and tested.
+Common design patterns include:
+
+- Singleton
+- Factory
+- Decorator
+- Adapter
+- Observer
+
+See: [Most Frequently Used Design Patterns in Software Development]()
+
+
 
 ## Platform 
 
