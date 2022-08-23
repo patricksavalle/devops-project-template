@@ -29,7 +29,7 @@ Good code is:
 - [ ] Prefer using a well-known [design pattern](#design-patterns) over writing an over-optimized one-off solution
 
 
-- [ ] Open-source as much code as (security-wise) possible to allow [scaling](../README.md#best-practices) your collaboration 
+- [ ] If a solution doesn't feel right, redesign (never sacrifice simplicity and elegance)
 
 
 - [ ] Use (automated) code linting

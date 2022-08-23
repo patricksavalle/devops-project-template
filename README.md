@@ -200,3 +200,7 @@ A good interface is:
 - Consistent
 - Documented
 
+### Scalable collaboration
+
+To make collaboration scalable it must be based on [stigmergic principles](https://medium.com/@patricksavalle/designing-distributed-scalable-collaboration-9c6aabd5777e). 
+Both coding using Git and tasking using a Kanban board fullfills 

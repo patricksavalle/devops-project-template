@@ -32,6 +32,10 @@ cherry-picking elements from different methods, like ScrumBan.
 
 - [ ] Allocate 50% of the board to the non-functionals in the DevOps process, not for the PO to control
 
+
+- [ ] Open-source as much as (security-wise) possible to allow [scaling](../README.md#best-practices) your collaboration
+
+
 ## Waterfall
 
 Waterfall projects have the classic planning increments:

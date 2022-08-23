@@ -20,4 +20,14 @@ Clone this repo and document your specific choice here:
 
 ## Chaos engineering
 
+Chaos Engineering is the discipline of experimenting on a system in order to build confidence in the system’s capability to withstand turbulent conditions in production.
+- Focus on the measurable output of a system
+- Vary Real-world Events
+- Prioritize events either by potential impact or estimated frequency
+- Run Experiments in Production
+- Automate Experiments to Run Continuously
+- Minimize Blast Radius
+
+From: https://principlesofchaos.org/
+
 ## SRE 

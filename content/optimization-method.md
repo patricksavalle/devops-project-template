@@ -8,17 +8,14 @@ Clone this repo and document your specific choice here:
 ```
 > Content
 > - [Best Practices](#best-practices)
-> - [Chaos engineering](#chaos-engineering)
 > - [LEAN](#lean)
 > - [Kaizen](#kaizen)
 > - [6Sigma](#six-sigma-dmaic)
 
-
-Een optimization method determines the  *iterations* of the project. DevOps is compatible with many optimization methods. Often hybrid methods will work best, cherry-picking
-elements from multiple methods. Optimization is an iterative process based on feedback or learning loops.
-Establish the learning loop as early in the project as practical but no later than the MVP phase.
-
-Incident management is not optimization. Optimizations are fed back to the planning process whereas incidents are handled immediately.  
+Optimization is an iterative process based on feedback or learning loops.
+An optimization method determines the  *iterations* of the project. 
+DevOps is compatible with many optimization methods. 
+Often hybrid methods will work best, cherry-picking elements from multiple methods. 
 
 Optimizations include:
 - Refactorings to improve modularity or remove weak design
@@ -26,7 +23,21 @@ Optimizations include:
 - Improving UX and functionality
 - Removing slack, engineering debt or TODO's
 
+Optimization starts with detecting sub-optimality or waste.
+
 ## Best Practices
+
+- [ ] [Incident management](incident-management-procedure.md) is not optimization: optimizations are fed back to the planning process whereas incidents are handled immediately
+
+
+- [ ] Explicitly define optimality, make deviations objective
+
+
+- [ ] optimize only what can be measured (monitored)
+
+
+- [ ] Continuously identify **and** backlog sub-optimality 
+
 
 - [ ] Build for observability (logging, tracing, monitoring)
 
@@ -34,34 +45,11 @@ Optimizations include:
 - [ ] Build for testing in production (fault injection, user rings)
 
 
-- [ ] Explicitly define optimality, make deviations objective
-
-
-- [ ] optimize only what can be measured or monitored
-
-
-- [ ] Continuously identify **and** backlog sub-optimality 
-
-
-- [ ] If an optimization doesn't feel right, redesign the entire solution (never sacrifice simplicity and elegance)
-
 ## Optimality
 
 To be able to optimize, optimality must be defined (quantified) and continuously measured. Use metrics for this.
 
 [TODO] 
-
-## Chaos engineering
-
-Chaos Engineering is the discipline of experimenting on a system in order to build confidence in the system’s capability to withstand turbulent conditions in production.
-- Focus on the measurable output of a system
-- Vary Real-world Events
-- Prioritize events either by potential impact or estimated frequency
-- Run Experiments in Production
-- Automate Experiments to Run Continuously
-- Minimize Blast Radius
-
-From: https://principlesofchaos.org/ 
 
 ## LEAN
 
