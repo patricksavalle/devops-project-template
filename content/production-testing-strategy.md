@@ -1,7 +1,7 @@
 # Production Testing Strategy
 
 ```
-Clone this repo and document your specific choice here:
+Clone this repo and document your production testing strategy here:
 
 
 

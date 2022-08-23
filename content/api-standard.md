@@ -1,6 +1,6 @@
 # REST-API standard
 ```
-Clone this repo and document your specific choice here:
+Clone this repo and document your API standard here:
 
 
 

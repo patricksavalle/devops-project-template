@@ -1,7 +1,7 @@
 # Security guidelines
 
 ```
-Clone this repo and document your specific methodology here:
+Clone this repo and document your security guidelines here:
 
 
 

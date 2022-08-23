@@ -1,7 +1,7 @@
 # Developer Testing Strategy
 
 ```
-Clone this repo and document your specific methodology here:
+Clone this repo and document your developer testing strategy here:
 
 
 

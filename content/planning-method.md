@@ -1,7 +1,7 @@
-# Planning methods
+# Planning method
 
 ```
-Clone this repo and document your specific choice here:
+Clone this repo and document your planning method here:
 
 
 
@@ -18,7 +18,8 @@ cherry-picking elements from different methods, like ScrumBan.
 
 ## Best Practices
 
-- [ ] Scrum is a good default if the application has clear natural increments (e.g. the screens of UI's or endpoints of API's) (see [Project Plan](project-plan.md)) 
+- [ ] Scrum is a good default if the application has obvious natural increments (e.g. the screens of UI's or endpoints of API's) 
+ or if a functional design is available (see [Project Plan](project-plan.md)) 
 
 
 - [ ] Progressively move to Scrumban en ultimately Kanban (team-less crowdsourcing) as functionality stabilizes
@@ -27,10 +28,7 @@ cherry-picking elements from different methods, like ScrumBan.
 - [ ] Include an architect in the team, certainly if he can also be the Agile coach
 
 
-- [ ] Experienced teams don't need a Scrum-master they are the Scrum-master
-
-
-- [ ] Allocate 50% of the board to the non-functionals in the DevOps process, not for the PO to control
+- [ ] Allocate 50% of the board to non-functionals and DevOps maintenance
 
 
 - [ ] Open-source as much as (security-wise) possible to allow [scaling](../README.md#best-practices) your collaboration
@@ -39,7 +37,6 @@ cherry-picking elements from different methods, like ScrumBan.
 ## Waterfall
 
 Waterfall projects have the classic planning increments:
-
 - Requirements engineering
 - Functional design and architecture
 - Technical and solution design
@@ -49,11 +46,11 @@ Waterfall projects have the classic planning increments:
 
 ## Scrum
 
-This method works with a product backlog of stories that are planned into sprints of typical 2 weeks during refinements.  
+This method works with a product backlog of stories that are planned into sprints of typical 2 weeks during refinements.
 The team consists of a product-owner, a process-owner (Scrum master) and developers. Often a solution-architect is a
 valuable addition.
 
-Requirements Engineering, Functional design ans architecture are done before the actual Scrum process and results in a product backlog.
+Requirements Engineering, Functional design ans architecture are done before or outside the actual Scrum process and result in a product backlog.
 Without a functional design a much higher refactoring load can be expected as correct modularity needs to be discovered and corrected on the fly.
 
 > General purpose method that is a good choice for:
