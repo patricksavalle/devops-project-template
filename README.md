@@ -111,7 +111,7 @@ There are four main processes in DevOps:
 - [ ] Start with [trunk-based development](content/branching-strategy.md#trunk-based) and to switch to a [GitFlow](content/branching-strategy.md) when the product reaches [MVP stage](content/project-plan.md#minimum-viable-product)
 
 
-- [ ] Everything is code
+- [ ] Everything is code, all code is in Git
 
 
 - [ ] Everything is automated
@@ -120,10 +120,10 @@ There are four main processes in DevOps:
 - [ ] Everything is peer reviewed or tested
 
 
-- [ ] Define optimality 
+- [ ] Explicitly define optimality 
 
 
-- [ ] Continuously remove sub-optimality 
+- [ ] Continuously [remove sub-optimality](content/optimization-method.md) 
 
 
 - [ ] Self-documenting over inline documentation over external documentation

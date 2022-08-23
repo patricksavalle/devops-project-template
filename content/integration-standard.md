@@ -15,6 +15,7 @@ The integration platform is a set of tools, patterns and guidelines that *must* 
 A modern platform typically consists of (API-) gateways, proxies, load-balancers, routers, message queues and caches. 
 
 The platform has a very dedicated function: decoupling of communication from location and in time (asynchronization).
+Use it exclusively for reliable, scalable and decoupled communication.
 
 ## Guidelines
 
@@ -31,22 +32,15 @@ They avoid lock-in on specific technology, at the expense of having to include s
 - [ ] Register your integrations in the central registry here: ...................
 
 
-- [ ] Use the integration platform for reliable, scalable and decoupled communication
-
-
 - [ ] Assume the platform has no way of inspection data content
-  
-  Ideally all data it handles is already encrypted at the endpoints
 
 
-- [ ] Do not use the integration platform for:
+- [ ] Smart endpoints, dumb pipes! Do not use the integration platform for:
   - Business logic
   - Transformation
   - Storage
   - Replay
   - Security
-
-  -> this is the responsibility of the application layer
 
 
 - [ ] Use open standards
@@ -69,10 +63,8 @@ They avoid lock-in on specific technology, at the expense of having to include s
 
 - [ ] Avoid using a unified intermediate format or canonical data model 
 
-  -> this would be incompatible with DevOps autonomy 
 
-
-- [ ] Smart endpoints, dumb pipes! Decentralize integration.
+- [ ] Avoid central components, decentralize integration to the application side, give teams control
 
 
 - [ ] Build your application assuming an untrusted environment (the open internet)
@@ -91,9 +83,9 @@ They avoid lock-in on specific technology, at the expense of having to include s
 
 
 - [ ] Share reusable data and logic opportunistically (but secure) on the platform, even if there are no consumers yet
-  - Share passive data as REST resources (request-response pattern)
-  - Share business logic as XML services (request-response pattern)
-  - Share streaming data on a MQ topic (publish-subscribe pattern)
+  - Share passive data as REST resources ([request-response pattern](#basic-integration-patterns))
+  - Share business logic as XML services ([request-response pattern](#basic-integration-patterns))
+  - Share streaming data on a MQ topic ([publish-subscribe pattern](#basic-integration-patterns))
 
 ## Basics
 
@@ -101,14 +93,14 @@ Integration allows modules to communicate with each other. Integration tooling n
 
 ### Types of integration
 
-- Services – (SOA) reusable business logic (client-server)
+- Services – (SOA/XML) reusable business logic (client-server)
 - Resources – (REST) universal resource manipulation (client-server)
 - Messaging – Sending and receiving messages (sender-receiver, producer-consumer)
 
 ### Types of communication
 
-- Synchronous – senders wait for reply
-- Asynchronous – senders do not wait for reply but can be interrupted later with the reply
+- Synchronous – senders wait / block for reply
+- Asynchronous – senders do not wait for reply but can be interrupted later with the reply or poll for it
 - Fire-and-forget – senders do not expect replies
 
 ### Basic integration patterns

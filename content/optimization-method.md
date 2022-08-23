@@ -40,10 +40,16 @@ Optimizations include:
 - [ ] optimize only what can be measured or monitored
 
 
-- [ ] continuously monitor **and** backlog sub-optimality 
+- [ ] Continuously identify **and** backlog sub-optimality 
 
 
-- [ ] never sacrifice simplicity and elegance (if an optimization doesn't feel right, redesign the entire solution)
+- [ ] If an optimization doesn't feel right, redesign the entire solution (never sacrifice simplicity and elegance)
+
+## Optimality
+
+To be able to optimize, optimality must be defined (quantified) and continuously measured. Use metrics for this.
+
+[TODO] 
 
 ## Chaos engineering
 
@@ -69,7 +75,7 @@ Lean software development is a translation of lean manufacturing principles and 
 6. Empower the team
 7. Optimize the whole
 
-Waste include:
+Waste includes:
 
 - Partially done work
 - Extra features
