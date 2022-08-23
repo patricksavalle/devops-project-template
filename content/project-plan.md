@@ -34,10 +34,10 @@ The project plan outlines the (intermediate) deliverables and project stages of 
 - [ ] Make a [technical design](#3-technical-design) every time the required functionality or proposed solution of a new feature is new to the team
 
 
-- [ ] Define and apply an architecture before the [MVP](#minimum-viable-product) phase
+- [ ] Define and apply an [architecture](#architectures) before the [MVP](#minimum-viable-product) phase
 
 
-- [ ] Release a MVP as soon as possible, to get user-driven validation and test-run your DevOps setup
+- [ ] Release a MVP as soon as possible, to get [user feedback](optimization-method.md) and test-run your DevOps setup
 
 
 - [ ] Regularly reverse engineer the implementation's [dependency graph](../README.md#parts-aspects-and-modularity) and bring back to the desired state (often the functional design's [modularity](../README.md#parts-aspects-and-modularity))
@@ -131,7 +131,7 @@ Architectures can be recursively combined. Common architectures are:
 
   The application is divided into highly autonomous, single purpose, loosely coupled modules that have their own lifecycles and data stores.
 Modules usually have REST-API's through which they interact. Can be combined with an event-based architecture if asynchronous communication is necessary
-Can internally be [layered](#layered). 
+Can internally be [layered](#architectures). 
 
 
 -  Layered
