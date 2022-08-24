@@ -32,7 +32,9 @@ Depending on the type of use-case there are different types of acceptance tests:
 - Black Box Testing
 - etc.
 
-see: https://cache404.net/understanding-azure-devops-deployment-patterns/
+see: 
+- [Azure DevOps deployment patterns](https://cache404.net/understanding-azure-devops-deployment-patterns/)
+- [Testing in Production, the safe way](https://copyconstruct.medium.com/testing-in-production-the-safe-way-18ca102d0ef1)
 
 ## Best practices
 
@@ -40,6 +42,13 @@ see: https://cache404.net/understanding-azure-devops-deployment-patterns/
 
 
 - [ ] Share test results with appropriate partners
+
+
+- [ ] Acceptance test in [production](delivery-strategy.md#no-ta) (user ring, feature flags, etc.)
+
+
+- [ ] Use temporary environments only when necessary (initial security tests, load test, etc.)
+
 
 ## User rings
 

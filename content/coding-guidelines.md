@@ -26,7 +26,7 @@ Good code is:
 - [ ] Make code self-documenting but add inline documentation (only) when needed
 
 
-- [ ] Prefer using a well-known [design pattern](#design-patterns) over writing an over-optimized one-off solution
+- [ ] Prefer using a well-known [design pattern](#design-patterns) over writing an (over-optimized) one-off solution
 
 
 - [ ] If a solution doesn't feel right, redesign (never sacrifice simplicity and elegance)
@@ -55,7 +55,7 @@ Good code is:
 
 ## Design Patterns
 
-Design Patterns are pieces of reusable design. 
+Design Patterns are reusable pieces of tested and documented design. Like templates.
 
 See:
 - [Design Patterns](https://sourcemaking.com/design_patterns)
@@ -66,6 +66,17 @@ See:
 ## Design-by-Contract
 
 Design-by-Contract is a concept that originated in the Eiffel language but can be used in any language.
+It uses ```assert``` syntax to check pre-conditions, post-conditions and invariants of a method's or function's contract. Example:
+
+```
+public void transfer(Account source, Account target, BigDecimal amount) {
+    assert (amount.compareTo(BigDecimal.ZERO) <= 0);
+    assert (source.getBalance().compareTo(BigDecimal.ZERO) <= 0);
+    source.transfer(target, amount);
+    assert (source.getBalance().compareTo(BigDecimal.ZERO) <= 0);
+    // Other post-conditions...
+}
+```
 
 See: 
 - https://www.eiffel.com/values/design-by-contract/introduction/

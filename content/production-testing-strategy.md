@@ -12,11 +12,17 @@ Clone this repo and document your production testing strategy here:
 > - [SRE](#sre)
 
 **Production testing** is used to identify potential production problems before they happen and verify resilience under stress.
+Production testing is **not** Testing-in-Production (TiP) which is part of the [acceptance testing](acceptance-testing-strategy.md).
 
+Production testing is also not monitoring, it is actively provoking the production system into a response.
+
+See:
 
 ## Best practices
 
-- [ ] Set up for chaos engineering for selected rings (latency, error-responses, time-outs, etc.)
+- [ ] Only test what is being monitored
+
+- [ ] Set up for chaos engineering in selected rings (latency, error-responses, time-outs, etc.)
 
 ## Chaos engineering
 
@@ -28,6 +34,8 @@ Chaos Engineering is the discipline of experimenting on a system in order to bui
 - Automate Experiments to Run Continuously
 - Minimize Blast Radius
 
-From: https://principlesofchaos.org/
+See: [Principle of Chaos](https://principlesofchaos.org)
 
 ## SRE 
+
+See: [Testing for Reliability](https://sre.google/sre-book/testing-reliability/)

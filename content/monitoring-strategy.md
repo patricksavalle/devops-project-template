@@ -10,13 +10,12 @@ Clone this repo and document your monitoring strategy here:
 > - [Best practices](#best-practices)
 
 
-
 ## Best Practices
 
-- [ ] Add tracing (request lifecycle)
+- [ ] Add unified tracing (request lifecycle)
 
 
-- [ ] Add logging
+- [ ] Add unified logging
 
 
 - [ ] Monitor the golden four signals 
@@ -32,8 +31,9 @@ Clone this repo and document your monitoring strategy here:
 - [ ] Avoid false positives at all cost, all alerts must be actionable
 
 
-- [ ] Keep dashboard stupid simple
+- [ ] Keep dashboards stupid simple
 
 
 - [ ] Formalize your [optimization strategy](optimization-method.md)
+
 

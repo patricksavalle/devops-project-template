@@ -26,7 +26,7 @@ The versioning strategy determines the version numbering of releases. In general
 - [ ] Use CalVer for applications and apps
 
 
-- [ ] Backward compatibility for major version numbers is sacred
+- [ ] Backward compatibility between minor versions is sacred
 
 
 - [ ] Keep old versions running in parallel for a short but reasonable grace period before deprecation

@@ -25,9 +25,11 @@ There are four main processes in DevOps:
 
 ## Checklist
 
-### CI
+### General
 
 - [ ] [Project plan](content/project-plan.md)
+
+### CI
 
 - [ ] [Planning method](content/planning-method.md) 
 

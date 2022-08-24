@@ -22,13 +22,13 @@ cherry-picking elements from different methods, like ScrumBan.
  or if a functional design is available (see [Project Plan](project-plan.md)) 
 
 
-- [ ] Progressively move to Scrumban en ultimately Kanban (team-less crowdsourcing) as functionality stabilizes
+- [ ] Progressively move to Scrumban en ultimately [Kanban](#kanban) (team-less crowdsourcing) as functionality stabilizes
 
 
 - [ ] Include an architect in the team, certainly if he can also be the Agile coach
 
 
-- [ ] Allocate 50% of the board to non-functionals and DevOps maintenance
+- [ ] Allocate 50% of the board / time to non-functionals and DevOps maintenance
 
 
 - [ ] Open-source as much as (security-wise) possible to allow [scaling](../README.md#best-practices) your collaboration
