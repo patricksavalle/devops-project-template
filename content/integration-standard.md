@@ -12,27 +12,26 @@ Clone this repo and document your integration standard here:
 > - [Basics](#basics)
 
 The integration platform is a set of tools, patterns and guidelines that *must* be used to connect applications to each other.
-A modern platform typically consists of (API-) gateways, proxies, load-balancers, routers, message queues and caches. 
+A modern platform typically consists of (API-) gateways, proxies, load-balancers, routers, message queues and such. 
+Legacy platforms typically are build around a large central ESB (Enterprise Service Bus).
 
-The platform has a very dedicated function: decoupling of communication from location and in time (asynchronization).
+The platform has a very focused function: decoupling of communication in space (location) and in time (asynchronization).
 Use it exclusively for reliable, scalable and decoupled communication.
+Datalakes, databases, datawarehouses and streaming platforms are typically **not** part of the integration platform.
 
+There are different approaches to integration. The guidelines below provide maximal (team) autonomy and agility.
 ## Guidelines
-
-There are different approaches to integration. These guidelines provide maximal team autonomy and agility, matchting DevOps. 
-They avoid lock-in on specific technology, at the expense of having to include some extra non-functionality in the applications.
-
 
 - [ ] Backlog exceptions to these guidelines as technical debt
 
 
-- [ ] Teams are responsible for their own integrations
+- [ ] Register your application's integrations in the central registry here: ...................
 
 
-- [ ] Register your integrations in the central registry here: ...................
+- [ ] Teams are responsible for their own integrations, the platform must enable them
 
 
-- [ ] Assume the platform has no way of inspection data content
+- [ ] Assume the platform has no way of inspecting data content
 
 
 - [ ] Smart endpoints, dumb pipes! Do not use the integration platform for:
@@ -41,6 +40,8 @@ They avoid lock-in on specific technology, at the expense of having to include s
   - Storage
   - Replay
   - Security
+  - Hosting
+  - etc.
 
 
 - [ ] Use open standards
@@ -52,40 +53,45 @@ They avoid lock-in on specific technology, at the expense of having to include s
 - [ ] Always use fully qualified domain names
 
 
-- [ ] Use standard and well-supported [integration patterns](https://www.enterpriseintegrationpatterns.com/)
+- [ ] Use standard and well-documented [integration patterns](https://www.enterpriseintegrationpatterns.com/)
 
 
-- [ ] Build producers/servers consumer-agnostic
+- [ ] Your application always connects to component of the integration platform, never directly to other applications
 
 
-- [ ] Consumers/clients, not producers, do data transformation 
+- [ ] Build your producers/servers consumer-agnostic
+
+
+- [ ] Consumers/clients - not producers - do data transformation
 
 
 - [ ] Avoid using a unified intermediate format or canonical data model 
 
-
-- [ ] Avoid central components, decentralize integration to the application side, give teams control
-
-
-- [ ] Build your application assuming an untrusted environment (the open internet)
+  > These reduce agility and autonomy
 
 
-- [ ] Applications always connect to the integration platform never directly to other applications
+- [ ] Avoid central components, decentralize the integration platform to the application (e.g [sidecar pattern](https://www.oreilly.com/library/view/designing-distributed-systems/9781491983638/ch02.html))
+
+
+- [ ] Avoid central integration teams, give DevOps teams self-service
+
+
+- [ ] Build your application for an untrusted environment (the open internet)
 
 
 - [ ] Integrations may not disclose implementation details
 
 
-- [ ] Make communication asynchronous if possible
+- [ ] Make communication asynchronous as much as possible (using queues and topics)
 
 
-- [ ] Make shared services and resources state-less if possible
+- [ ] Make shared services and resources state-less as much as possible
 
 
-- [ ] Share reusable data and logic opportunistically (but secure) on the platform, even if there are no consumers yet
+- [ ] Share reusable data and logic **opportunistically** (but secure) on the platform, even if there are no consumers yet
   - Share passive data as REST resources ([request-response pattern](#basic-integration-patterns))
   - Share business logic as XML services ([request-response pattern](#basic-integration-patterns))
-  - Share streaming data on a MQ topic ([publish-subscribe pattern](#basic-integration-patterns))
+  - Share streaming data / telemetry on a MQ topic ([publish-subscribe pattern](#basic-integration-patterns))
 
 ## Basics
 
