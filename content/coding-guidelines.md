@@ -69,24 +69,33 @@ Design-by-Contract is a concept that originated in the Eiffel language but can b
 It uses ```assert``` syntax to check pre-conditions, post-conditions and invariants of a method's or function's contract. Example:
 
 ```
-public void transfer(Account source, Account target, BigDecimal amount) {
-    assert (amount.compareTo(BigDecimal.ZERO) <= 0);
-    assert (source.getBalance().compareTo(BigDecimal.ZERO) <= 0);
-    source.transfer(target, amount);
-    assert (source.getBalance().compareTo(BigDecimal.ZERO) <= 0);
-    // Other post-conditions...
+@Invariant({"title != null && title.length() > 0", "price > 0"})
+public class Book {
+    private final String title;
+    private int price;
+ 
+    @Requires({"title != null && title.length() > 0", "price > 0"})
+    public Book(String title, int price) {
+        this.title = title;
+        this.price = price;
+    }
+ 
+    @Requires("price > 0")
+    public void setPrice(int price) {
+        this.price = price;
+    } 
 }
 ```
 
 See: 
-- https://www.eiffel.com/values/design-by-contract/introduction/
-- http://se.inf.ethz.ch/~meyer/publications/computer/contract.pdf
-- https://en.wikipedia.org/wiki/Design_by_contract
+- [Eiffel - introduction DbC](https://www.eiffel.com/values/design-by-contract/introduction/)
+- [Meyer - Applying DbC](http://se.inf.ethz.ch/~meyer/publications/computer/contract.pdf)
+- [Wikipedia - Design by Contract](https://en.wikipedia.org/wiki/Design_by_contract)
 
 ## Const-correctness
 
 This is a concept that originated in early-days C++ programming but it can be applied to some in degree in other languages too. It is just another form of type safety that is supported by some languages through the ```const```-keyword..
 
 See: 
-- https://isocpp.org/wiki/faq/const-correctness
-- https://en.wikipedia.org/wiki/Const_(computer_programming)
+- [C++ const-correctness](https://isocpp.org/wiki/faq/const-correctness)
+- [Wikipedia - const](https://en.wikipedia.org/wiki/Const_(computer_programming))
