@@ -76,6 +76,8 @@ There are four main processes in DevOps:
 
 - [ ] [Rollback procedure](content/rollback-strategy.md)
 
+- [ ] [Disaster recovery procedure](content/disaster-recovery-procedure.md)
+
  
 ## Standards & Guidelines
 
