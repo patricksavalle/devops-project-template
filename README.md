@@ -50,9 +50,7 @@ There are four main processes in DevOps:
 
 - [ ] [Delivery strategy](content/delivery-strategy.md)
 
-- [ ] [Provisioning and Deployment](content/provisioning-deployment.md)
-
-- [ ] [Configuration management](content/configuration-management.md)
+- [ ] [Provisioning and configuration](content/provisioning-configuration.md)
 
 - [ ] [Acceptance Testing strategy](content/acceptance-testing-strategy.md)
 
@@ -209,3 +207,5 @@ A good interface is:
 
 To make collaboration scalable it must be based on [stigmergic principles](https://medium.com/@patricksavalle/designing-distributed-scalable-collaboration-9c6aabd5777e). 
 Both coding using Git and tasking using a Kanban board fullfills 
+
+![DevOps scalable collaboration](content/devops-collaboration.png)

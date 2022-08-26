@@ -11,6 +11,7 @@ Clone this repo and document your configuration management here:
 > - [IaC](#iac)
 > - [GitOps](#gitops)
 
+Provisioning is setting up the infrastructure.
 Configuration management is a establishing and maintaining the system in a desired, consistent state.
 
 ## Best practices
@@ -43,3 +44,20 @@ In the SCM Controller pattern, source code that controls CI/CD deployment activi
 Under the SCM Controller, the SCM service can internally execute actions such as builds, tests, and the eventual release to a staging or production target.
 
 See: https://www.redhat.com/architect/gitops-implementation-patterns 
+
+
+
+## Best practices
+
+
+## LAMP
+
+
+## Docker
+
+
+## Kubernetes
+
+
+## Cloud-native
+

@@ -55,7 +55,9 @@ Ops Includes all people involved in delivering and managing software products an
 
 ## Development Phases
 
-Alle new systems are built in phases. In agile projects these phases are done incrementally.
+All systems are built in phases. In agile projects these phases are done incrementally and only when needed.
+
+![Development Phases](devops-development-phases.png)
 
 ### 1. Requirements engineering and RAT's
 
@@ -64,6 +66,8 @@ Requirements engineering is the process of defining, documenting, and maintainin
 Requirements describe, using human language, prototypes and sketches, the service a system must provide
 concise enough to be used for system building and validation.
 This stage is done in collaboration with all stake-holder.
+
+With a strict [BDD/TDD](developer-testing-strategy.md) approach requirements are formulated as a set of tests which the implementation must satisfy. 
 
 #### RAT's
 
