@@ -188,7 +188,6 @@ Reasons to refactor a system include:
 - making parts of it reusable in other systems and improving changeability
 - restoring drift from ideal functional modularity caused by agile (design-less) project planning
 
-
 ### Encapsulation and Interfaces
 
 To make (implementation) complexity manageable it needs to be hidden, encapsulated by an interface. Users only need to see the (
@@ -205,7 +204,17 @@ A good interface is:
 
 ### Scalable collaboration
 
-To make collaboration scalable it must be based on [stigmergic principles](https://medium.com/@patricksavalle/designing-distributed-scalable-collaboration-9c6aabd5777e). 
-Both coding using Git and tasking using a Kanban board fullfills 
+To make collaboration scalable (distribuable):
+- tasks must be isolated, without too much context
+- tasks must be unassigned, so that anyone can collaborate
+- tasks must be independent, so many can be done in parallel
+- tasks must be on some kind of open marketplace / platform
+- only simple rules are needed to collaborate
+- no direct (same time, same place) communication is necessary 
+
+Both Git and Kanban are scalable. Scrum is not. Bug fixing is scalable, feature coding much less so. Etc.
+Good design helps scalability of collaboration. 
+
+See [stigmergic collaboration](https://medium.com/@patricksavalle/designing-distributed-scalable-collaboration-9c6aabd5777e) for some theory. 
 
 ![DevOps scalable collaboration](content/devops-collaboration.png)
