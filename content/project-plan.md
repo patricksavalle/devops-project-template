@@ -15,14 +15,14 @@ Clone this repo and document your project plan here:
 > - [Design Patterns](#design-patterns)
 > - [Platform](#platform)
 
-The project plan outlines the (intermediate) deliverables and project stages of the project as well as the general development strategy.
+The project plan outlines the (intermediate) deliverables and project stages as well as the general development strategy.
 
 ## Best Practices  
 
 - [ ] Use [POC](#proof-of-concept)'s to test assumptions as they become visible
 
 
-- [ ] Try to identify the [RAT's](#rats) (riskiest assumptions) as early in the project as possible
+- [ ] Try to identify and validate the [RAT's](#rats) (riskiest assumptions) as early in the project as possible
 
 
 - [ ] Use [prototypes](#prototype) to engineer requirements because not all stakeholders understand technical specifications
@@ -34,7 +34,7 @@ The project plan outlines the (intermediate) deliverables and project stages of 
 - [ ] Make a [technical design](#3-technical-design) every time the required functionality or proposed solution of a new feature is new to the team
 
 
-- [ ] Define and apply an [architecture](#architectures) before the [MVP](#minimum-viable-product) phase
+- [ ] Apply an [architecture](#architectures) before the [MVP](#minimum-viable-product) phase
 
 
 - [ ] Release a MVP as soon as possible, to get [user feedback](optimization-method.md) and test-run your DevOps setup
@@ -83,7 +83,7 @@ A functional design needs to be complete to be useful. This phase needs to be do
 #### Architecture
 
 Architecture applies regularity to system design by mandating patterns. This creates simplicity, flexibility and maintainability. 
-Architecture has many aspects, such as:
+[Architecture](#architectures) has many aspects, such as:
 - Security
 - Integration
 - Application
@@ -96,14 +96,11 @@ In modern application landscapes the [integration architecture](integration-stan
 Technical design translates the functional design into codeable constructions, using the appropriate technical
 standards, architectures and patterns.
 The design is formulated in UML.
-Technical design is not meant to be complete, just complete enough to manage codhttps://beapython.dev/2021/03/07/most-frequently-used-design-patterns-in-software-development/ing complexity.
-
+Technical design is not meant to be complete, just complete enough to manage coding complexity.
 
 ### 4. Implementation (coding)
 
-Coding creates an instantiable image of the software application.
-De code defines the state space (type) of the application. 
-User-interactions define its actual state (instance).
+Coding creates an instantiable image of the software application. Code is stored in Git.
 
 ## Product Stages
 
@@ -138,12 +135,12 @@ Modules usually have REST-API's through which they interact. Can be combined wit
 Can internally be [layered](#architectures). 
 
 
--  Layered
+- Layered
 
    The application is divided into layers of decreasing abstraction or separated concerns to manage complexity.
 
 
--  Event driven
+- Event driven
 
    The application is a collection of reactive event-handlers that publish and subscribe to [topics](integration-standard.md#types-of-integration) 
 The risk associated with this architecture is the event cascade where a single external event generates a cascade of internal events, and the tricky observability. 

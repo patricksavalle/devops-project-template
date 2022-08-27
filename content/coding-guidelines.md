@@ -87,6 +87,8 @@ public class Book {
 }
 ```
 
+DBC is not a substitute for [developer testing](developer-testing-strategy.md).
+
 See: 
 - [Eiffel - introduction DbC](https://www.eiffel.com/values/design-by-contract/introduction/)
 - [Meyer - Applying DbC](http://se.inf.ethz.ch/~meyer/publications/computer/contract.pdf)

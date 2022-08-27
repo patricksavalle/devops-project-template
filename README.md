@@ -111,7 +111,7 @@ There are four main processes in DevOps:
 - [ ] Make 50% of time allocatable to non-functionals, optimizations and DevOps infrastructure maintenance
 
 
-- [ ] Open-source as much as (security-wise etc.) possible to allow scaling of collaboration
+- [ ] Open-source as much as (security-wise etc.) possible to allow [scaling of collaboration](#scalable-collaboration)
 
 
 - [ ] Start with [trunk-based development](content/branching-strategy.md#trunk-based) and switch to a [GitFlow](content/branching-strategy.md) when the product reaches [MVP stage](content/project-plan.md#minimum-viable-product)
@@ -173,7 +173,7 @@ Complexity is roughly the result of quantity, diversity and coupling. Software c
 
 ### Functionals vs. Non-functionals
 
-Functionals are the system properties that the end-user needs to perform the desired tasks.
+Functionals are the system properties that the end-user interacts with to perform tasks.
 
 Non-functionals are the properties that give a system reliability, security, scalability, robustness, maintainability
 and changeability.
@@ -206,15 +206,16 @@ A good interface is:
 
 To make collaboration scalable (distribuable):
 - tasks must be isolated, without too much context
+- tasks must be small enough, to stay mergible back into the collective
 - tasks must be unassigned, so that anyone can collaborate
 - tasks must be independent, so many can be done in parallel
 - tasks must be on some kind of open marketplace / platform
 - only simple rules are needed to collaborate
 - no direct (same time, same place) communication is necessary 
 
-Both Git and Kanban are scalable. Scrum is not. Bug fixing is scalable, feature coding much less so. Etc.
+> Some examples: both Git and Kanban are scalable. Scrum is not. Bug fixing is scalable, feature coding much less so. Etc.
 Good design helps scalability of collaboration. 
 
-See [stigmergic collaboration](https://medium.com/@patricksavalle/designing-distributed-scalable-collaboration-9c6aabd5777e) for some theory. 
-
 ![DevOps scalable collaboration](content/devops-collaboration.png)
+
+See [stigmergic collaboration](https://medium.com/@patricksavalle/designing-distributed-scalable-collaboration-9c6aabd5777e) for some theory.
