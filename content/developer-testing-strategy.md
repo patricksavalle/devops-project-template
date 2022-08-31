@@ -16,7 +16,7 @@ Clone this repo and document your developer testing strategy here:
 The trick of testing in general is to fail as fast as possible when bugs still have minimal impact.
 
 Developer testing is used to check if the application code is ready to be deployed. 
-As opposed to [acceptance testing](acceptance-testing-strategy.md) that used after the application is deployed to check if a new deployment can be put into production.
+As opposed to [acceptance testing](acceptance-testing-strategy.md) that is done after the application is deployed to check if a new deployment can be put into production.
 
 > Another name for developer testing is unit-testing.
 
@@ -69,10 +69,10 @@ Developer tests are run manually during development and automated during continu
 
 ## Mocking
 
-Mocking is the general term for the different techniques to isolate modules from the integrations:
+Mocking is the general term for the different techniques that can be used to isolate modules (units) from their integrations:
 - Dummy objects are passed around but never actually used. Usually they are just used to fill parameter lists.
 - Fake objects actually have working implementations, but usually take some shortcut which makes them not suitable for production (an in-memory database is a good example).
-- Stubs provide canned answers to calls made during the test, usually not responding at all to anything outside what’s programmed in for the test…
+- Stubs provide canned answers to calls made during the test, usually not responding at all to anything outside what’s programmed in for the test.
 - Mocks are objects pre-programmed with expectations [that] form a specification of the calls they are expected to receive.
 
 See:

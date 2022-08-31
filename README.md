@@ -1,4 +1,4 @@
-# DevOps/Agile Project Template
+# DevOps Project Template
 
 *[CC-NC-SA-BY 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) By Patrick Savalle*
 
@@ -11,98 +11,76 @@
 > - [Best practices](#best-practices)
 > - [Fundamentals](#fundamentals)
 
-DevOps is an [iterative and incremental](#iterations-and-increments) approach to software development with emphasis on *autonomy*, *automation*, *continuous
+DevOps is a software development approach that uses an [iterative and incremental](#iterations-and-increments) approach with emphasis on *autonomy*, *automation*, *continuous
 improvement* and *collaboration* (loose definition).
 
 ![DevOps overview](content/devops-overview.png)
-
-There are four main processes in DevOps:
-
-- **Continuous Integration (CI)** - Merging new code into the production code.
-- **Continuous Delivery (CD)** - Putting application changes in production.
-- **Continuous Feedback (CF)** - Detecting suboptimalities in processes and deliverables.
-- **Continuous Operation (CO)** - Keeping the application up and running.
 
 ## Checklist
 
 ### General
 
 - [ ] [Project plan](content/project-plan.md)
+- [ ] [Tools](content/tools.md)
 
-### CI
+### Continuous Integration 
 
 - [ ] [Planning method](content/planning-method.md) 
-
 - [ ] [Branching strategy](content/branching-strategy.md)
-
 - [ ] [Design guidelines](content/design-guidelines.md)
-
 - [ ] [Coding guidelines](content/coding-guidelines.md)
-
 - [ ] [Versioning strategy](content/versioning-strategy.md)
- 
 - [ ] [Developer Testing strategy](content/developer-testing-strategy.md)
 
 
-### CD
+### Continuous Delivery 
 
 - [ ] [Pipeline setup](content/pipeline-setup.md)
-
 - [ ] [Delivery strategy](content/delivery-strategy.md)
-
 - [ ] [Provisioning and configuration](content/provisioning-configuration.md)
-
 - [ ] [Acceptance Testing strategy](content/acceptance-testing-strategy.md)
 
 
-### CF
+### Continuous Feedback 
 
 - [ ] [Optimization method](content/optimization-method.md)
-
 - [ ] [Production Testing strategy](content/production-testing-strategy.md)
-
 - [ ] [Feature request and issue tracking](content/feature-request-issue-tracking.md)
 
 
-### CO
+### Continuous Operation 
 
 - [ ] [Ops Strategy](content/operations-setup.md)
-
 - [ ] [Monitoring Strategy](content/monitoring-strategy.md)
-
 - [ ] [Incident management procedure](content/incident-management-procedure.md)
-
 - [ ] [Rollback procedure](content/rollback-strategy.md)
-
 - [ ] [Disaster recovery procedure](content/disaster-recovery-procedure.md)
 
  
-## Standards & Guidelines
+### Standards & Guidelines
 
 - [ ] [API standard](content/api-standard.md)
-
 - [ ] [Integration guidelines](content/integration-standard.md)
-
 - [ ] [Security guidelines](content/security-guidelines.md)
-
-## Tools
-
-- [ ] [Tools](content/tools.md)
 
 
 ## Best Practices
+See: [DevOps and software quality: A systematic mapping](https://www.sciencedirect.com/science/article/pii/S1574013720304081)
 
 
 - [ ] Never go dark, never assume, communicate with appropriate stakeholders in all phases of the project
 
 
-- [ ] Enable projects to function autonomously
+- [ ] Enable projects to function autonomously (enabling processes, architecture, governance)
 
 
 - [ ] Create in ever shorter increments and optimize in ever shorter iterations until everything is continuous
 
 
-- [ ] Move progressively to [Kanban](content/planning-method.md#kanban) and [innersourding](https://about.gitlab.com/topics/version-control/what-is-innersource/) as functionality stabilizes
+- [ ] Explicitly define optimality and continuously [remove sub-optimality](content/optimization-method.md)
+
+
+- [ ] Progressively move to [Kanban](content/planning-method.md#kanban) and [innersourding](https://about.gitlab.com/topics/version-control/what-is-innersource/) as functionality stabilizes
 
 
 - [ ] Include end-users in the learning loop as soon as possible
@@ -111,25 +89,19 @@ There are four main processes in DevOps:
 - [ ] Make 50% of time allocatable to non-functionals, optimizations and DevOps infrastructure maintenance
 
 
-- [ ] Open-source as much as (security-wise etc.) possible to allow [scaling of collaboration](#scalable-collaboration)
+- [ ] Open-source as much as (security-wise) possible to allow [scaling of collaboration](content/planning-method#scalable-collaboration)
 
 
 - [ ] Start with [trunk-based development](content/branching-strategy.md#trunk-based) and switch to a [GitFlow](content/branching-strategy.md) when the product reaches [MVP stage](content/project-plan.md#minimum-viable-product)
 
 
-- [ ] Everything is code, all code is in Git
+- [ ] Everything is code
 
 
 - [ ] Everything is automated
 
 
-- [ ] Everything is peer reviewed or tested
-
-
-- [ ] Explicitly define optimality 
-
-
-- [ ] Continuously [remove sub-optimality](content/optimization-method.md) 
+- [ ] Everything is tested
 
 
 ## Fundamentals
@@ -143,6 +115,8 @@ A selection of the system based on functionality present across multiple subsyst
 > Examples:
 > - the rooms of a house are subsystems, the electrical wiring and the plumbing are aspectsystems
 > - the pixels of a display are subsystems or parts, all red parts of the pixels together form an aspectsystem
+
+#### Dependency graph
 
 Parts of modular systems have a natural mutual order visualized by the a directed graph.
 This dependency graph visualizes how parts changes propagate and what is the most efficient
@@ -163,7 +137,7 @@ feed-back (bug reports, performance issues, enz.).
 
 ### Complexity
 
-Complexity is roughly the result of quantity, diversity and coupling. Software complexity can be managed with:
+Complexity is roughly the result of quantity, diversity and coupling. it can be managed with:
 
 - Divide-and-conquer
 - White-box / blackbox strategy
@@ -202,20 +176,3 @@ A good interface is:
 - Consistent
 - Documented
 
-### Scalable collaboration
-
-To make collaboration scalable (distribuable):
-- tasks must be isolated, without too much context
-- tasks must be small enough, to stay mergible back into the collective
-- tasks must be unassigned, so that anyone can collaborate
-- tasks must be independent, so many can be done in parallel
-- tasks must be on some kind of open marketplace / platform
-- only simple rules are needed to collaborate
-- no direct (same time, same place) communication is necessary 
-
-> Some examples: both Git and Kanban are scalable. Scrum is not. Bug fixing is scalable, feature coding much less so. Etc.
-Good design helps scalability of collaboration. 
-
-![DevOps scalable collaboration](content/devops-collaboration.png)
-
-See [stigmergic collaboration](https://medium.com/@patricksavalle/designing-distributed-scalable-collaboration-9c6aabd5777e) for some theory.

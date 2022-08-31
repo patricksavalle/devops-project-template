@@ -10,6 +10,7 @@ Clone this repo and document your integration standard here:
 >
 > - [Guidelines](#guidelines)
 > - [Basics](#basics)
+> - [Integration architecture](#integration-architecture)
 
 The integration platform is a set of tools, patterns and guidelines that *must* be used to connect applications to each other.
 A modern platform typically consists of (API-) gateways, proxies, load-balancers, routers, message queues and such. 
@@ -20,6 +21,8 @@ Use it exclusively for reliable, scalable and decoupled communication.
 Datalakes, databases, datawarehouses and streaming platforms are typically **not** part of the integration platform.
 
 There are different approaches to integration. The guidelines below provide maximal (team) autonomy and agility.
+
+
 ## Guidelines
 
 - [ ] Backlog exceptions to these guidelines as technical debt
@@ -29,6 +32,12 @@ There are different approaches to integration. The guidelines below provide maxi
 
 
 - [ ] Teams are responsible for their own integrations, the platform must enable them
+
+
+- [ ] Avoid central components decentralize the integration platform to the application (e.g [sidecar pattern](https://www.oreilly.com/library/view/designing-distributed-systems/9781491983638/ch02.html))
+
+
+- [ ] Avoid central integration teams, give DevOps teams self-service and autonomy
 
 
 - [ ] Assume the platform has no way of inspecting data content
@@ -50,13 +59,13 @@ There are different approaches to integration. The guidelines below provide maxi
   - MQTT 3.x and 5.x for IoT on lightweight and edge devices as fallback for AMQP 
 
 
-- [ ] Always use fully qualified domain names
+- [ ] Always use fully qualified names
 
 
 - [ ] Use standard and well-documented [integration patterns](https://www.enterpriseintegrationpatterns.com/)
 
 
-- [ ] Your application always connects to component of the integration platform, never directly to other applications
+- [ ] Your application always connects to components of the integration platform, never directly to other applications
 
 
 - [ ] Build your producers/servers consumer-agnostic
@@ -68,12 +77,6 @@ There are different approaches to integration. The guidelines below provide maxi
 - [ ] Avoid using a unified intermediate format or canonical data model 
 
   > These reduce agility and autonomy
-
-
-- [ ] Avoid central components, decentralize the integration platform to the application (e.g [sidecar pattern](https://www.oreilly.com/library/view/designing-distributed-systems/9781491983638/ch02.html))
-
-
-- [ ] Avoid central integration teams, give DevOps teams self-service
 
 
 - [ ] Build your application for an untrusted environment (the open internet)
@@ -88,7 +91,7 @@ There are different approaches to integration. The guidelines below provide maxi
 - [ ] Make shared services and resources state-less as much as possible
 
 
-- [ ] Share reusable data and logic **opportunistically** (but secure) on the platform, even if there are no consumers yet
+- [ ] Share reusable data and logic **opportunistically** (but secure) on the platform, even if there are no consumers (yet)
   - Share passive data as REST resources ([request-response pattern](#basic-integration-patterns))
   - Share business logic as XML services ([request-response pattern](#basic-integration-patterns))
   - Share streaming data / telemetry on a MQ topic ([publish-subscribe pattern](#basic-integration-patterns))
@@ -119,3 +122,16 @@ Integration allows modules to communicate with each other. Integration tooling n
 
 - Queues - message buffers that allow for asynchronous n:1 messaging
 - Topics – message buffers that allow for asynchronous n:m messaging often called PubSub from Publish-Subscribe
+
+
+## Integration architecture
+
+Integration patterns are 'architectural solution templates' across or between applications, often combined with the main architecture.
+
+- Client-server pattern
+- Master-slave pattern
+- Pipe-filter pattern
+- Broker pattern
+- Peer-to-peer pattern
+- [Event-bus pattern](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch02.html)
+

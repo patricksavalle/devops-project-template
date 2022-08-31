@@ -12,7 +12,6 @@ Clone this repo and document your project plan here:
 > - [Project Phases](#product-stages)
 > - [Product Stages](#product-stages)
 > - [Architectures](#architectures)
-> - [Design Patterns](#design-patterns)
 > - [Platform](#platform)
 
 The project plan outlines the (intermediate) deliverables and project stages as well as the general development strategy.
@@ -34,7 +33,7 @@ The project plan outlines the (intermediate) deliverables and project stages as 
 - [ ] Make a [technical design](#3-technical-design) every time the required functionality or proposed solution of a new feature is new to the team
 
 
-- [ ] Apply an [architecture](#architectures) before the [MVP](#minimum-viable-product) phase
+- [ ] Apply an [architecture](#architectures) before the [MVP](#minimum-viable-product) phase; the [microservices](#microservices) architecture is a good default to consider
 
 
 - [ ] Release a MVP as soon as possible, to get [user feedback](optimization-method.md) and test-run your DevOps setup
@@ -128,66 +127,20 @@ The Beta is a production-release which can be tested in a larger, tolerant user 
 The architecture is a pattern that is applied to the highest levels of aggregation of the application structure.
 Architectures can be recursively combined. Common architectures are: 
 
-- Microservices
+### Microservices
 
-  The application is divided into highly autonomous, single purpose, loosely coupled modules that have their own lifecycles and data stores.
-Modules usually have REST-API's through which they interact. Can be combined with an event-based architecture if asynchronous communication is necessary
-Can internally be [layered](#architectures). 
+In the [micoservices architecture](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch04.html) the application is divided into highly autonomous, single purpose, loosely coupled modules that have their own lifecycles and data stores.
+Modules usually have REST-API's through which they interact but can also be implemented using an [event-based architecture](integration-standard.md#types-of-integration) if asynchronous communication is necessary or advantageous. 
 
+See also: [The top 5 software architecture patterns: How to make the right choice](https://techbeacon.com/app-dev-testing/top-5-software-architecture-patterns-how-make-right-choice)
 
-- Layered
+### Microkernel
 
-   The application is divided into layers of decreasing abstraction or separated concerns to manage complexity.
+The [microkernel architecture](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch03.html) (sometimes referred to as the plug-in architecture pattern) is a natural pattern for implementing extensible, user configurable applications.
 
+### Space based
 
-- Event driven
-
-   The application is a collection of reactive event-handlers that publish and subscribe to [topics](integration-standard.md#types-of-integration) 
-The risk associated with this architecture is the event cascade where a single external event generates a cascade of internal events, and the tricky observability. 
-Limit generating internal events as much as possible, reacting predominantly to externally generated (functional) events
-
-
-- Microkernel
-
-   The microkernel architecture pattern (sometimes referred to as the plug-in architecture pattern) is a natural pattern for implementing extensible, user configurable applications.
-
-
-- Space based
-
-   The space-based architecture pattern is specifically designed to address and solve scalability and concurrency issues. The space-based pattern (also sometimes referred to as the cloud architecture pattern) minimizes the factors that limit application scaling.
-
-See: 
-- [Software Architecture Patterns by Mark Richards](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch05.html)
-- [The top 5 software architecture patterns: How to make the right choice](https://techbeacon.com/app-dev-testing/top-5-software-architecture-patterns-how-make-right-choice)
-
-Other architectures:
-
-- Layered pattern
-- Client-server pattern
-- Master-slave pattern
-- Pipe-filter pattern
-- Broker pattern
-- Peer-to-peer pattern
-- Event-bus pattern
-- Model-view-controller pattern
-- Blackboard pattern
-- Interpreter pattern
-
-From: [10 Common Software Architectural Patterns in a nutshell](https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013)
-
-## Design Patterns
-
-Design Patterns are 'solution templates'. Using design patterns is considered a best practice in the industry as the design patterns are already tried and tested.
-Common design patterns include:
-
-- Singleton
-- Factory
-- Decorator
-- Adapter
-- Observer
-
-See: [Most Frequently Used Design Patterns in Software Development]()
-
+The [space-based architecture](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch05.html) pattern is specifically designed to address and solve scalability and concurrency issues. The space-based pattern (also sometimes referred to as the cloud architecture pattern) minimizes the factors that limit application scaling.
 
 
 ## Platform 

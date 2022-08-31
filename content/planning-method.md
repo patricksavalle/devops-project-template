@@ -7,6 +7,8 @@ Clone this repo and document your planning method here:
 
 ```
 > Content
+> - [Best practices](#best-practices)
+> - [Scalable collaboration](#scalable-collaboration)
 > - [Waterfall](#waterfall)
 > - [Scrum](#scrum)
 > - [Kanban](#kanban)
@@ -18,21 +20,40 @@ cherry-picking elements from different methods, like ScrumBan.
 
 ## Best Practices
 
-- [ ] Scrum is a good default if the application has obvious natural increments (e.g. the screens of UI's or endpoints of API's) 
- or if a functional design is available (see [Project Plan](project-plan.md)) 
-
+- [ ] Scrum is a good default 
+  - **if** the application has obvious natural increments (e.g. the screens of UI's or endpoints of API's) or a functional design is available (see [Project Plan](project-plan.md)) 
+  - **and** a backlog of user-stories is available or an external process for requirements engineering is in place
+  
 
 - [ ] Progressively move to Scrumban en ultimately [Kanban](#kanban) (team-less crowdsourcing) as functionality stabilizes
 
 
-- [ ] Include an architect in the team, certainly if he can also be the Agile coach
+- [ ] Include an architect in the team, certainly if he can also be the DevOps coach
 
 
-- [ ] Allocate 50% of the board / time to non-functionals and DevOps maintenance
+- [ ] Allocate 50% of project time to non-functionals, optimization and DevOps maintenance
 
 
 - [ ] Open-source as much as (security-wise) possible to allow [scaling](../README.md#best-practices) your collaboration
 
+
+### Scalable collaboration
+
+To make collaboration scalable (distribuable):
+- tasks must be isolated, without too much context
+- tasks must be small enough, to stay mergible back into the collective
+- tasks must be unassigned, so that anyone can collaborate
+- tasks must be independent, so many can be done in parallel
+- tasks must be on some kind of open marketplace / platform
+- only simple rules are needed to collaborate
+- no direct (same time, same place) communication is necessary
+
+> Some examples: both Git and Kanban are scalable. Scrum is not. Bug fixing is scalable, feature coding much less so. Etc.
+Good design helps scalability of collaboration.
+
+![DevOps scalable collaboration](devops-collaboration.png)
+
+See [stigmergic collaboration](https://medium.com/@patricksavalle/designing-distributed-scalable-collaboration-9c6aabd5777e) for some theory.
 
 ## Waterfall
 
@@ -63,7 +84,7 @@ once the functionality stabilizes, Kanban is a better choice
 ## Kanban
 
 This is the simplest but most scalable method. Especially suited for ad hoc, isolated tasks that need
-to be crowd-sourced. Kanban has no specific roles or team composition.
+to be open-sourced. Kanban has no specific roles or team composition.
 
 > General purpose, scalable method that is a good choice for:
 > - bug fixing
