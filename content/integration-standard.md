@@ -45,9 +45,8 @@ There are different approaches to integration. The guidelines below provide maxi
 
 - [ ] Smart endpoints, dumb pipes! Do not use the integration platform for:
   - Business logic
-  - Transformation
-  - Storage
-  - Replay
+  - Validation, enrichment, transformation
+  - Storage, replay
   - Security
   - Hosting
   - etc.
@@ -74,9 +73,7 @@ There are different approaches to integration. The guidelines below provide maxi
 - [ ] Consumers/clients - not producers - do data transformation
 
 
-- [ ] Avoid using a unified intermediate format or canonical data model 
-
-  > These reduce agility and autonomy
+- [ ] Avoid using a unified intermediate format or canonical data model as these reduce agility and autonomy
 
 
 - [ ] Build your application for an untrusted environment (the open internet)

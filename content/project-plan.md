@@ -124,6 +124,8 @@ The Beta is a production-release which can be tested in a larger, tolerant user 
 
 ## Architectures
 
+See also: [Integration architectures](integration-standard.md#integration-architecture)
+
 The architecture is a pattern that is applied to the highest levels of aggregation of the application structure.
 Architectures can be recursively combined. Common architectures are: 
 
