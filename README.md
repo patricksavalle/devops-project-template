@@ -32,21 +32,20 @@ improvement* and *collaboration* (loose definition).
 - [ ] [Versioning strategy](content/versioning-strategy.md)
 - [ ] [Developer Testing strategy](content/developer-testing-strategy.md)
 
-
 ### Continuous Delivery 
+
+See: [continuousdelivery.com](https://continuousdelivery.com/)
 
 - [ ] [Pipeline setup](content/pipeline-setup.md)
 - [ ] [Delivery strategy](content/delivery-strategy.md)
 - [ ] [Provisioning and configuration](content/provisioning-configuration.md)
 - [ ] [Acceptance Testing strategy](content/acceptance-testing-strategy.md)
 
-
 ### Continuous Feedback 
 
 - [ ] [Optimization method](content/optimization-method.md)
 - [ ] [Production Testing strategy](content/production-testing-strategy.md)
 - [ ] [Feature request and issue tracking](content/feature-request-issue-tracking.md)
-
 
 ### Continuous Operation 
 
@@ -56,13 +55,11 @@ improvement* and *collaboration* (loose definition).
 - [ ] [Rollback procedure](content/rollback-strategy.md)
 - [ ] [Disaster recovery procedure](content/disaster-recovery-procedure.md)
 
- 
 ### Standards & Guidelines
 
 - [ ] [API standard](content/api-standard.md)
 - [ ] [Integration guidelines](content/integration-standard.md)
 - [ ] [Security guidelines](content/security-guidelines.md)
-
 
 ## Best Practices
 See: [DevOps and software quality: A systematic mapping](https://www.sciencedirect.com/science/article/pii/S1574013720304081)
@@ -80,7 +77,7 @@ See: [DevOps and software quality: A systematic mapping](https://www.sciencedire
 - [ ] Explicitly define optimality and continuously [remove sub-optimality](content/optimization-method.md)
 
 
-- [ ] Progressively move to [Kanban](content/planning-method.md#kanban) and [innersourding](https://about.gitlab.com/topics/version-control/what-is-innersource/) as functionality stabilizes
+- [ ] Progressively move to [Kanban](content/planning-method.md#kanban) and [crowd sourding](https://about.gitlab.com/topics/version-control/what-is-innersource/) as functionality stabilizes
 
 
 - [ ] Include end-users in the learning loop as soon as possible

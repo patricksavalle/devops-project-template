@@ -21,13 +21,13 @@ User Acceptance Testing (UAT) is used to check if a new feature can be made acce
 - [ ] Share test results with appropriate partners
 
 
-- [ ] Create representable scenario's with clear acceptance criteria
+- [ ] Create representative (business value) scenario's with clear acceptance criteria
 
 
 - [ ] Have your [incident reporting procedures](incident-management-procedure.md) in place before UAT-ing
 
 
-- [ ] Acceptance test in [production](delivery-strategy.md#no-ta) (user ring, feature flags, etc.)
+- [ ] Do UAT in [production](delivery-strategy.md#no-ta) (user ring, feature flags, etc.)
 
 
 - [ ] Testing-in-production requires good [monitoring](monitoring-strategy.md) and working [continuous feedback](optimization-method.md)

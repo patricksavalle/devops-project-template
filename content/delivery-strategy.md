@@ -15,6 +15,10 @@ Clone this repo and document your delivery strategy here:
 The delivery strategy determines how new deployments are tested before they're put into production. 
 The Delivery strategy should be aligned with application architecture and [rollback](rollback-strategy)- and [testing-strategy](acceptance-testing-strategy.md)
 
+See: 
+- [Four Principles of Low-Risk Software Releases](https://www.informit.com/articles/article.aspx?p=1833567)
+- [Implementing Continuous Delivery](https://continuousdelivery.com/implementing/)
+
 ## Best practices
 
 - [ ] Choose a strategy that matches your architecture and project
@@ -22,7 +26,19 @@ The Delivery strategy should be aligned with application architecture and [rollb
   -  Simple web project can work very well with DTAP
 
 
-- [ ] Use deployment rings to progressively expose new features to a wider audience
+- [ ] Progressively expose new features to a wider audience to reduce blast radius of bugs
+
+
+- [ ] Low-risk releases are incremental
+
+
+- [ ] Decouple deployment and release
+
+
+- [ ] Focus on reducing batch (new features) size
+
+
+- [ ] Optimize for resilience
 
 
 ## DTAP
@@ -41,7 +57,11 @@ Large modular systems (s.a. microservices architectures) are difficult to contin
 Non-production environments are often not representative for tests either. The solution is Testing-in-Operation. Techniques includes:
 - Feature flags
 - Ring deployments
+- Dark launches
 - Blue Green  
+
+
+https://martinfowler.com/bliki/BlueGreenDeployment.html
 
 
 
