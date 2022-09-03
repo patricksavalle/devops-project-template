@@ -11,7 +11,7 @@
 > - [Best practices](#best-practices)
 > - [Fundamentals](#fundamentals)
 
-DevOps is a software development approach that uses an [iterative and incremental](#iterations-and-increments) approach with emphasis on *autonomy*, *automation*, *continuous
+DevOps is an [iterative and incremental](#iterations-and-increments) software development approach with emphasis on *autonomy*, *automation*, *continuous
 improvement* and *collaboration* (loose definition).
 
 ![DevOps overview](content/devops-overview.png)
@@ -77,7 +77,7 @@ See: [DevOps and software quality: A systematic mapping](https://www.sciencedire
 - [ ] Explicitly define optimality and continuously [remove sub-optimality](content/optimization-method.md)
 
 
-- [ ] Progressively move to [Kanban](content/planning-method.md#kanban) and [crowd sourding](https://about.gitlab.com/topics/version-control/what-is-innersource/) as functionality stabilizes
+- [ ] Progressively move to [Kanban](content/planning-method.md#kanban) and [crowd sourding](content/planning-method.md#scalable-collaboration) as functionality stabilizes
 
 
 - [ ] Include end-users in the learning loop as soon as possible

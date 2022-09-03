@@ -12,6 +12,8 @@ Clone this repo and document your optimization method here:
 > - [Kaizen](#kaizen)
 > - [6Sigma](#six-sigma-dmaic)
 
+![optimisation](devops-planning-optimisation.png)
+
 Optimization is an iterative process based on feedback or learning loops.
 An optimization method determines the  *iterations* of the project. 
 DevOps is compatible with many optimization methods. 
@@ -25,12 +27,11 @@ Optimizations include:
 
 Optimization starts with detecting sub-optimality or waste.
 
+[Incident management](incident-management-procedure.md) is not optimization: optimizations are fed back to the planning process whereas incidents are handled immediately.
+
 ## Best Practices
 
-- [ ] [Incident management](incident-management-procedure.md) is not optimization: optimizations are fed back to the planning process whereas incidents are handled immediately
-
-
-- [ ] Explicitly define optimality, make deviations objective
+- [ ] Explicitly define optimality, make sub-optimality measurable
 
 
 - [ ] optimize only what can be measured (monitored)
