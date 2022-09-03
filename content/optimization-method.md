@@ -37,13 +37,13 @@ Optimization starts with detecting sub-optimality or waste.
 - [ ] optimize only what can be measured (monitored)
 
 
-- [ ] Continuously identify **and** backlog sub-optimality 
+- [ ] Continuously identify **and** backlog sub-optimality in periodic optimization ceremonies
 
 
 - [ ] Build for observability (logging, tracing, monitoring)
 
 
-- [ ] Build for testing in production (fault injection, user rings)
+- [ ] Build for [production-testing](production-testing-strategy.md) (fault injection, chaos engineering)
 
 
 ## Optimality
@@ -55,27 +55,25 @@ To be able to optimize, optimality must be defined (quantified) and continuously
 ## LEAN
 
 Lean software development is a translation of lean manufacturing principles and practices to the software development domain.
+Part of Lean is to continuously eliminate waste.
+Lean (TPS) recognizes 3 types of waste
 
-1. Eliminate waste
-2. Building Quality In
-3. Amplify Knowledge
-4. Decide as late as possible
-5. Deliver as fast as possible
-6. Empower the team
-7. Optimize the whole
+- Muda : waste, uselessness, non-value added or idleness
+- Muri : overburden, impossible, beyond one’s power excessiveness.
+- Mura : unevenness, irregularity or lack of uniformity.
 
-Waste includes:
+Translated to DevOps this includes:
 
 - Partially done work
-- Extra features
+- Extra or useless features
 - Relearning
 - Task switching
 - Waiting
-- Handoffs
 - Defects
 - Management activities
+- Too much diversity in design and processes
 
-Wee: https://en.wikipedia.org/wiki/Lean_software_development 
+See: [World of Agile](https://worldofagile.com/blog/devops-and-lean/) 
 
 ## Kaizen
 
@@ -96,4 +94,8 @@ Kaizen is a concept referring to business activities that continuously improve a
 3. Analyse
 4. Improve
 5. Control
+
+## ITIL
+
+
 
