@@ -103,25 +103,27 @@ See: [DevOps and software quality: A systematic mapping](https://www.sciencedire
 
 ## Fundamentals
 
-### Parts, aspects and modularity
+### Modularity
 
-Systems are made up of interconnected subsystems (partitions or parts), this is called **modularity**.
-Parts have natural low coupling externally and high cohesion internally.
-A selection of the system based on functionality present across multiple subsystems is called an aspectsystem or (aspect).
+Systems are made up of interconnected **subsystems** (partitions or parts), this is called **modularity**.
+Parts have natural **low coupling** externally and **high cohesion** internally.
+
+A selection of the system based on functionality present across multiple subsystems is called an **aspectsystem** or (aspect).
 
 > Examples:
-> - the rooms of a house are subsystems, the electrical wiring and the plumbing are aspectsystems
-> - the pixels of a display are subsystems or parts, all red parts of the pixels together form an aspectsystem
+> - the rooms of a house are subsystems, the electrical wiring and the plumbing of a house are aspectsystems
+> - the RGB-pixels of a display are subsystems or parts, all red pixels of the display form an aspectsystem
 
 #### Dependency graph
 
-Parts of modular systems have a natural mutual order visualized by the a directed graph.
-This dependency graph visualizes how parts changes propagate and what is the most efficient
-order in which to build the system. To determine this order it's layering must be determined:
+Parts of modular systems have a natural mutual order visualized by a directed graph.
+This dependency graph visualizes how changes propagate and what is the most efficient
+order in which to build the system. 
+To determine this order:
 1. Modules with no outgoing dependencies have layer 0
-1. A module's layer number is the longest path to layer 0
-1. Modules that have mutual / cyclic dependencies are on the same layer
-1. The system must be build in ascending order of layers
+2. A module's layer number is the longest path to layer 0
+3. Modules that have mutual / cyclic dependencies are on the same layer
+4. The system must be build in ascending order of layers
 
 The Modularity Principle states that programs should be built from cohesive, loosely coupled modules in order of their
 dependencies. Modules translate to increments in the [planning](content/planning-method.md). 
@@ -139,8 +141,8 @@ Complexity is roughly the result of quantity, diversity and coupling. it can be 
 - Divide-and-conquer
 - White-box / blackbox strategy
 - Encapsulation
-- Patterns or symmetry
-- Abstraction
+- Patterns or symmetry (reducing diversity)
+- Abstraction 
 
 ### Functionals vs. Non-functionals
 
