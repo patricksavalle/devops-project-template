@@ -113,7 +113,27 @@ Kaizen is a concept referring to business activities that continuously improve a
 2. Measure
 3. Analyse
 4. Improve
-5. Control
+5. Control or verify
+
+
+The Characteristics of Six Sigma are as follows:
+
+- **Statistical Quality Control**: Six Sigma is derived from the Greek Letter ? which denote Standard Deviation in statistics. Standard Deviation is used for measuring the quality of output.
+
+
+- **Methodical Approach**: The Six Sigma is a systematic approach of application in DMAIC and DMADV which can be used to improve the quality of production. DMAIC means for Design-Measure- Analyze-Improve-Control. While DMADV stands for Design-Measure-Analyze-Design-Verify.
+
+
+- **Fact and Data-Based Approach**: The statistical and methodical method shows the scientific basis of the technique.
+
+
+- **Project and Objective-Based Focus**: The Six Sigma process is implemented to focus on the requirements and conditions.
+
+
+- **Customer Focus**: The customer focus is fundamental to the Six Sigma approach. The quality improvement and control standards are based on specific customer requirements.
+
+
+- **Teamwork Approach to Quality Management**: The Six Sigma process requires organizations to get organized for improving quality.
 
 ## ITIL
 
