@@ -21,7 +21,7 @@ improvement* and *collaboration* (loose definition).
 ### General
 
 - [ ] [Project plan](content/project-plan.md)
-- [ ] [Tools](content/tools.md)
+- [ ] [Tooling](content/tools.md)
 
 ### Continuous Integration 
 
@@ -77,7 +77,7 @@ See: [DevOps and software quality: A systematic mapping](https://www.sciencedire
 - [ ] Explicitly define optimality and continuously [remove sub-optimality](content/optimization-method.md)
 
 
-- [ ] Progressively move to [Kanban](content/planning-method.md#kanban) and [crowd sourding](content/planning-method.md#scalable-collaboration) as functionality stabilizes
+- [ ] Progressively move to [Kanban](content/planning-method.md#kanban) and [crowd sourding](#scalable-collaboration) as functionality stabilizes
 
 
 - [ ] Include end-users in the learning loop as soon as possible
@@ -86,7 +86,7 @@ See: [DevOps and software quality: A systematic mapping](https://www.sciencedire
 - [ ] Make 50% of time allocatable to non-functionals, optimizations and DevOps infrastructure maintenance
 
 
-- [ ] Open-source as much as (security-wise) possible to allow [scaling of collaboration](content/planning-method#scalable-collaboration)
+- [ ] Open-source as much as (security-wise) possible to allow [scaling of collaboration](#scalable-collaboration)
 
 
 - [ ] Start with [trunk-based development](content/branching-strategy.md#trunk-based) and switch to a [GitFlow](content/branching-strategy.md) when the product reaches [MVP stage](content/project-plan.md#minimum-viable-product)
@@ -174,4 +174,25 @@ A good interface is:
 - Self-explanatory
 - Consistent
 - Documented
+
+### Scalable collaboration
+
+Development collaboration in DevOps is done using a task board.
+Scalable collaboration means stories and tasks on the board can be crowd-sourced, beyond the teams.
+To make this collaboration scalable (distributable):
+- tasks must be isolated, without too much context
+- tasks must be small, to stay mergible back into the collective
+- tasks must be unassigned, so that anyone can collaborate
+- tasks must be independent, so many can be done in parallel
+- tasks must be on some kind of open marketplace / platform
+- only simple rules are needed to collaborate
+- no direct (same time, same place) communication is necessary
+
+> Some examples: both Git and Kanban are scalable. Scrum is not. Bug fixing is scalable, feature coding much less so. Etc.
+Good design helps scalability of collaboration.
+
+![DevOps scalable collaboration](content/devops-collaboration.png)
+
+See [stigmergic collaboration](https://medium.com/@patricksavalle/designing-distributed-scalable-collaboration-9c6aabd5777e) for some theory.
+
 
