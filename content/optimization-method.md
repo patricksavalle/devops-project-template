@@ -8,7 +8,7 @@ Clone this repo and document your optimization method here:
 ```
 > Content
 > - [Tips and hints](#tips-and-hints)
-> - [LEAN](#lean)
+> - [LEAN](#lsd-lean)
 > - [Kaizen](#kaizen)
 > - [6Sigma](#six-sigma-dmaic)
 
@@ -31,13 +31,19 @@ Optimization starts with detecting sub-optimality or waste.
 
 ## Tips and hints
 
-- [ ] Explicitly define optimality, make sub-optimality measurable
+- [ ] Implement [LSD](#lsd-lean) (LEAN) as optimization method before the [MVP](project-plan.md#minimum-viable-product) is released 
+
+
+- [ ] Explicitly define [optimality](#optimality), make sub-optimality measurable
 
 
 - [ ] optimize only what can be measured (monitored)
 
 
 - [ ] Continuously identify **and** backlog sub-optimality in periodic optimization ceremonies
+
+
+- [ ] Distinguish between waste / sub-optimality in the DevOps process itself and in the user's processes as facilitated by the product
 
 
 - [ ] Build for observability (logging, tracing, monitoring)
@@ -52,28 +58,42 @@ To be able to optimize, optimality must be defined (quantified) and continuously
 
 [TODO] 
 
-## LEAN
+## LSD (LEAN)
 
 Lean software development is a translation of lean manufacturing principles and practices to the software development domain.
 Part of Lean is to continuously eliminate waste.
-Lean (TPS) recognizes 3 types of waste
+The original Lean (TPS) recognized 3 types of waste
 
-- Muda : waste, uselessness, non-value added or idleness
-- Muri : overburden, impossible, beyond one’s power excessiveness.
-- Mura : unevenness, irregularity or lack of uniformity.
+- **Muda** : waste, uselessness, non-value added or idleness
+- **Muri** : overburden, impossible, beyond one’s power excessiveness.
+- **Mura** : unevenness, irregularity or lack of uniformity.
 
-Translated to DevOps this includes:
+### Types of waste
 
-- Partially done work
-- Extra or useless features
-- Relearning
-- Task switching
-- Waiting
-- Defects
-- Management activities
-- Too much diversity in design and processes
+Waste elimination is defined as the removal of anything that fails to add value to your development process and/or the final product. Here are the seven types of waste identified by LSD:
 
-See: [World of Agile](https://worldofagile.com/blog/devops-and-lean/) 
+- **Software defects.** Prevent bugs from being introduced in the first place.
+
+
+- **Hand-offs.** Passing the work from one specialist, team, or department to another causes pauses and delays. 
+
+
+- **Waiting/Delays.** When a development team member isn't able to move forward on the highest priority task.
+
+
+- **Task switching.** This waste occurs when developers need to jump from one context to another. 
+
+
+- **Repetitive processing of the same information, or re-learning.** This happens when a team doesn’t have an effective knowledge-sharing approach and poorly documents its decisions.
+
+
+- **Extra or unnecessary features.** These are features that don’t solve a customer issue, or generally have low priority. 
+
+
+- **Incomplete or partially completed work.** There are many examples of this type of waste: unfinished/partially developed but never released features; hours spent in meetings without any actionable steps defined; bugs that are defined and discussed, but never fixed; a completed design for a full-featured module that is only partially implemented.
+
+
+See: [Key principles of Lean Software Development methodology](https://railsware.com/blog/lean-software-development-guide/)
 
 ## Kaizen
 

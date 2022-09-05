@@ -24,16 +24,23 @@ cherry-picking elements from different methods, like ScrumBan.
 
 - [ ] [Scrum](#scrum) is a good default if:
   - the application has obvious natural increments (e.g. the screens of UI's or endpoints of API's) or a functional design is available (see [Project Plan](project-plan.md)) 
-  - a backlog of user-stories is available or an external process for requirements engineering is in place
+  - a product backlog of user-stories is available or an external process for requirements engineering is in place
 
 
-- [ ] [DSDM](#dsdm) is a good default when requirements need to be engineered JIT on on-the-fly
+- [ ] [DSDM](#dsdm) is a good default when requirements can / need to be engineered JIT or on-the-fly
 
 
 - [ ] Progressively move to Scrumban en ultimately [Kanban](#kanban) (team-less crowdsourcing) as functionality stabilizes
 
 
 - [ ] Allocate 50% of project time to non-functionals, optimization and DevOps maintenance
+
+
+- [ ] Plan minimal valuable increments and measure their success
+
+
+- [ ] Allocate dedicated periods to focus on one context only, avoid context-switching
+
 
 
 ## Waterfall
@@ -46,7 +53,7 @@ Waterfall projects have the classic planning increments:
 - Testing
 - Maintenance
 
-The waterfall is still relevant but as a staged process in which (larger) project increments are waterfalls on their own, many in parallel.
+> The waterfall is still relevant but as a staged process in which (larger) project increments are waterfalls on their own, many in parallel.
 
 ## Scrum
 
@@ -91,12 +98,21 @@ See: [The DSDM handbook](https://www.agilebusiness.org/page/TheDSDMAgileProjectF
 >  - cost or time-limited projects with higher degree of uncertainty
 >  - projects that can be developed in close collaboration with business and users
 
-## LSD (LEAN Software Development)
+## LEAN startup
 
-This method is especially well suited for developing applications that are based on new, unproven functionality, technology and/or concepts.
-Key in LEAN startup is validating the riskiest assumptions as soon and cheap as possible. Every decision is based on representative proof.
+The Lean Startup provides a scientific approach to creating and managing startups and get a desired product to customers' hands faster. 
+The Lean Startup method teaches you how to drive a startup-how to steer, when to turn, and when to persevere-and grow a business with maximum acceleration. 
+It is a principled approach to new product development.
 
 In general the development progresses from POC's to prototypes to a MVP.
+
+See [Lean Startup Methodology](http://theleanstartup.com/principles)
+
+
+## LSD (LEAN Software Development)
+
+Lean Software Development (LSD) is a methodology that helps software development teams focus on delivering the values that matter most to customers, while simultaneously removing from the process anything that can waste time and resources.
+The idea of eliminating waste from the production process was initially conceived by the car manufacturer Toyota. Anything that didn’t affect the final product’s value and delivery was simply removed from the overall process.
 
 See [Everything you need to know about the LSD](https://railsware.com/blog/lean-software-development-guide/)
 

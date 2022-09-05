@@ -42,6 +42,12 @@ The project plan outlines the (intermediate) deliverables and project stages as 
 - [ ] Regularly refactor the implementation's [dependency graph](../README.md#modularity) to the desired state (often the functional design's [modularity](../README.md#modularity))
 
 
+- [ ] Do not elaborate detailed plans in advance, delay planning until the last moment possible 
+
+
+- [ ] Do not plan the ideal system, design for immediate value and changeability, and evolve 
+
+
 ## Stakeholders
 
 Primarily: 
@@ -164,4 +170,5 @@ The [space-based architecture](https://www.oreilly.com/library/view/software-arc
 ### Docker
 
 ### Kubernetes
+
 

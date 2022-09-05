@@ -34,8 +34,6 @@ improvement* and *collaboration* (loose definition).
 
 ### Continuous Delivery 
 
-See: [continuousdelivery.com](https://continuousdelivery.com/)
-
 - [ ] [Pipeline setup](content/pipeline-setup.md)
 - [ ] [Delivery strategy](content/delivery-strategy.md)
 - [ ] [Provisioning and configuration](content/provisioning-configuration.md)
@@ -61,11 +59,18 @@ See: [continuousdelivery.com](https://continuousdelivery.com/)
 - [ ] [Integration guidelines](content/integration-standard.md)
 - [ ] [Security guidelines](content/security-guidelines.md)
 
+See: 
+- [continuousdelivery.com](https://continuousdelivery.com/)
+
+
 ## Tips and hints
 See: [DevOps and software quality: A systematic mapping](https://www.sciencedirect.com/science/article/pii/S1574013720304081)
 
 
 - [ ] Never go dark, never assume, communicate with appropriate stakeholders in all phases of the project
+
+
+- [ ] Plan minimal valuable increments and measure their success before progressing upon them
 
 
 - [ ] Enable projects to function autonomously and self-organising (self-service, architecture, governance)
