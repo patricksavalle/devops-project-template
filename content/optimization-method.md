@@ -72,7 +72,7 @@ The original Lean (TPS) recognized 3 types of waste
 
 Waste elimination is defined as the removal of anything that fails to add value to your development process and/or the final product. Here are the seven types of waste identified by LSD:
 
-- **Software defects.** Prevent bugs from being introduced in the first place.
+- **Defects or bugs.** Prevent bugs from being introduced in the first place.
 
 
 - **Hand-offs.** Passing the work from one specialist, team, or department to another causes pauses and delays. 
@@ -107,6 +107,8 @@ Kaizen is a concept referring to business activities that continuously improve a
 6. Kaizen is everybody’s business
 7. Make small changes over time
 
+The approach first originated in Japan in which everyone must continually evaluate his or her work at each step helping them with a chance to look back and understand where they could have done better. The Kaizen approach proves to be more collaborative giving every individual a way to become smarter employees.
+
 ## Six Sigma (DMAIC)
 
 1. Define
@@ -118,24 +120,23 @@ Kaizen is a concept referring to business activities that continuously improve a
 
 The Characteristics of Six Sigma are as follows:
 
-- **Statistical Quality Control**: Six Sigma is derived from the Greek Letter ? which denote Standard Deviation in statistics. Standard Deviation is used for measuring the quality of output.
+- **Statistical Quality Control.** Six Sigma is derived from the Greek Letter ? which denote Standard Deviation in statistics. Standard Deviation is used for measuring the quality of output.
 
 
-- **Methodical Approach**: The Six Sigma is a systematic approach of application in DMAIC and DMADV which can be used to improve the quality of production. DMAIC means for Design-Measure- Analyze-Improve-Control. While DMADV stands for Design-Measure-Analyze-Design-Verify.
+- **Methodical Approach.** The Six Sigma is a systematic approach of application in DMAIC and DMADV which can be used to improve the quality of production. DMAIC means for Design-Measure- Analyze-Improve-Control. While DMADV stands for Design-Measure-Analyze-Design-Verify.
 
 
-- **Fact and Data-Based Approach**: The statistical and methodical method shows the scientific basis of the technique.
+- **Fact and Data-Based Approach.** The statistical and methodical method shows the scientific basis of the technique.
 
 
-- **Project and Objective-Based Focus**: The Six Sigma process is implemented to focus on the requirements and conditions.
+- **Project and Objective-Based Focus.** The Six Sigma process is implemented to focus on the requirements and conditions.
 
 
-- **Customer Focus**: The customer focus is fundamental to the Six Sigma approach. The quality improvement and control standards are based on specific customer requirements.
+- **Customer Focus.** The customer focus is fundamental to the Six Sigma approach. The quality improvement and control standards are based on specific customer requirements.
 
 
-- **Teamwork Approach to Quality Management**: The Six Sigma process requires organizations to get organized for improving quality.
+- **Teamwork Approach to Quality Management.** The Six Sigma process requires organizations to get organized for improving quality.
 
-## ITIL
 
 
 
