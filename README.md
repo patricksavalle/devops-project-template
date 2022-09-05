@@ -68,7 +68,7 @@ See: [DevOps and software quality: A systematic mapping](https://www.sciencedire
 - [ ] Never go dark, never assume, communicate with appropriate stakeholders in all phases of the project
 
 
-- [ ] Enable projects to function autonomously (enabling processes, architecture, governance)
+- [ ] Enable projects to function autonomously and self-organising (self-service, architecture, governance)
 
 
 - [ ] Create in ever shorter increments and optimize in ever shorter iterations until everything is continuous

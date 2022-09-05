@@ -18,33 +18,38 @@ The project plan outlines the (intermediate) deliverables and project stages as 
 
 ## Tips and hints  
 
-- [ ] Use [POC](#proof-of-concept)'s to test assumptions as they become visible
+- [ ] Use [POC](#proof-of-concept)'s to test assumptions before they are implemented
 
 
 - [ ] Try to identify and validate the [RAT's](#rats) (riskiest assumptions) as early in the project as possible
 
 
-- [ ] Use [prototypes](#prototype) to engineer requirements because not all stakeholders understand technical specifications
+- [ ] Use [prototypes](#prototype) to engineer requirements because all stakeholders can understand those
 
 
 - [ ] Make a [functional design](#2-functional-design-and-architecture) when the requirements do not have clear, natural increments or when 'iceberg functionality' exists
 
 
-- [ ] Make a [technical design](#3-technical-design) every time the required functionality or proposed solution of a new feature is new to the team
-
-
 - [ ] Apply an [architecture](#architectures) before the [MVP](#minimum-viable-product) phase; the [microservices](#microservices) architecture is a good default to consider
 
 
-- [ ] Release a MVP as soon as possible, to get [user feedback](optimization-method.md) and test-run your DevOps setup
+- [ ] Make a [technical design](#3-technical-design) every time the required functionality or proposed solution of a new feature is new to the team
 
 
-- [ ] Regularly reverse engineer the implementation's [dependency graph](../README.md#modularity) and bring back to the desired state (often the functional design's [modularity](../README.md#modularity))
+- [ ] Release a MVP as soon as possible, to get [user feedback](optimization-method.md) early and test-run your DevOps setup
+
+
+- [ ] Regularly refactor the implementation's [dependency graph](../README.md#modularity) to the desired state (often the functional design's [modularity](../README.md#modularity))
 
 
 ## Stakeholders
 
-**Roughly: user, customer, developer, business, operation.**
+Primarily: 
+- users (those who use the product)
+- customers (those who pay the product)
+- developers (those who create the product)
+- business (those who pay the developer salaries) 
+- operation (those who run the product)
 
 Dev Includes all people involved in developing software products and services including but not exclusive to:
 - Architects, business representatives, customers, product owners, project managers, quality assurance (QA), testers and analysts, suppliers …
@@ -58,11 +63,11 @@ All systems are built in phases. In agile projects these phases are done increme
 
 ![Development Phases](devops-development-phases.png)
 
-### 1. Requirements engineering and RAT's
+### 1. Requirements engineering
 
 Requirements engineering is the process of defining, documenting, and maintaining requirements in the engineering design process.
 
-Requirements describe, using human language, prototypes and sketches, the service a system must provide
+Requirements describe, using human language, [prototypes](#prototype) and sketches, the service a system must provide
 concise enough to be used for system building and validation.
 This stage is done in collaboration with all stake-holder.
 
@@ -127,7 +132,7 @@ The Beta is a production-release which can be tested in a larger, tolerant user 
 See also: [Integration architectures](integration-standard.md#integration-architecture)
 
 The architecture is a pattern that is applied to the highest levels of aggregation of the application structure.
-Architectures can be recursively combined. Common architectures are: 
+Architectures can be recursively combined. Common architectures that match de DevOps paradigm well are: 
 
 ### Microservices
 
@@ -136,14 +141,19 @@ Modules usually have REST-API's through which they interact but can also be impl
 
 See also: [The top 5 software architecture patterns: How to make the right choice](https://techbeacon.com/app-dev-testing/top-5-software-architecture-patterns-how-make-right-choice)
 
+![img.png](microservices-architecture.png)
+
 ### Microkernel
 
 The [microkernel architecture](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch03.html) (sometimes referred to as the plug-in architecture pattern) is a natural pattern for implementing extensible, user configurable applications.
+
+![img.png](microkernal-architecture.png)
 
 ### Space based
 
 The [space-based architecture](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch05.html) pattern is specifically designed to address and solve scalability and concurrency issues. The space-based pattern (also sometimes referred to as the cloud architecture pattern) minimizes the factors that limit application scaling.
 
+![img.png](spacebased-architecture.png)
 
 ## Platform 
 

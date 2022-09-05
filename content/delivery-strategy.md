@@ -29,10 +29,10 @@ See:
 - [ ] Progressively expose new features to a wider audience to reduce blast radius of bugs
 
 
-- [ ] Low-risk releases are incremental
+- [ ] Low-risk releases are small and incremental
 
 
-- [ ] Decouple deployment and release
+- [ ] Decouple deployment and release (user rings, feature flags)
 
 
 - [ ] Focus on reducing batch (new features) size
