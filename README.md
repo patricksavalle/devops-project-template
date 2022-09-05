@@ -70,31 +70,22 @@ See: [DevOps and software quality: A systematic mapping](https://www.sciencedire
 - [ ] Never go dark, never assume, communicate with appropriate stakeholders in all phases of the project
 
 
-- [ ] Plan minimal valuable increments and measure their success before progressing upon them
+- [ ] [Plan](content/planning-method.md) minimal valuable increments and measure their success before progressing upon them
 
 
 - [ ] Enable projects to function autonomously and self-organising (self-service, architecture, governance)
 
 
-- [ ] Create in ever shorter increments and optimize in ever shorter iterations until everything is continuous
+- [ ] [Plan](content/planning-method.md) in ever shorter increments and [optimize](content/optimization-method.md) in ever shorter iterations until everything is continuous
 
 
-- [ ] Explicitly define optimality and continuously [remove sub-optimality](content/optimization-method.md)
+- [ ] Continuously remove [sub-optimality and waste](content/optimization-method.md)
 
 
-- [ ] Progressively move to [Kanban](content/planning-method.md#kanban) and [crowd sourding](#scalable-collaboration) as functionality stabilizes
+- [ ] Include end-users in the learning loop as soon as possible but no later than the [MVP](content/project-plan.md#minimum-viable-product)
 
 
-- [ ] Include end-users in the learning loop as soon as possible
-
-
-- [ ] Make 50% of time allocatable to non-functionals, optimizations and DevOps infrastructure maintenance
-
-
-- [ ] Open-source as much as (security-wise) possible to allow [scaling of collaboration](#scalable-collaboration)
-
-
-- [ ] Start with [trunk-based development](content/branching-strategy.md#trunk-based) and switch to a [GitFlow](content/branching-strategy.md) when the product reaches [MVP stage](content/project-plan.md#minimum-viable-product)
+- [ ] Make collaboration as [scalable](#scalable-collaboration) as (security-wise) possible
 
 
 - [ ] Everything is code
