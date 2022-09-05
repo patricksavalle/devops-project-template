@@ -7,4 +7,8 @@ Clone this repo and document your disaster recovery procedure here:
 
 ```
 > Content
-> - [Best practices](#best-practices)
+> - [Tips and hints](#tips-and-hints)
+
+
+## Tips and hints
+

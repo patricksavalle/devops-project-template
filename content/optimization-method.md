@@ -7,7 +7,7 @@ Clone this repo and document your optimization method here:
 
 ```
 > Content
-> - [Best Practices](#best-practices)
+> - [Tips and hints](#tips-and-hints)
 > - [LEAN](#lean)
 > - [Kaizen](#kaizen)
 > - [6Sigma](#six-sigma-dmaic)
@@ -29,7 +29,7 @@ Optimization starts with detecting sub-optimality or waste.
 
 [Incident management](incident-management-procedure.md) is not optimization: optimizations are fed back to the planning process whereas incidents are handled immediately.
 
-## Best Practices
+## Tips and hints
 
 - [ ] Explicitly define optimality, make sub-optimality measurable
 

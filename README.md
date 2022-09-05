@@ -8,7 +8,7 @@
 > Contents:
 >
 > - [Checklist](#checklist)
-> - [Best practices](#best-practices)
+> - [Tips and hints](#tips-and-hints)
 > - [Fundamentals](#fundamentals)
 
 DevOps is an [iterative and incremental](#iterations-and-increments) software development approach with emphasis on *autonomy*, *automation*, *continuous
@@ -61,7 +61,7 @@ See: [continuousdelivery.com](https://continuousdelivery.com/)
 - [ ] [Integration guidelines](content/integration-standard.md)
 - [ ] [Security guidelines](content/security-guidelines.md)
 
-## Best Practices
+## Tips and hints
 See: [DevOps and software quality: A systematic mapping](https://www.sciencedirect.com/science/article/pii/S1574013720304081)
 
 

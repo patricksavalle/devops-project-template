@@ -7,7 +7,7 @@ Clone this repo and document your project plan here:
 
 ```
 > Content
-> - [Best Practices](#best-practices)
+> - [Tips and hints](#tips-and-hints)
 > - [Stakeholders](#stakeholders)
 > - [Project Phases](#product-stages)
 > - [Product Stages](#product-stages)
@@ -16,7 +16,7 @@ Clone this repo and document your project plan here:
 
 The project plan outlines the (intermediate) deliverables and project stages as well as the general development strategy.
 
-## Best Practices  
+## Tips and hints  
 
 - [ ] Use [POC](#proof-of-concept)'s to test assumptions as they become visible
 
@@ -39,7 +39,7 @@ The project plan outlines the (intermediate) deliverables and project stages as 
 - [ ] Release a MVP as soon as possible, to get [user feedback](optimization-method.md) and test-run your DevOps setup
 
 
-- [ ] Regularly reverse engineer the implementation's [dependency graph](../README.md#parts-aspects-and-modularity) and bring back to the desired state (often the functional design's [modularity](../README.md#parts-aspects-and-modularity))
+- [ ] Regularly reverse engineer the implementation's [dependency graph](../README.md#modularity) and bring back to the desired state (often the functional design's [modularity](../README.md#modularity))
 
 
 ## Stakeholders

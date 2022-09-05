@@ -7,7 +7,7 @@ Clone this repo and document your planning method here:
 
 ```
 > Content
-> - [Best practices](#best-practices)
+> - [Tips and hints](#tips-and-hints)
 > - [Scalable collaboration](#scalable-collaboration)
 > - [Waterfall](#waterfall)
 > - [Scrum](#scrum)
@@ -18,7 +18,7 @@ Clone this repo and document your planning method here:
 The planning method determines the content and order of increments. DevOps is compatible with many agile project planning (incremental) methods. Often a hybrid approach will work best,
 cherry-picking elements from different methods, like ScrumBan. 
 
-## Best Practices
+## Tips and hints
 
 - [ ] Scrum is a good default 
   - **if** the application has obvious natural increments (e.g. the screens of UI's or endpoints of API's) or a functional design is available (see [Project Plan](project-plan.md)) 
@@ -34,7 +34,7 @@ cherry-picking elements from different methods, like ScrumBan.
 - [ ] Allocate 50% of project time to non-functionals, optimization and DevOps maintenance
 
 
-- [ ] Open-source as much as (security-wise) possible to allow [scaling](../README.md#best-practices) your collaboration
+- [ ] Open-source as much as (security-wise) possible to allow [scaling](../README.md#tips-and-hints) your collaboration
 
 
 ### Scalable collaboration

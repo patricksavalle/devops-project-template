@@ -7,14 +7,14 @@ Clone this repo and document your configuration management here:
 
 ```
 > Content
-> - [Best practices](#best-practices)
+> - [Tips and hints](#tips-and-hints)
 > - [IaC](#iac)
 > - [GitOps](#gitops)
 
 Provisioning is setting up the infrastructure.
 Configuration management is a establishing and maintaining the system in a desired, consistent state.
 
-## Best practices
+## Tips and hints
 
 ## IaC
 
@@ -47,7 +47,7 @@ See: https://www.redhat.com/architect/gitops-implementation-patterns
 
 
 
-## Best practices
+## Tips and hints
 
 
 ## LAMP

@@ -7,7 +7,7 @@ Clone this repo and document your developer testing strategy here:
 
 ```
 > Content
-> - [Best practices](#best-practices)
+> - [Tips and hints](#tips-and-hints)
 > - [Isolation vs integration tests](#isolation-vs-integration-tests)
 > - [Mocking](#mocking)
 > - [Test driven development](#tdd-test-driven)
@@ -20,7 +20,7 @@ As opposed to [acceptance testing](acceptance-testing-strategy.md) that is done 
 
 > Another name for developer testing is unit-testing.
 
-## Best Practices
+## Tips and hints
 
 - [ ] Use [Design-by-Contract](coding-guidelines.md#design-by-contract) to complement developer testing
 

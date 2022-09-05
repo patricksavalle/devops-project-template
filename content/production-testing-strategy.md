@@ -7,7 +7,7 @@ Clone this repo and document your production testing strategy here:
 
 ```
 > Content
-> - [Best practices](#best-practices)
+> - [Tips and hints](#tips-and-hints)
 > - [Chaos engineering](#chaos-engineering)
 > - [SRE](#sre)
 
@@ -18,7 +18,7 @@ Production testing is also not monitoring, it is actively provoking the producti
 
 See:
 
-## Best practices
+## Tips and hints
 
 - [ ] Only test what is being monitored
 

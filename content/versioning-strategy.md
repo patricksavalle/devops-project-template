@@ -7,7 +7,7 @@ Clone this repo and document your versioning strategy here:
 
 ```
 > Content
-> - [Best practices](#best-practices)
+> - [Tips and hints](#tips-and-hints)
 > - [Breaking changes and backward compatibility](#breaking-changes-and-backward-compatibility)
 > - [SimVer](#simver)
 > - [SemVer](#semver)
@@ -18,7 +18,7 @@ The versioning strategy determines the version numbering of releases. In general
 - SimVer and SemVer minor versions should be backward compatible and not introduce breaking changes
 - CalVer is very suitable for end-user applications and apps (in the leafs of the dependency graph)
 
-## Best practices
+## Tips and hints
 
 - [ ] Use SimVer for API's and libraries
 

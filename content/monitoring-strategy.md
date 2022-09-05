@@ -7,10 +7,10 @@ Clone this repo and document your monitoring strategy here:
 
 ```
 > Content
-> - [Best practices](#best-practices)
+> - [Tips and hints](#tips-and-hints)
 
 
-## Best Practices
+## Tips and hints
 
 - [ ] Add unified tracing (request lifecycle)
 

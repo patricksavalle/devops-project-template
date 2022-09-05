@@ -7,7 +7,7 @@ Clone this repo and document your delivery strategy here:
 
 ```
 > Content
-> - [Best practices](#best-practices)
+> - [Tips and hints](#tips-and-hints)
 > - [DTAP](#dtap)
 > - [Staged](#staged)
 > - [No-TA](#no-ta)
@@ -19,7 +19,7 @@ See:
 - [Four Principles of Low-Risk Software Releases](https://www.informit.com/articles/article.aspx?p=1833567)
 - [Implementing Continuous Delivery](https://continuousdelivery.com/implementing/)
 
-## Best practices
+## Tips and hints
 
 - [ ] Choose a strategy that matches your architecture and project
   - Larger microservices architectures probably work best with No-TA

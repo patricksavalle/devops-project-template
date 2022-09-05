@@ -7,4 +7,7 @@ Clone this repo and document your pipeline setup here:
 
 ```
 > Content
-> - [Best practices](#best-practices)
+> - [Tips and hints](#tips-and-hints)
+
+
+# Tips and hints

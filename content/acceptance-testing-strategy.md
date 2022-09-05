@@ -7,13 +7,13 @@ Clone this repo and document your acceptance testing strategy here:
 
 ```
 > Content
-> - [Best practices](#best-practices)
+> - [Tips and hints](#tips-and-hints)
 > - [Acceptance testing](#acceptance-testing)
 > - [Testing in production](#testing-in-production)
 
 User Acceptance Testing (UAT) is used to check if a new feature can be made accessible for all end-users. 
 
-## Best practices
+## Tips and hints
 
 - [ ] Highest risk modules get highest test coverage (risk based testing)
 
@@ -36,7 +36,7 @@ User Acceptance Testing (UAT) is used to check if a new feature can be made acce
 - [ ] Use temporary environments only when necessary (initial security tests, load test, etc.)
 
 
-See: [User Acceptance Testing (UAT) – Checklist, Best Practices, Approach, Example](http://tryqa.com/user-acceptance-testing-uat-checklist-best-practices-approach-example-templates/)
+See: [User Acceptance Testing (UAT) – Checklist, Tips and hints, Approach, Example](http://tryqa.com/user-acceptance-testing-uat-checklist-tips-and-hints-approach-example-templates/)
 
 ## Acceptance testing 
 

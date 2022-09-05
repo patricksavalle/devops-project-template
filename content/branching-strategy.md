@@ -7,7 +7,7 @@ Clone this repo and document your branching strategy here:
 
 ```
 > Content
-> - [Best practices](#best-practices)
+> - [Tips and hints](#tips-and-hints)
 > - [GitFlow](#gitflow)
 > - [GitLabFlow](#gitlabflow)
 > - [GitHubFlow](#githubflow)
@@ -30,12 +30,12 @@ See:
 - [Git to know this before you do Trunk Based Development (TBD)](https://medium.com/contino-engineering/git-to-know-this-before-you-do-trunk-based-development-tbd-476bc8a7c22f)
 - [DevOps tech: Trunk-based development](https://cloud.google.com/architecture/devops/devops-tech-trunk-based-development)
 
-## Best practices
+## Tips and hints
 
 - [ ] Keep features and merge request small, avoid merge hell
 
 
-- [ ] Start with [trunk-based development](content/branching-strategy.md#trunk-based) and switch to a [GitFlow](content/branching-strategy.md) when the product reaches [MVP stage](content/project-plan.md#minimum-viable-product) or when the project is crowdsourced
+- [ ] Start with [trunk-based development](branching-strategy.md#trunk-based) and switch to a [GitFlow](branching-strategy.md) when the product reaches [MVP stage](project-plan.md#minimum-viable-product) or when the project is crowdsourced
 
 
 ## GitFlow

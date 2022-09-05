@@ -7,9 +7,9 @@ Clone this repo and document your rollback strategy here:
 
 ```
 > Content
-> - [Best practices](#best-practices)
+> - [Tips and hints](#tips-and-hints)
  
-## Best practices
+## Tips and hints
 
 - [ ] Avoid large rollbacks, with small releases
 
