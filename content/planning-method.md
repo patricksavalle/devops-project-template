@@ -14,6 +14,7 @@ Clone this repo and document your planning method here:
 > - [DSDM](#dsdm)
 > - [LSD](#lsd-lean-software-development)
 
+![optimisation](devops-planning-optimisation.png)
 The planning method determines the content and order of increments. DevOps is compatible with many agile project planning (incremental) methods. Often a hybrid approach will work best,
 cherry-picking elements from different methods, like ScrumBan. 
 
