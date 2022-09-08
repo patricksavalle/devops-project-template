@@ -1,6 +1,6 @@
 # Planning method
 
-The planning method determines the content and order of increments entering the DevOps process.
+The planning method determines the content and order of increments to be done on the project.
 
 ```
 Clone this repo and document your planning method here:
@@ -34,6 +34,9 @@ cherry-picking elements from different methods, like ScrumBan.
 
 
 - [ ] Progressively move to Scrumban en ultimately [Kanban](#kanban) (team-less crowdsourcing) as functionality stabilizes
+
+
+- [ ] Open-source as many parts of the project as (security-wise) possible to allow for [scalable collaboration](../README.md#scalable-collaboration)
 
 
 - [ ] Allocate 50% of project time to non-functionals, optimization and DevOps maintenance

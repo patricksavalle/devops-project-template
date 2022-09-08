@@ -38,19 +38,19 @@ Optimization starts with detecting sub-optimality or waste.
 - [ ] Explicitly define [optimality](#optimality), make sub-optimality measurable
 
 
-- [ ] optimize only what can be measured (monitored)
+- [ ] Only what is measured ([monitored](monitoring-strategy.md)), can be optimized
 
 
 - [ ] Continuously identify **and** backlog sub-optimality in periodic optimization ceremonies
 
 
-- [ ] Distinguish between waste / sub-optimality in the DevOps process itself and in the user's processes as facilitated by the product
+- [ ] Involve and facilitate all stake-holders in identifying waste (sub-optimality)
 
 
-- [ ] Build for observability (logging, tracing, monitoring)
+- [ ] Identify both waste / sub-optimality in the DevOps process itself and in the user's processes as facilitated by the product
 
 
-- [ ] Build for [production-testing](production-testing-strategy.md) (fault injection, chaos engineering)
+- [ ] Do [production-testing](production-testing-strategy.md) (fault injection, chaos engineering)
 
 
 ## Optimality
@@ -112,12 +112,13 @@ The approach first originated in Japan in which everyone must continually evalua
 
 ## Six Sigma (DMAIC)
 
+Six Sigma and DevOps are similar in approach as they both use metrics based feedback.
+
 1. Define
 2. Measure
 3. Analyse
 4. Improve
 5. Control or verify
-
 
 The Characteristics of Six Sigma are as follows:
 
