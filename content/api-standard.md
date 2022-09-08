@@ -1,4 +1,7 @@
 # REST-API standard
+
+A REST-API standards ensures high quality, uniform API's.
+
 ```
 Clone this repo and document your API standard here:
 

@@ -1,5 +1,7 @@
 # Coding guidelines
 
+Coding guidelines ensure robust, maintainable code.
+
 ```
 Clone this repo and document your coding guidelines here:
 
@@ -12,15 +14,12 @@ Clone this repo and document your coding guidelines here:
 > - [Design-by-Contract](#design-by-contract)
 > - [Const-correctness](#const-correctness)
 
-Good code is:
-- simple and elegant
-- self-documenting
-- tested
-- peer-reviewed
-
 ## Guidelines
 
 - [ ] Use industry standards and styles 
+
+
+- [ ] Do pair programming
 
 
 - [ ] Make code self-documenting but add inline documentation (only) when needed
@@ -32,16 +31,19 @@ Good code is:
 - [ ] If a solution doesn't feel right, redesign (never sacrifice simplicity and elegance)
 
 
-- [ ] Use (automated) code linting
-
-
-- [ ] Use (automated) code formatting 
+- [ ] Ensure all code, the entire project, is always in a deployable state
 
 
 - [ ] Apply [design-by-contract](#design-by-contract) principles
 
 
 - [ ] Apply [const-correctness](#const-correctness) principles
+
+
+- [ ] Use (automated) code linting
+
+
+- [ ] Use (automated) code formatting
 
 
 - [ ] Build automated test according to the [developer testing strategy](developer-testing-strategy.md) 

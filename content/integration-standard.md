@@ -1,5 +1,7 @@
 # Integration standard
 
+Integration is the wiring between applications, the standard keeps the entire landscape uniform and robust. 
+
 ```
 Clone this repo and document your integration standard here:
 

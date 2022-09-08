@@ -52,10 +52,10 @@ The project plan outlines the (intermediate) deliverables and project stages as 
 
 Primarily: 
 - users (those who use the product)
-- customers (those who pay the product)
+- customers (those who buy the product)
 - developers (those who create the product)
 - business (those who pay the developer salaries) 
-- operation (those who run the product)
+- operation (those who keep the product operational)
 
 Dev Includes all people involved in developing software products and services including but not exclusive to:
 - Architects, business representatives, customers, product owners, project managers, quality assurance (QA), testers and analysts, suppliers …

@@ -1,5 +1,7 @@
 # Acceptance Testing Strategy
 
+User Acceptance Testing (UAT) is used to check if a new feature can be made accessible for all end-users.
+
 ```
 Clone this repo and document your acceptance testing strategy here:
 
@@ -11,7 +13,6 @@ Clone this repo and document your acceptance testing strategy here:
 > - [Acceptance testing](#acceptance-testing)
 > - [Testing in production](#testing-in-production)
 
-User Acceptance Testing (UAT) is used to check if a new feature can be made accessible for all end-users. 
 
 ## Tips and hints
 

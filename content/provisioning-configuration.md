@@ -1,4 +1,7 @@
-# Configuration Management
+# Provisioning and configuration Management
+
+Provisioning is setting up the infrastructure.
+Configuration management is a establishing and maintaining the system in a desired, consistent state.
 
 ```
 Clone this repo and document your configuration management here:
@@ -11,10 +14,10 @@ Clone this repo and document your configuration management here:
 > - [IaC](#iac)
 > - [GitOps](#gitops)
 
-Provisioning is setting up the infrastructure.
-Configuration management is a establishing and maintaining the system in a desired, consistent state.
 
 ## Tips and hints
+
+TODO
 
 ## IaC
 

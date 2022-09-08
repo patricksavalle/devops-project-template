@@ -1,5 +1,8 @@
 # Branching strategy
 
+Branching strategy defines how different new features are developed in parallel and integrated into a new release.
+
+
 ```
 Clone this repo and document your branching strategy here:
 
@@ -11,8 +14,6 @@ Clone this repo and document your branching strategy here:
 > - [GitFlow](#gitflow)
 > - [GitLabFlow](#gitlabflow)
 > - [GitHubFlow](#githubflow)
-
-Branching strategy defines how different new features are developed in parallel and integrated into a new release. 
 
 De industry standard for collaborative coding and revision control is GIT. 
 Integration with GIT is done using merge requests into branches. 

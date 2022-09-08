@@ -1,5 +1,8 @@
 # Developer Testing Strategy
 
+Developer testing is automated testing used to check if the application code is ready to be deployed.
+
+
 ```
 Clone this repo and document your developer testing strategy here:
 

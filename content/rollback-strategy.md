@@ -1,5 +1,7 @@
 # Rollback strategy
 
+The rollback strategy determines how to bring back the operational system to a previous state.
+
 ```
 Clone this repo and document your rollback strategy here:
 

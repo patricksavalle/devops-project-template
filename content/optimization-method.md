@@ -1,5 +1,7 @@
 # Optimization Method
 
+An optimization method determines the iterations of the project.
+
 ```
 Clone this repo and document your optimization method here:
 
@@ -15,7 +17,6 @@ Clone this repo and document your optimization method here:
 ![optimisation](devops-planning-optimisation.png)
 
 Optimization is an iterative process based on feedback or learning loops.
-An optimization method determines the  *iterations* of the project. 
 DevOps is compatible with many optimization methods. 
 Often hybrid methods will work best, cherry-picking elements from multiple methods. 
 

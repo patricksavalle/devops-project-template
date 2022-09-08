@@ -1,5 +1,7 @@
 # Delivery Strategy
 
+The delivery strategy determines how changes of all kinds are staged into production.
+
 ```
 Clone this repo and document your delivery strategy here:
 
@@ -12,8 +14,9 @@ Clone this repo and document your delivery strategy here:
 > - [Staged](#staged)
 > - [No-TA](#no-ta)
 
-The delivery strategy determines how new deployments are tested before they're put into production. 
-The Delivery strategy should be aligned with application architecture and [rollback](rollback-strategy)- and [testing-strategy](acceptance-testing-strategy.md)
+Continuous Delivery is the ability to get changes of all types—including new features, configuration changes, bug fixes and experiments—into production, or into the hands of users, safely and quickly in a sustainable way.
+
+The goal is to make deployments—whether of a large-scale distributed system, a complex production environment, an embedded system, or an app—predictable, routine affairs that can be performed on demand.
 
 See: 
 - [Four Principles of Low-Risk Software Releases](https://www.informit.com/articles/article.aspx?p=1833567)
@@ -21,15 +24,10 @@ See:
 
 ## Tips and hints
 
-- [ ] Choose a strategy that matches your architecture and project
-  - Larger microservices architectures probably work best with No-TA
-  -  Simple web project can work very well with DTAP
+- [ ] Align the Delivery strategy with [application architecture](project-plan.md#architectures) and [rollback](rollback-strategy)- and [testing-strategy](acceptance-testing-strategy.md)
 
 
 - [ ] Progressively expose new features to a wider audience to reduce blast radius of bugs
-
-
-- [ ] Low-risk releases are small and incremental
 
 
 - [ ] Decouple deployment and release (user rings, feature flags)

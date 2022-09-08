@@ -1,4 +1,6 @@
-# Monitoring and alerting strategy
+# Monitoring and observability strategy
+
+Monitoring and observability and allows teams to watch, debug and understand the state of their systems.
 
 ```
 Clone this repo and document your monitoring strategy here:
@@ -9,13 +11,27 @@ Clone this repo and document your monitoring strategy here:
 > Content
 > - [Tips and hints](#tips-and-hints)
 
+Monitoring is tooling or a technical solution that allows teams to watch and understand the state of their systems. Monitoring is based on gathering predefined sets of metrics or logs.
+
+Observability is tooling or a technical solution that allows teams to actively debug their system. Observability is based on exploring properties and patterns not defined in advance.
+
+Monitoring and observability solutions are designed to do the following:
+
+- Provide leading indicators of an outage or service degradation.
+- Detect outages, service degradations, bugs, and unauthorized activity.
+- Help debug outages, service degradations, bugs, and unauthorized activity.
+- Identify long-term trends for capacity planning and business purposes.
+- Expose unexpected side effects of changes or added functionality.
+
+From [Google - How to implement monitoring and observability](https://cloud.google.com/architecture/devops/devops-measurement-monitoring-and-observability)
 
 ## Tips and hints
 
-- [ ] Add unified tracing (request lifecycle)
+
+- [ ] Add tracing to your systems
 
 
-- [ ] Add unified logging
+- [ ] Add logging to your systems
 
 
 - [ ] Monitor the golden four signals 
