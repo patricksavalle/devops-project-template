@@ -38,13 +38,13 @@ Optimization starts with detecting sub-optimality or waste.
 - [ ] Explicitly define [optimality](#optimality), make sub-optimality measurable
 
 
-- [ ] Only what is measured ([monitored](monitoring-strategy.md)), can be optimized
+- [ ] Only what is measured ([monitored](monitoring-strategy.md)), can be optimized ([Six Sigma principles](#six-sigma-dmaic)) 
 
 
 - [ ] Continuously identify **and** backlog sub-optimality in periodic optimization ceremonies
 
 
-- [ ] Involve and facilitate all stake-holders in identifying waste (sub-optimality)
+- [ ] Involve and facilitate all stake-holders in identifying waste / sub-optimality ([Kaizen culture](#kaizen))
 
 
 - [ ] Identify both waste / sub-optimality in the DevOps process itself and in the user's processes as facilitated by the product
@@ -61,7 +61,7 @@ To be able to optimize, optimality must be defined (quantified) and continuously
 
 ## LSD (LEAN)
 
-Lean software development is a translation of lean manufacturing principles and practices to the software development domain.
+Lean software development method is a translation of lean manufacturing principles and practices to the software development domain.
 Part of Lean is to continuously eliminate waste.
 The original Lean (TPS) recognized 3 types of waste
 
@@ -98,7 +98,7 @@ See: [Key principles of Lean Software Development methodology](https://railsware
 
 ## Kaizen
 
-Kaizen is a concept referring to business activities that continuously improve all functions and involve all employees from the CEO to the assembly line workers.
+Kaizen is a culture, referring to business activities that continuously improve all functions and involve all employees from the CEO to the assembly line workers.
 
 1. Good processes bring good results
 2. Go see for yourself to grasp the current situation
@@ -117,12 +117,12 @@ Six Sigma and DevOps are similar in approach as they both use metrics based feed
 1. Define
 2. Measure
 3. Analyse
-4. Improve
+4. Improve or design
 5. Control or verify
 
 The Characteristics of Six Sigma are as follows:
 
-- **Statistical Quality Control.** Six Sigma is derived from the Greek Letter ? which denote Standard Deviation in statistics. Standard Deviation is used for measuring the quality of output.
+- **Statistical Quality Control.** Six Sigma is derived from the Greek Letter Sigma which denote Standard Deviation in statistics. Standard Deviation is used for measuring the quality of output.
 
 
 - **Methodical Approach.** The Six Sigma is a systematic approach of application in DMAIC and DMADV which can be used to improve the quality of production. DMAIC means for Design-Measure- Analyze-Improve-Control. While DMADV stands for Design-Measure-Analyze-Design-Verify.
