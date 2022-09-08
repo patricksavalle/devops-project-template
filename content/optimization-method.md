@@ -32,7 +32,7 @@ Optimization starts with detecting sub-optimality or waste.
 
 ## Tips and hints
 
-- [ ] Implement [LSD](#lsd-lean) (LEAN) as optimization method before the [MVP](project-plan.md#minimum-viable-product) is released 
+- [ ] Implement [LSD](#lsd-lean) (LEAN) [principle 1](https://railsware.com/blog/lean-software-development-guide/#Principle_1_Eliminate_waste) as optimization method before the [MVP](project-plan.md#minimum-viable-product) is released 
 
 
 - [ ] Explicitly define [optimality](#optimality), make sub-optimality measurable
@@ -94,7 +94,10 @@ Waste elimination is defined as the removal of anything that fails to add value 
 - **Incomplete or partially completed work.** There are many examples of this type of waste: unfinished/partially developed but never released features; hours spent in meetings without any actionable steps defined; bugs that are defined and discussed, but never fixed; a completed design for a full-featured module that is only partially implemented.
 
 
-See: [Key principles of Lean Software Development methodology](https://railsware.com/blog/lean-software-development-guide/)
+See: 
+
+- [Key principles of Lean Software Development methodology](https://railsware.com/blog/lean-software-development-guide/)
+- [Guiding principles of Lean Development](https://www.planview.com/resources/articles/lkdc-principles-lean-development/)
 
 ## Kaizen
 
