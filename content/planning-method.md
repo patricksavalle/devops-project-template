@@ -14,7 +14,6 @@ Clone this repo and document your planning method here:
 > - [Scrum](#scrum)
 > - [Kanban](#kanban)
 > - [DSDM](#dsdm)
-> - [LSD](#lsd-lean-software-development)
 
 ![optimisation](devops-planning-optimisation.png)
 DevOps is compatible with many agile project planning (incremental) methods. Often a hybrid approach will work best,
@@ -113,13 +112,5 @@ It is a principled approach to new product development.
 In general the development progresses from POC's to prototypes to a MVP.
 
 See [Lean Startup Methodology](http://theleanstartup.com/principles)
-
-
-## LSD (LEAN Software Development)
-
-Lean Software Development (LSD) is a methodology that helps software development teams focus on delivering the values that matter most to customers, while simultaneously removing from the process anything that can waste time and resources.
-The idea of eliminating waste from the production process was initially conceived by the car manufacturer Toyota. Anything that didn’t affect the final product’s value and delivery was simply removed from the overall process.
-
-See [Everything you need to know about the LSD](https://railsware.com/blog/lean-software-development-guide/)
 
 

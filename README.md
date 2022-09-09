@@ -48,7 +48,7 @@ improvement* and *collaboration* (loose definition).
 ### Continuous Operation 
 
 - [ ] [Ops Strategy](content/operations-setup.md)
-- [ ] [Monitoring Strategy](content/monitoring-strategy.md)
+- [ ] [Monitoring and Observability Strategy](content/monitoring-strategy.md)
 - [ ] [Incident management procedure](content/incident-management-procedure.md)
 - [ ] [Rollback procedure](content/rollback-strategy.md)
 - [ ] [Disaster recovery procedure](content/disaster-recovery-procedure.md)
@@ -67,7 +67,13 @@ See:
 See: [DevOps and software quality: A systematic mapping](https://www.sciencedirect.com/science/article/pii/S1574013720304081)
 
 
-- [ ] Never go dark, never assume, communicate with appropriate stakeholders in all phases of the project
+- [ ] Adopt [LSD/LEAN](content/lsd-lean.md) as your general (agile) philosophy, DevOps is [principle 5](https://railsware.com/blog/lean-software-development-guide/#Principle_5_Fast_delivery).
+
+
+- [ ] Never go dark, never assume, communicate with appropriate [stakeholders](content/project-plan.md#stakeholders) in all phases of the project
+
+
+- [ ] Do not plan the ideal system, design for immediate value and changeability, and evolve
 
 
 - [ ] [Plan](content/planning-method.md) minimal valuable increments and measure their success before progressing upon them

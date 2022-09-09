@@ -1,5 +1,7 @@
 # Project plan
 
+The project plan outlines the (intermediate) deliverables and project stages as well as the general development strategy.
+
 ```
 Clone this repo and document your project plan here:
 
@@ -12,11 +14,13 @@ Clone this repo and document your project plan here:
 > - [Project Phases](#product-stages)
 > - [Product Stages](#product-stages)
 > - [Architectures](#architectures)
-> - [Platform](#platform)
-
-The project plan outlines the (intermediate) deliverables and project stages as well as the general development strategy.
+> - [Deployment target](#deployment-target)
 
 ## Tips and hints  
+
+
+- [ ] Do not elaborate detailed plans in advance, delay planning until the last moment possible
+
 
 - [ ] Use [POC](#proof-of-concept)'s to test assumptions before they are implemented
 
@@ -27,25 +31,19 @@ The project plan outlines the (intermediate) deliverables and project stages as 
 - [ ] Use [prototypes](#prototype) to engineer requirements because all stakeholders can understand those
 
 
-- [ ] Make a [functional design](#2-functional-design-and-architecture) when the requirements do not have clear, natural increments or when 'iceberg functionality' exists
+- [ ] Make a [functional design](#functional-design) when the requirements do not have clear, natural increments or when 'iceberg functionality' exists
 
 
 - [ ] Apply an [architecture](#architectures) before the [MVP](#minimum-viable-product) phase; the [microservices](#microservices) architecture is a good default to consider
 
 
-- [ ] Make a [technical design](#3-technical-design) every time the required functionality or proposed solution of a new feature is new to the team
+- [ ] Make a [technical design](#technical-design) every time the required functionality or proposed solution of a new feature is new to the team
 
 
 - [ ] Release a MVP as soon as possible, to get [user feedback](optimization-method.md) early and test-run your DevOps setup
 
 
 - [ ] Regularly refactor the implementation's [dependency graph](../README.md#modularity) to the desired state (often the functional design's [modularity](../README.md#modularity))
-
-
-- [ ] Do not elaborate detailed plans in advance, delay planning until the last moment possible 
-
-
-- [ ] Do not plan the ideal system, design for immediate value and changeability, and evolve 
 
 
 ## Stakeholders
@@ -69,7 +67,7 @@ All systems are built in phases. In agile projects these phases are done increme
 
 ![Development Phases](devops-development-phases.png)
 
-### 1. Requirements engineering
+### Requirements engineering
 
 Requirements engineering is the process of defining, documenting, and maintaining requirements in the engineering design process.
 
@@ -84,13 +82,13 @@ With a strict [BDD/TDD](developer-testing-strategy.md) approach requirements are
 RAT or Riskiest Assumptions Tests using POC's en prototypes are done to reduce uncertainty to an acceptable level before continuing.
 The objective in this phase is to fail as cheap and soon as possible. If that fails, the project can continue.
 
-### 2. Functional design and architecture
+### Functional design
 
 An important goal of functional design is to create the desired modularity of the system based on functional cohesion and coupling, and the appropriate architecture. 
 It formally describes the functional structure using pseudo-coding, UML, BPML etc.
 A functional design needs to be complete to be useful. This phase needs to be done by experienced architects.
 
-#### Architecture
+### Architecture
 
 Architecture applies regularity to system design by mandating patterns. This creates simplicity, flexibility and maintainability. 
 [Architecture](#architectures) has many aspects, such as:
@@ -101,14 +99,14 @@ Architecture applies regularity to system design by mandating patterns. This cre
 
 In modern application landscapes the [integration architecture](integration-standard.md) is often leading.
 
-### 3. Technical design
+### Technical design
 
 Technical design translates the functional design into codeable constructions, using the appropriate technical
 standards, architectures and patterns.
 The design is formulated in UML.
 Technical design is not meant to be complete, just complete enough to manage coding complexity.
 
-### 4. Implementation (coding)
+### Implementation (coding)
 
 Coding creates an instantiable image of the software application. Code is stored in Git.
 
@@ -135,10 +133,10 @@ The Beta is a production-release which can be tested in a larger, tolerant user 
 
 ## Architectures
 
-See also: [Integration architectures](integration-standard.md#integration-architecture)
+The architecture is a pattern that is applied to the highest level of aggregation of the application structure.
+Architectures can be recursively combined.  
 
-The architecture is a pattern that is applied to the highest levels of aggregation of the application structure.
-Architectures can be recursively combined. Common architectures that match de DevOps paradigm well are: 
+See also: [Integration architectures](integration-standard.md#integration-architecture)
 
 ### Microservices
 
@@ -147,28 +145,26 @@ Modules usually have REST-API's through which they interact but can also be impl
 
 See also: [The top 5 software architecture patterns: How to make the right choice](https://techbeacon.com/app-dev-testing/top-5-software-architecture-patterns-how-make-right-choice)
 
-![img.png](microservices-architecture.png)
-
 ### Microkernel
 
 The [microkernel architecture](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch03.html) (sometimes referred to as the plug-in architecture pattern) is a natural pattern for implementing extensible, user configurable applications.
-
-![img.png](microkernal-architecture.png)
 
 ### Space based
 
 The [space-based architecture](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch05.html) pattern is specifically designed to address and solve scalability and concurrency issues. The space-based pattern (also sometimes referred to as the cloud architecture pattern) minimizes the factors that limit application scaling.
 
-![img.png](spacebased-architecture.png)
+## Deployment target 
 
-## Platform 
+### Cloud
 
-### Azure Cloud
+### VM
 
-### AWS Cloud
+### Containers 
 
-### Docker
+#### Docker
 
-### Kubernetes
+#### Kubernetes
+
+### Serverless
 
 

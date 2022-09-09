@@ -11,3 +11,6 @@ Clone this repo and document your pipeline setup here:
 
 
 # Tips and hints
+
+
+- [ ] Simplify before automation

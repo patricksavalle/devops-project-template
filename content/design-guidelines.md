@@ -19,6 +19,9 @@ Clone this repo and document your project plan here:
 - [ ] Use standard notation (UML, BPML) for technical designs
 
 
+- [ ] Don’t close your eyes to any type of flaws
+
+
 - [ ] Regularly refactor the implementation's dependency graph to the desired state (often the functional design's modularity)
 
 
