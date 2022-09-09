@@ -7,14 +7,14 @@ Clone this repo and document your specific choice here:
 
 ```
 
-- [ ] Code collaboration and version control (GIT)
+- Code collaboration and version control (GIT)
     - [ ] GitHub
     - [ ] GitLab
     - [ ] Azure DevOps
     - [ ] ................
 
 
-- [ ] Agile board
+- Agile board
     - [ ] Jira
     - [ ] GitLab
     - [ ] Azure DevOps
@@ -39,12 +39,6 @@ Clone this repo and document your specific choice here:
     - [ ] Slack
     - [ ] Matrix + Jitsi
     - [ ] Teams
-    - [ ] ................
-
-
-- Pipeline
-    - [ ] Jenkins
-    - [ ] Azure DevOps
     - [ ] ................
 
 

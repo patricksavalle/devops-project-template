@@ -3,7 +3,7 @@
 *[CC-NC-SA-BY 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) By Patrick Savalle*
 
 > ## Clone this repo and use it to setup, review or document your own project configuration 
-> - [x] Review and check all the items
+> - [x] Review and check all [the items](#checklist)
 
 > Contents:
 >
