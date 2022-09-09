@@ -61,11 +61,9 @@ improvement* and *collaboration* (loose definition).
 
 See: 
 - [continuousdelivery.com](https://continuousdelivery.com/)
-
+- [DevOps and software quality: A systematic mapping](https://www.sciencedirect.com/science/article/pii/S1574013720304081)
 
 ## Tips and hints
-See: [DevOps and software quality: A systematic mapping](https://www.sciencedirect.com/science/article/pii/S1574013720304081)
-
 
 - [ ] Adopt [LSD/LEAN](content/lsd-lean.md) as your general (agile) philosophy, DevOps is [principle 5](https://railsware.com/blog/lean-software-development-guide/#Principle_5_Fast_delivery).
 
@@ -85,13 +83,13 @@ See: [DevOps and software quality: A systematic mapping](https://www.sciencedire
 - [ ] [Plan](content/planning-method.md) in ever shorter increments and [optimize](content/optimization-method.md) in ever shorter iterations until everything is continuous
 
 
-- [ ] Continuously remove [sub-optimality and waste](content/optimization-method.md)
+- [ ] Continuously remove [waste](content/optimization-method.md)
 
 
 - [ ] Include end-users in the learning loop as soon as possible but no later than the [MVP](content/project-plan.md#minimum-viable-product)
 
 
-- [ ] Make collaboration as [scalable](#scalable-collaboration) as (security-wise) possible
+- [ ] Use [crowd sourcing](#scalable-collaboration) instead of team sourcing as much as (security-wise) possible
 
 
 - [ ] Everything is code
@@ -131,6 +129,8 @@ The Modularity Principle states that programs should be built from cohesive, loo
 dependencies. Modules translate to increments in the [planning](content/planning-method.md). 
 
 ### Iterations and increments
+
+![Iteration](content/iteration-increment.png)
 
 Workflows are made up of increments that sequentially add new parts or aspects and iterations that repetitively improve
 existing parts or aspects. Increments generally make systems more complete based on feed-forward (design), iterations generally make it more perfect based on
