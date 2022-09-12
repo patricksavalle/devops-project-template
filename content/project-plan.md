@@ -11,18 +11,19 @@ Clone this repo and document your project plan here:
 > Content
 > - [Tips and hints](#tips-and-hints)
 > - [Stakeholders](#stakeholders)
-> - [Project Phases](#product-stages)
-> - [Product Stages](#product-stages)
+> - [Development phases](#development-phases)
+> - [Project phasing](#project-phasing)
+> - [Product stages](#product-stages)
 > - [Architectures](#architectures)
 > - [Deployment target](#deployment-target)
 
 ## Tips and hints  
 
 
-- [ ] Do not elaborate detailed plans in advance, delay planning until the last moment possible
+- [ ] Do not elaborate detailed plans in advance, delay planning until the last moment possible ([LEAN principle 4](https://railsware.com/blog/lean-software-development-guide/#Principle_4_Postponing_commitment))
 
 
-- [ ] Use [POC](#proof-of-concept)'s to test assumptions before they are implemented
+- [ ] Use [POC](#proof-of-concept)'s to test assumptions before they are implemented 
 
 
 - [ ] Try to identify and validate the [RAT's](#rats) (riskiest assumptions) as early in the project as possible
@@ -34,17 +35,22 @@ Clone this repo and document your project plan here:
 - [ ] Make a [functional design](#functional-design) when the requirements do not have clear, natural increments or when 'iceberg functionality' exists
 
 
+- [ ] Release a MVP as soon as possible, to get [user feedback](optimization-method.md) early and test-run your DevOps setup
+
+
 - [ ] Apply an [architecture](#architectures) before the [MVP](#minimum-viable-product) phase; the [microservices](#microservices) architecture is a good default to consider
 
 
 - [ ] Make a [technical design](#technical-design) every time the required functionality or proposed solution of a new feature is new to the team
 
 
-- [ ] Release a MVP as soon as possible, to get [user feedback](optimization-method.md) early and test-run your DevOps setup
+- [ ] When working without an overall technical design, an experienced application architect must continuously and relentlessly refactor the application to keep it well designed
 
 
 - [ ] Regularly refactor the implementation's [dependency graph](../README.md#modularity) to the desired state (often the functional design's [modularity](../README.md#modularity))
 
+
+- [ ] Design as much **as possible without sacrificing required agility** up front as this gives the best technical quality 
 
 ## Stakeholders
 
@@ -65,8 +71,6 @@ Ops Includes all people involved in delivering and managing software products an
 
 All systems are built in phases. In agile projects these phases are done incrementally and only when needed.
 
-![Development Phases](devops-development-phases.png)
-
 ### Requirements engineering
 
 Requirements engineering is the process of defining, documenting, and maintaining requirements in the engineering design process.
@@ -81,6 +85,8 @@ With a strict [BDD/TDD](developer-testing-strategy.md) approach requirements are
 
 RAT or Riskiest Assumptions Tests using POC's en prototypes are done to reduce uncertainty to an acceptable level before continuing.
 The objective in this phase is to fail as cheap and soon as possible. If that fails, the project can continue.
+
+See: [What is the riskiest assumption test](https://clutch.co/app-developers/resources/what-is-riskiest-assumption-test)
 
 ### Functional design
 
@@ -109,6 +115,32 @@ Technical design is not meant to be complete, just complete enough to manage cod
 ### Implementation (coding)
 
 Coding creates an instantiable image of the software application. Code is stored in Git.
+
+## Project phasing
+
+Depending on the type of project and the volatility of requirements, different agile project schemes can be used. 
+
+### Linear / waterfall
+
+![waterfall development](devops-project-phasing-type-waterfall.png)
+
+### Incremental implementation
+
+![agile development](devops-project-phasing-type-2.png)
+
+### Iterative architecture
+
+This type of project phasing is typical for the development of well understood application types. Combines good with the [Scrum](planning-method.md#scrum) planning method.
+
+![agile development](devops-project-phasing-type-3.png)
+
+### Incremental requirements
+
+This type of project phasing is typical for the development of applications for which no clear requirements are available yet and in volatile environments / markets. Combines good with the [DSDM](planning-method.md#dsdm) planning method.
+
+![agile development](devops-project-phasing-type-4.png)
+
+
 
 ## Product Stages
 
