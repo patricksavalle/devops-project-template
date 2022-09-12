@@ -126,21 +126,23 @@ Depending on the type of project and the volatility of requirements, different a
 
 ### Incremental implementation
 
+This type of project phasing is suited for the development of applications for which either functionality or solution is not yet well understood or that have reasonably stable requirements. Combines good with the [Scrum](planning-method.md#scrum) planning method.
+
 ![agile development](devops-project-phasing-type-2.png)
 
 ### Iterative architecture
 
-This type of project phasing is typical for the development of well understood application types. Combines good with the [Scrum](planning-method.md#scrum) planning method.
+This type of project phasing is suited for the development of well understood application types. Combines good with the [Scrum](planning-method.md#scrum) planning method.
 
 ![agile development](devops-project-phasing-type-3.png)
 
 ### Incremental requirements
 
-This type of project phasing is typical for the development of applications for which no clear requirements are available yet and in volatile environments / markets. Combines good with the [DSDM](planning-method.md#dsdm) planning method.
+This type of project phasing is typical for the development of applications for which no clear requirements are available yet and that need to be developed in volatile environments. 
+Combines good with the [DSDM](planning-method.md#dsdm) planning method.
+Cannot be used in combination with [Scrum](planning-method.md#scrum).
 
 ![agile development](devops-project-phasing-type-4.png)
-
-
 
 ## Product Stages
 
