@@ -63,6 +63,7 @@ To be able to optimize, optimality must be defined (quantified) and continuously
 
 Lean software development method is a translation of lean manufacturing principles and practices to the software development domain.
 Part of Lean is to continuously eliminate waste.
+Waste elimination is defined as the removal of anything that fails to add value to your development process and/or the final product. 
 The original Lean (TPS) recognized 3 types of waste
 
 - **Muda** : waste, uselessness, non-value added or idleness
@@ -71,7 +72,7 @@ The original Lean (TPS) recognized 3 types of waste
 
 ### Types of waste
 
-Waste elimination is defined as the removal of anything that fails to add value to your development process and/or the final product. Here are the seven types of waste identified by LSD:
+Here are the seven types of waste identified by LSD:
 
 - **Defects or bugs.** Prevent bugs from being introduced in the first place.
 

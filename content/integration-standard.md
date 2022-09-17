@@ -33,13 +33,13 @@ There are different approaches to integration. The guidelines below provide maxi
 - [ ] Register your application's integrations in the central registry here: ...................
 
 
-- [ ] Teams are responsible for their own integrations, the platform must enable them
+- [ ] Teams are responsible for their own integrations, the platform must give DevOps teams self-service and autonomy
 
 
-- [ ] Avoid central components decentralize the integration platform to the application (e.g [sidecar pattern](https://www.oreilly.com/library/view/designing-distributed-systems/9781491983638/ch02.html))
+- [ ] Decentralize the integration platform to the application as much as possible (e.g [sidecar pattern](https://www.oreilly.com/library/view/designing-distributed-systems/9781491983638/ch02.html))
 
 
-- [ ] Avoid central integration teams, give DevOps teams self-service and autonomy
+- [ ] Place integrations as high up in the OSI-stack as possible 
 
 
 - [ ] Assume the platform has no way of inspecting data content
@@ -75,10 +75,13 @@ There are different approaches to integration. The guidelines below provide maxi
 - [ ] Consumers/clients - not producers - do data transformation
 
 
-- [ ] Avoid using a unified intermediate format or canonical data model as these reduce agility and autonomy
+- [ ] Avoid using a unified intermediate format or canonical data models as these reduce agility and autonomy
 
 
 - [ ] Build your application for an untrusted environment (the open internet)
+
+
+- [ ] Avoid platform as product lockins as much as possible
 
 
 - [ ] Integrations may not disclose implementation details

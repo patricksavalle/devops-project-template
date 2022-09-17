@@ -16,15 +16,19 @@ Clone this repo and document your project plan here:
 ## Tips and hints
 
 
-- [ ] Use standard notation (UML, BPML) for technical designs
+- [ ] Use standard notation (UML) for technical designs
 
 
-- [ ] Don’t close your eyes to any type of flaws
+- [ ] Prefer well known design patterns but don't overdo it
 
 
-- [ ] Regularly refactor the implementation's dependency graph to the desired state (often the functional design's modularity)
+- [ ] If a solution doesn't feel right, redesign or or backlog as engineering debt (never sacrifice simplicity and elegance, never tolerate low quality)
 
 
+- [ ] A design is perfect when nothing more can be taken away, not when nothing can be added anymore 
+
+
+- [ ] The technical design does not need to be complete, just complete enough to start coding 
 
 
 ## Design Patterns
@@ -38,7 +42,7 @@ Common design patterns include:
 - Adapter
 - Observer
 
-See: [Most Frequently Used Design Patterns in Software Development]()
+See: [Most Frequently Used Design Patterns in Software Development](https://beapython.dev/2021/03/07/most-frequently-used-design-patterns-in-software-development/)
 
 
 

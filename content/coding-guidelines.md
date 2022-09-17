@@ -28,7 +28,7 @@ Clone this repo and document your coding guidelines here:
 - [ ] Prefer using a well-known [design pattern](#design-patterns) over writing an (over-optimized) one-off solution
 
 
-- [ ] If a solution doesn't feel right, redesign (never sacrifice simplicity and elegance)
+- [ ] If a solution doesn't feel right, re-code (never sacrifice simplicity and elegance, never accept mediocre quality) or backlog as engineering debt
 
 
 - [ ] Ensure all code, the entire project, is always in a deployable state

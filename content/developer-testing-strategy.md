@@ -28,22 +28,22 @@ As opposed to [acceptance testing](acceptance-testing-strategy.md) that is done 
 - [ ] Use [Design-by-Contract](coding-guidelines.md#design-by-contract) to complement developer testing
 
 
-- [ ] Write high level tests for the new feature as a whole **before** implementing the feature's functionality
+- [ ] Write high level tests for new features as a whole **before** implementing the feature
 
 
-- [ ] Write lower level tests for the feature's parts **after** the implementation passes the high-level tests **and** it's design is satisfactory. 
+- [ ] Write lower level tests for new feature's parts **after** the implementation passes the high-level tests **and** it's design is satisfactory 
 
-   > This prevent continuously having to refactor the tests while implementation's design still changes.
+   > This prevents continuously having to refactor the tests while implementation's design still changes.
    > These test now serve to prevent and help locate regression during refactors
 
 
-- [ ] Use a framework to mock tests, turning integration test into isolation tests (unit tests)
+- [ ] Use a framework to mock integrations, turning integration test into isolation tests (unit tests)
 
 
-- [ ] Always only test interfaces so you can optimize implementation without breaking tests
+- [ ] Always test interfaces so you can optimize implementations without breaking tests
 
 
-- [ ] Automate as many tests as you can
+- [ ] Only use automatable testing in this phase
 
 
 - [ ] Remove tests that are not 100% reliable or representative
@@ -58,7 +58,7 @@ As opposed to [acceptance testing](acceptance-testing-strategy.md) that is done 
 
 Traditionally isolation testing is called unit testing. 
 Theoretically units are the smallest modules in the application.
-Realistically every level of aggregation has it's own units.
+Realistically however every level of aggregation has it's own units.
 A method or function can be a unit, a class and even entire microservices can be units too.
 
 The isolation test is a better concept for this reality. 
