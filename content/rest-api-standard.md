@@ -271,13 +271,11 @@ On the implementation level, every response is transformed into a request in the
 1. encode, encrypt output
 1. (optionally) send notifications (broadcast the event)
 
-- Don’t use complex design patterns, a REST-server is ‘just’ a pipeline.
+- Don’t use design patterns, a REST-server is ‘just’ a pipeline.
+- Avoid frameworks, a REST-server is extremely simple
 - Code for observability (logging, tracing, metrics)
 - Code for testability (feature toggles, user rings, failure injection, etc.)
 - Monitor Request Latency, Error-rate, Traffic and Cumulative Latency for individual endpoints
-
-
-
 
 ## Error code decision table
 

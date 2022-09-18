@@ -41,7 +41,7 @@ cherry-picking elements from different methods, like ScrumBan.
 - [ ] Allocate 50% of project time to non-functionals, optimization and DevOps maintenance
 
 
-- [ ] Plan minimal valuable increments and measure their success
+- [ ] Plan minimal valuable increments (MVI) and measure their success
 
 
 - [ ] Allocate dedicated periods to focus on one context only, avoid context-switching
@@ -50,7 +50,7 @@ cherry-picking elements from different methods, like ScrumBan.
 
 ## Waterfall
 
-Waterfall projects have the classic planning increments:
+Waterfall projects have the classic planning phases:
 - Requirements engineering
 - Functional design and architecture
 - Technical and solution design
@@ -68,6 +68,8 @@ valuable addition.
 
 Requirements Engineering, Functional design ans architecture are done before or outside the actual Scrum process and result in a product backlog.
 Without a functional design a much higher refactoring load can be expected as correct modularity needs to be discovered and corrected on the fly.
+
+Typically uses [incremental implementation](project-plan.md#incremental-implementation) or [iterative architectur](project-plan.md#iterative-architecture) project flow.
 
 See [The Scrum guide](https://scrumguides.org/index.html)
 
@@ -93,9 +95,11 @@ See [The Kanban guide](https://kanbanguides.org/english/)
 
 ## DSDM
 
-This method is a best-effort, fixed time and price approach. It uses time-boxes based on MOSCOW prioritization of
-features to be able to deliver as much functionality as possible.
+This method is a best-effort, fixed time and price approach.
+It uses time-boxes based on MOSCOW prioritization of features to be able to deliver as much functionality as possible.
 Uses modeling, prototyping and workshops to define the product.
+
+Typically uses [incremental requirements](project-plan.md#incremental-requirements) project flow
 
 See: [The DSDM handbook](https://www.agilebusiness.org/page/TheDSDMAgileProjectFramework)
 

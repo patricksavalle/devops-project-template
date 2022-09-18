@@ -15,17 +15,21 @@ Clone this repo and document your project plan here:
 
 ## Tips and hints
 
+- [ ] Never sacrifice simplicity and elegance 
+
+  > A design is perfect when nothing more can be taken away
+
 
 - [ ] Use standard notation (UML) for technical designs
 
 
-- [ ] Prefer well known design patterns but don't overdo it
+- [ ] Formulate the design using well known design patterns but don't overdo it
 
 
-- [ ] If a solution doesn't feel right, redesign or or backlog as engineering debt (never sacrifice simplicity and elegance, never tolerate low quality)
+- [ ] Avoid frameworks, prefer standard language constructs (avoid lock-in and regular porting overhead)
 
 
-- [ ] A design is perfect when nothing more can be taken away, not when nothing can be added anymore 
+- [ ] If a solution doesn't feel right, redesign or or backlog as engineering debt
 
 
 - [ ] The technical design does not need to be complete, just complete enough to start coding 
@@ -42,7 +46,8 @@ Common design patterns include:
 - Adapter
 - Observer
 
-See: [Most Frequently Used Design Patterns in Software Development](https://beapython.dev/2021/03/07/most-frequently-used-design-patterns-in-software-development/)
-
+See: 
+- [Most Frequently Used Design Patterns in Software Development](https://beapython.dev/2021/03/07/most-frequently-used-design-patterns-in-software-development/)
+- [REST-server pattern](rest-api-standard.md#server-template)
 
 

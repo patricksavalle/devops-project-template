@@ -55,7 +55,7 @@ improvement* and *collaboration* (loose definition).
 
 ### Standards & Guidelines
 
-- [ ] [API standard](content/api-standard.md)
+- [ ] [API standard](content/rest-api-standard.md)
 - [ ] [Integration guidelines](content/integration-standard.md)
 - [ ] [Security guidelines](content/security-guidelines.md)
 
@@ -65,13 +65,13 @@ See:
 
 ## Tips and hints
 
-- [ ] Adopt [LSD/LEAN](content/lsd-lean.md) as your general (agile) philosophy, DevOps is [principle 5](https://railsware.com/blog/lean-software-development-guide/#Principle_5_Fast_delivery).
+- [ ] Adopt [LSD/LEAN](content/lsd-lean.md) as your agile philosophy
 
 
 - [ ] Never go dark, never assume, communicate with appropriate [stakeholders](content/project-plan.md#stakeholders) in all phases of the project
 
 
-- [ ] Do not plan the ideal system, design for immediate value and changeability, and evolve
+- [ ] Do not plan the ideal system but design for immediate value and changeability, and evolve
 
 
 - [ ] [Plan](content/planning-method.md) minimal valuable increments and measure their success before progressing upon them

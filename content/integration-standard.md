@@ -15,12 +15,12 @@ Clone this repo and document your integration standard here:
 > - [Integration architecture](#integration-architecture)
 
 The integration platform is a set of tools, patterns and guidelines that *must* be used to connect applications to each other.
-A modern platform typically consists of (API-) gateways, proxies, load-balancers, routers, message queues and such. 
+A modern platform typically consists of (API-) gateways, proxy-servers, load-balancers, routers, message queues and such. 
 Legacy platforms typically are build around a large central ESB (Enterprise Service Bus).
 
 The platform has a very focused function: decoupling of communication in space (location) and in time (asynchronization).
 Use it exclusively for reliable, scalable and decoupled communication.
-Datalakes, databases, datawarehouses and streaming platforms are typically **not** part of the integration platform.
+Data lakes, databases, data warehouses and streaming platforms are typically **not** part of the integration platform.
 
 There are different approaches to integration. The guidelines below provide maximal (team) autonomy and agility.
 
