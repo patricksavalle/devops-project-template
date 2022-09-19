@@ -16,7 +16,7 @@ Clone this repo and document your developer testing strategy here:
 > - [Test driven development](#tdd-test-driven)
 > - [Behavioral driven development](#bdd-behavioral-driven)
 
-Developer testing is used to check if the application code is ready to be deployed. 
+Developer tests are run manually during development and automated during continuous integration.
 As opposed to [acceptance testing](acceptance-testing-strategy.md) that is done after the application is deployed to check if a new deployment can be put into production.
 
 ## Tips and hints
@@ -24,14 +24,12 @@ As opposed to [acceptance testing](acceptance-testing-strategy.md) that is done 
 - [ ] Use [Design-by-Contract](coding-guidelines.md#design-by-contract) to complement developer testing
 
 
-- [ ] Write high level tests for new features as a whole **before** implementing the feature
+- [ ] Write tests for new features as a whole **before** implementing the feature
 
 
-- [ ] Write lower level tests for new feature's parts **after** the implementation passes the high-level tests **and** it's design is satisfactory 
+- [ ] Write tests for new feature's internal parts when the implementation's design is becoming stable 
 
    > This prevents continuously having to refactor the tests while implementation's design still changes.
-   > These test now serve to prevent and help locate regression during refactors
-
 
 - [ ] Use a framework to mock integrations, turning integration test into isolation tests (unit tests)
 
@@ -52,19 +50,18 @@ As opposed to [acceptance testing](acceptance-testing-strategy.md) that is done 
 
 *Note I use a different but more intuitive definition compared to conventional wisdom*
 
-Theoretically developers do unit testing. 
-Units are the smallest modules in the application.
-In practice however every level of aggregation has it's own units.
-A method or function can be a unit, a class and even entire microservices can be units too.
+Normally developers do unit testing. 
+Units are the 'smallest modules' in the application.
+This is ambiguous since every level of aggregation has its own units.
+A method or function can be a unit, a class and even entire microservices can be units.
 The isolation test is a better concept for this reality than traditional unit testing. 
-Developers need only write integration tests and use mocks to run the same test as isolation test (unit tests).
+Developers need only write integration tests and use [mocks](#mocking) to run the same test as isolation test (unit tests).
 
-Isolation tests test modules in isolation using mocks that represent their integrations.
+>Isolation tests test modules in isolation using mocks that represent their integrations.
 Integrations tests test modules with their integrations.
 Integration tests become unit tests when integrations are mocked.
 **The only difference is isolation**.
 
-Developer tests are run manually during development and automated during continuous integration and delivery.
 
 ## Mocking
 
