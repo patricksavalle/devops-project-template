@@ -1,6 +1,6 @@
 # Developer Testing Strategy
 
-Developer testing is automated testing used to check if the application code is ready to be deployed.
+Developer testing (a.k.a unit-testing) is automated testing used to check if the application code is ready to be deployed.
 
 
 ```
@@ -16,12 +16,8 @@ Clone this repo and document your developer testing strategy here:
 > - [Test driven development](#tdd-test-driven)
 > - [Behavioral driven development](#bdd-behavioral-driven)
 
-The trick of testing in general is to fail as fast as possible when bugs still have minimal impact.
-
 Developer testing is used to check if the application code is ready to be deployed. 
 As opposed to [acceptance testing](acceptance-testing-strategy.md) that is done after the application is deployed to check if a new deployment can be put into production.
-
-> Another name for developer testing is unit-testing.
 
 ## Tips and hints
 
@@ -56,12 +52,12 @@ As opposed to [acceptance testing](acceptance-testing-strategy.md) that is done 
 
 *Note I use a different but more intuitive definition compared to conventional wisdom*
 
-Traditionally isolation testing is called unit testing. 
-Theoretically units are the smallest modules in the application.
-Realistically however every level of aggregation has it's own units.
+Theoretically developers do unit testing. 
+Units are the smallest modules in the application.
+In practice however every level of aggregation has it's own units.
 A method or function can be a unit, a class and even entire microservices can be units too.
-
-The isolation test is a better concept for this reality. 
+The isolation test is a better concept for this reality than traditional unit testing. 
+Developers need only write integration tests and use mocks to run the same test as isolation test (unit tests).
 
 Isolation tests test modules in isolation using mocks that represent their integrations.
 Integrations tests test modules with their integrations.

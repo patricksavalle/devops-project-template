@@ -58,7 +58,9 @@ Waterfall projects have the classic planning phases:
 - Testing
 - Maintenance
 
-> The waterfall is still relevant but as a staged process in which (larger) project increments are waterfalls on their own, many in parallel.
+The waterfall is still relevant but as a staged process in which (larger) project increments are waterfalls on their own, many in parallel.
+Big advantage is that implementation can be planned using the design (the dependency graph) and will be very efficient. 
+Big disadvantage is the lack of agility.
 
 ## Scrum
 
@@ -84,6 +86,7 @@ once the functionality stabilizes, Kanban is a better choice
 
 This is the simplest but most scalable method. Especially suited for ad hoc, isolated tasks that need
 to be open-sourced. Kanban has no specific roles or team composition.
+Tasks are placed in the backlog and ordered by descending priority by the team. Collaborators clear the backlog top to bottom.
 
 See [The Kanban guide](https://kanbanguides.org/english/)
 
