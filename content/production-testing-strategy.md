@@ -34,7 +34,10 @@ Chaos Engineering is the discipline of experimenting on a system in order to bui
 - Automate Experiments to Run Continuously
 - Minimize Blast Radius
 
-See: [Principle of Chaos](https://principlesofchaos.org)
+See: 
+- [Principle of Chaos Engineering](https://principlesofchaos.org)
+- [Continuous Chaos](https://medium.com/capital-one-tech/continuous-chaos-introducing-chaos-engineering-into-devops-practices-75757e1cca6d)
+
 
 ## AB-testing
 

@@ -55,13 +55,11 @@ Units are the 'smallest modules' in the application.
 This is ambiguous since every level of aggregation has its own units.
 A method or function can be a unit, a class and even entire microservices can be units.
 The isolation test is a better concept for this reality than traditional unit testing. 
-Developers need only write integration tests and use [mocks](#mocking) to run the same test as isolation test (unit tests).
+Developers need only write integration tests and use [mocking](#mocking) to run the same test as isolation test (unit tests).
 
->Isolation tests test modules in isolation using mocks that represent their integrations.
-Integrations tests test modules with their integrations.
-Integration tests become unit tests when integrations are mocked.
-**The only difference is isolation**.
-
+> - Integrations tests test modules with their integrations.
+> - Isolation tests test modules in isolation using mocks that represent their integrations.
+> - Integration tests become unit tests when integrations are mocked.
 
 ## Mocking
 
