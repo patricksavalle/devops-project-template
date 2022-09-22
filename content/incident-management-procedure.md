@@ -1,6 +1,6 @@
 # Incident management procedure
 
-an incident is a single unplanned event that causes a service disruption.
+An incident is a single unplanned event that causes a service disruption.
 
 ```
 Clone this repo and document your incident management procedure here:
@@ -34,16 +34,16 @@ See [Atlassian](https://www.atlassian.com/incident-management) for a practical i
 - [ ] Establish a culture of open, blameless communication 
 
 
-- [ ] Use [chatops](https://www.atlassian.com/incident-management/devops/chatops)
-
-
 - [ ] Utilize on-call scheduling to position developers and sysadmins as SREs
+
+
+- [ ] Use an easy-to-remember URL that redirects to the internal Service Desk portal
 
 
 - [ ] Ensure members of your teams can communicate across the organization with chat tools
 
 
-- [ ] Use an easy-to-remember URL that redirects to the internal Service Desk portal
+- [ ] Use [chatops](https://www.atlassian.com/incident-management/devops/chatops)
 
 
 ## Stages
@@ -52,8 +52,8 @@ The IM process has 5 stages :
 
 1. Detect
 1. Respond
-1. Recover
-1. Learn / Postmortem
+1. Recover & clean-up
+1. Learn & postmortem
 1. Improve
 
 ## Roles
@@ -67,13 +67,13 @@ Typical roles are:
 
 ## Proximate and root causes
 
-When you’re writing or reading a postmortem, it’s necessary to
-distinguish between the proximate and root causes.
+To prevent repetition of the incident, the root cause has to be found.
+It’s necessary to distinguish between the proximate and root causes.
 - Proximate causes are reasons that directly led to this incident.
 - Root causes are reasons at the optimal place in the chain of events where making a change will prevent this entire class of incident.
 
-- A postmortem seeks to discover root causes and decide how to best
-mitigate them. 
+After the incident is resolved (recover), a postmortem seeks to discover root causes and decide how to best
+mitigate them. This often results in stories on the backlog (improve). 
 
 Root causes can fall into different categories:
 

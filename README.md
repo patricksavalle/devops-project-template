@@ -68,6 +68,9 @@ See:
 - [ ] Adopt [LSD/LEAN](content/lsd-lean.md) as your agile philosophy
 
 
+- [ ] Establish a culture of open, blameless communication
+
+
 - [ ] Never go dark, never assume, communicate with appropriate [stakeholders](content/project-plan.md#stakeholders) in all phases of the project
 
 
