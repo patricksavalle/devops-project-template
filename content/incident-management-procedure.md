@@ -15,6 +15,7 @@ Clone this repo and document your incident management procedure here:
 > - [SRE](#sre)
 > - [ITIL](#itil)
 
+Incident management is the process of resolving an incident.
 An incident is resolved when the affected service resumes functioning in its intended state. 
 This includes only those tasks required to mitigate impact and restore functionality. 
 
@@ -22,16 +23,16 @@ See [Atlassian](https://www.atlassian.com/incident-management/devops) for a prac
 
 ## Tips and hints
 
-- [ ] Enable autonomous decision-making by people and teams in incidents and postmortems
+- [ ] Enable autonomous decision-making by people and teams
 
 
-- [ ] Establish a culture of open, blameless communication between developers and IT ops teams
+- [ ] Establish a culture of open, blameless communication
 
 
 - [ ] Utilize on-call scheduling to position developers and sysadmins as SREs
 
 
-- [ ] Ensure members of your teams can communicate across the organization with real-time chat tools
+- [ ] Ensure members of your teams can communicate across the organization with chat tools
 
 
 - [ ] Use an easy-to-remember URL that redirects to the internal Service Desk portal
