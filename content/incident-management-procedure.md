@@ -24,7 +24,7 @@ Incident Management needs a [monitoring and observability strategy](monitoring-s
 
 Problem management is not incident management. Problems can cause incidents unless they are solved.
 
-See [Atlassian](https://www.atlassian.com/incident-management) for a practical incident management guide.
+> **See [Atlassian](https://www.atlassian.com/incident-management) for a practical incident management guide.**
 
 ## Tips and hints
 
