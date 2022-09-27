@@ -12,6 +12,15 @@ Clone this repo and document your specific choice here:
 ``
 > Content
 > - [Tips and hints](#tips-and-hints)
+> - [SRE pinciples](#sre-principles)
+> - [TAM](#tam)
+> - [ITIL](#ITIL)
+
+See:
+- [SRE Practices Without SREs](https://sre.google/workbook/team-lifecycles/)
+- [Do you have an SRE team yet? How to start and assess your journey](https://cloud.google.com/blog/products/devops-sre/how-to-start-and-assess-your-sre-journey)
+- [The Site Reliability Workbook: Practical Ways to Implement SRE](https://www.pdfdrive.com/the-site-reliability-workbook-practical-ways-to-implement-sre-e176435365.html)
+- [Site Reliability Engineering: How Google Runs Production Systems](https://www.pdfdrive.com/site-reliability-engineering-how-google-runs-production-systems-e167267360.html)
 
 
 ## Tips and hints
@@ -34,7 +43,7 @@ Clone this repo and document your specific choice here:
 - [ ] Create a culture of authoring [blameless postmortems](https://sre.google/workbook/postmortem-culture/)
 
 
-- [ ] Have normal development teams assign SRE-engineers that spend 50% of their time in a specialized horizontal SRE-team
+- [ ] As a start, have normal development teams assign SRE-engineers that spend 50% of their time in a specialized horizontal SRE-team
 
 
 
@@ -49,9 +58,8 @@ SREs must have time to make tomorrow better than today.
 > Principle #3:
 SRE teams have the ability to regulate their workload.
 
+## ITIL
 
-See:
-- [SRE Practices Without SREs](https://sre.google/workbook/team-lifecycles/)
-- [Do you have an SRE team yet? How to start and assess your journey](https://cloud.google.com/blog/products/devops-sre/how-to-start-and-assess-your-sre-journey) 
-- [The Site Reliability Workbook: Practical Ways to Implement SRE](https://www.pdfdrive.com/the-site-reliability-workbook-practical-ways-to-implement-sre-e176435365.html)
-- [Site Reliability Engineering: How Google Runs Production Systems](https://www.pdfdrive.com/site-reliability-engineering-how-google-runs-production-systems-e167267360.html)
+
+##  TAM 
+
