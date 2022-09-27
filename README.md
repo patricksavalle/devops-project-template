@@ -60,8 +60,9 @@ improvement* and *collaboration* (loose definition).
 - [ ] [Security guidelines](content/security-guidelines.md)
 
 See: 
+- [DevOps handbook](https://www.pdfdrive.com/the-devops-handbook-e27616445.html)
 - [continuousdelivery.com](https://continuousdelivery.com/)
-- [DevOps and software quality: A systematic mapping](https://www.sciencedirect.com/science/article/pii/S1574013720304081)
+- [DevOps and software quality research: A systematic mapping](https://www.sciencedirect.com/science/article/pii/S1574013720304081)
 
 ## Tips and hints
 

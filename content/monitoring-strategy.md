@@ -25,6 +25,8 @@ Monitoring and observability solutions are designed to do the following:
 
 From [Google - How to implement monitoring and observability](https://cloud.google.com/architecture/devops/devops-measurement-monitoring-and-observability)
 
+Monitoring is used in combination with a working [optimization setup](optimization-method.md) and [incident management procedure](incident-management-procedure.md)
+
 ## Tips and hints
 
 
@@ -44,12 +46,15 @@ From [Google - How to implement monitoring and observability](https://cloud.goog
 - [ ] As simple as possible, no simpler
 
 
+- [ ] Create useful dashboards not impressive dashboards
+
+
 - [ ] Avoid false positives at all cost, all alerts must be actionable
 
 
-- [ ] Keep dashboards stupid simple
-
-
 - [ ] Formalize your [optimization strategy](optimization-method.md)
+
+
+- [ ] Formalize your [incident management procedures](incident-management-procedure.md)
 
 

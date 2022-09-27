@@ -18,32 +18,30 @@ Clone this repo and document your incident management procedure here:
 
 Incident management is the process of resolving an incident.
 An incident is resolved when the affected service resumes functioning in its intended state. 
-This includes only those tasks required to mitigate impact and restore functionality. 
+This includes only those tasks required to mitigate impact and restore functionality.
 
 Incident Management needs a [monitoring and observability strategy](monitoring-strategy.md).
 
-Problem management is not incident management. Problems can cause incidents unless they are solved.
 
 > **See [Atlassian](https://www.atlassian.com/incident-management) for a practical incident management guide.**
 
 ## Tips and hints
 
-- [ ] Enable autonomous decision-making by people and teams
+- [ ] Allow for autonomous decision-making by people and teams involved
 
 
-- [ ] Establish a culture of open, blameless communication 
-
-
-- [ ] Utilize on-call scheduling to position developers and sysadmins as SREs
+- [ ] Utilize on-call scheduling to position developers and sysadmins as [SREs](https://sre.google/sre-book/table-of-contents/)
 
 
 - [ ] Use an easy-to-remember URL that redirects to the internal Service Desk portal
 
 
 - [ ] Ensure members of your teams can communicate across the organization with chat tools
+  (see [chatops](https://www.atlassian.com/incident-management/devops/chatops))
 
 
-- [ ] Use [chatops](https://www.atlassian.com/incident-management/devops/chatops)
+- [ ] Formalize your [optimization strategy](optimization-method.md)
+
 
 
 ## Stages
