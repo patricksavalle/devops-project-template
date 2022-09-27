@@ -63,3 +63,5 @@ SRE teams have the ability to regulate their workload.
 
 ##  TAM 
 
+Technical application management is the more traditional way of doing operation.
+The TAM engineer is traditionally focused on execution and not on prevention, which is also part of SRE.
