@@ -47,7 +47,7 @@ improvement* and *collaboration* (loose definition).
 
 ### Continuous Operation 
 
-- [ ] [Ops Strategy](content/operations-setup.md)
+- [ ] [Operation Method](content/operations-setup.md)
 - [ ] [Monitoring and Observability Strategy](content/monitoring-strategy.md)
 - [ ] [Incident management procedure](content/incident-management-procedure.md)
 - [ ] [Rollback procedure](content/rollback-strategy.md)

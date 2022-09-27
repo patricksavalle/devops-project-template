@@ -1,4 +1,4 @@
-# Operations Setup
+# Operation Method
 
 Operations manages how code is deployed, configured, and monitored, as well as the availability, latency, change management, emergency response, and capacity management of services in production.
 

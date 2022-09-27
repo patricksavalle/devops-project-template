@@ -1,6 +1,6 @@
 # Optimization Method
 
-An optimization method identifies refactors, waste, problems (using monitoring, analyses and evaluations) that are backlogged for resolving.
+A method for identifying improvements, refactors, waste and problems that are backlogging for resolving.
 
 ```
 Clone this repo and document your optimization method here:
