@@ -16,6 +16,8 @@ Clone this repo and document your specific choice here:
 > - [TAM](#tam)
 > - [ITIL](#ITIL)
 
+![operation methods](operations-methods.png)
+
 See:
 - [SRE Practices Without SREs](https://sre.google/workbook/team-lifecycles/)
 - [Do you have an SRE team yet? How to start and assess your journey](https://cloud.google.com/blog/products/devops-sre/how-to-start-and-assess-your-sre-journey)
