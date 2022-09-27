@@ -19,6 +19,8 @@ Clone this repo and document your project plan here:
 
 ## Tips and hints  
 
+- [ ] Do not plan the ideal system but design for immediate value and changeability, and evolve
+
 
 - [ ] Do not elaborate detailed plans in advance, delay planning until the last moment possible ([LEAN principle 4](https://railsware.com/blog/lean-software-development-guide/#Principle_4_Postponing_commitment))
 

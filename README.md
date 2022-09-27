@@ -74,12 +74,6 @@ See:
 - [ ] Never go dark, never assume, communicate with appropriate [stakeholders](content/project-plan.md#stakeholders) in all phases of the project
 
 
-- [ ] Do not plan the ideal system but design for immediate value and changeability, and evolve
-
-
-- [ ] [Plan](content/planning-method.md) minimal valuable increments and measure their success before progressing upon them
-
-
 - [ ] Enable projects to function autonomously and self-organising (self-service, architecture, governance)
 
 

@@ -21,6 +21,9 @@ cherry-picking elements from different methods, like ScrumBan.
 
 ## Tips and hints
 
+- [ ] [Plan](planning-method.md) minimal valuable increments and measure their success before progressing upon them
+
+
 - [ ] Use [Kanban](#kanban) in the initial, experimental phase of the project
 
 
