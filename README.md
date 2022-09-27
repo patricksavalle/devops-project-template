@@ -81,9 +81,6 @@ See:
 - [ ] [Plan](content/planning-method.md) in ever shorter increments and [optimize](content/optimization-method.md) in ever shorter iterations until everything is continuous
 
 
-- [ ] Continuously remove [waste](content/optimization-method.md)
-
-
 - [ ] Include end-users in the learning loop as soon as possible but no later than the [MVP](content/project-plan.md#minimum-viable-product)
 
 
