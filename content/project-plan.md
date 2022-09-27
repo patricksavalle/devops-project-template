@@ -17,6 +17,8 @@ Clone this repo and document your project plan here:
 > - [Architectures](#architectures)
 > - [Deployment target](#deployment-target)
 
+
+
 ## Tips and hints  
 
 - [ ] Do not plan the ideal system but design for immediate value and changeability, and evolve

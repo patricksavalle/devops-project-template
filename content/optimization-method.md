@@ -1,6 +1,6 @@
 # Optimization Method
 
-An optimization method determines the iterations of the project.
+An optimization method identifies refactors, waste, problems (using monitoring, analyses and evaluations) that are backlogged for resolving.
 
 ```
 Clone this repo and document your optimization method here:
