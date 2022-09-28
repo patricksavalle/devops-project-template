@@ -192,4 +192,9 @@ Good design helps scalability of collaboration.
 
 See [stigmergic collaboration](https://medium.com/@patricksavalle/designing-distributed-scalable-collaboration-9c6aabd5777e) for some theory.
 
+### Methods
+
+This template is constructed as DevOps framework that is compatible with many specialized methodologies.
+
+![methods](content/devops-methods.png)
 
