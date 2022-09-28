@@ -28,7 +28,7 @@ Clone this repo and document your coding guidelines here:
 - [ ] Prefer using a well-known [design pattern](#design-patterns) over writing an (over-optimized) one-off solution
 
 
-- [ ] If a solution doesn't feel right, re-code (never sacrifice simplicity and elegance, never accept mediocre quality) or backlog as engineering debt
+- [ ] If a solution doesn't feel right, re-code (never sacrifice simplicity and elegance, never accept mediocre quality) or backlog as technical debt
 
 
 - [ ] Ensure all code, the entire project, is always in a deployable state
@@ -52,7 +52,7 @@ Clone this repo and document your coding guidelines here:
 - [ ] Code for testing-in-operation according to the [acceptance testing strategy](acceptance-testing-strategy.md)
 
 
-- [ ] Code for observability according to the [optimization method](optimization-method.md)
+- [ ] Code for observability according to the [optimization method](optimization-method.md) and [incident management procedures](incident-management-procedure.md)
 
 
 ## Design Patterns
@@ -98,7 +98,7 @@ See:
 
 ## Const-correctness
 
-This is a concept that originated in early-days C++ programming but it can be applied to some in degree in other languages too. It is just another form of type safety that is supported by some languages through the ```const```-keyword..
+This is a concept that originated in early-days C++ programming but it can be applied to some degree in other languages too. It is just another form of type safety that is supported by some languages through the ```const```-keyword..
 
 See: 
 - [C++ const-correctness](https://isocpp.org/wiki/faq/const-correctness)
