@@ -197,4 +197,10 @@ Good design helps scalability of collaboration.
 
 See [stigmergic collaboration](https://medium.com/@patricksavalle/designing-distributed-scalable-collaboration-9c6aabd5777e) for some theory.
 
+### Bugs, defects and problems
+
+- Defects and bugs can cause problems 
+- A defect is an error in the specification and a potential problem
+- A bug is an error in the code and a potential problem
+- A problem is an actual misfunctioning caused by a defect or bug
 

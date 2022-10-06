@@ -36,11 +36,7 @@ Monitoring is used in combination with a working [optimization setup](optimizati
 - [ ] Add logging to your systems
 
 
-- [ ] Monitor the golden four signals 
-  - Latency
-  - Error rate
-  - Traffic
-  - Saturation
+- [ ] Monitor the golden four signals (latency, error rate, traffic, saturation)
 
 
 - [ ] As simple as possible, no simpler
