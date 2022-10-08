@@ -25,6 +25,7 @@ This template is constructed as placeholder for different specialized methodolog
 
 ### General
 
+- [ ] [Agile principles](content/lsd-lean.md)
 - [ ] [Project plan](content/project-plan.md)
 - [ ] [Tooling](content/tools.md)
 
@@ -199,8 +200,8 @@ See [stigmergic collaboration](https://medium.com/@patricksavalle/designing-dist
 
 ### Bugs, defects and problems
 
-- Defects and bugs can cause problems 
+- Errors can cause problems 
 - A defect is an error in the specification and a potential problem
 - A bug is an error in the code and a potential problem
-- A problem is an actual misfunctioning caused by a defect or bug
+- A problem is an actual misfunctioning caused by an error
 

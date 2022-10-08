@@ -1,5 +1,7 @@
 # Production Testing Strategy
 
+Production testing is black box testing on production in order to find defects and bugs before they become problems.
+
 ```
 Clone this repo and document your production testing strategy here:
 
@@ -22,10 +24,25 @@ Production testing is also not monitoring, it is actively provoking the producti
 
 ## Tips and hints
 
-- [ ] Setup [monitoring](monitoring-strategy.md) first 
+- [ ] Setup [monitoring](monitoring-strategy.md) first
 
 
-- [ ] Set up for chaos engineering in selected rings (latency, error-responses, time-outs, etc.)
+- [ ] Have a [disaster recovery procedure](disaster-recovery-procedure.md) in place
+
+
+- [ ] Have a [rollback or backup strategy](rollback-strategy.md) in place
+
+
+- [ ] Beware not to expose vulnerabilities to the public
+
+
+- [ ] Avoid degrading user experience
+
+
+- [ ] Experiment with [chaos engineering](#chaos-engineering)
+
+
+- [ ] Test experiments before running them in production
 
 ## Chaos engineering
 
@@ -37,15 +54,17 @@ Chaos Engineering is the discipline of experimenting on a system in order to bui
 - Automate Experiments to Run Continuously
 - Minimize Blast Radius
 
+Steps:
+1. Hypothesize
+2. Plan
+3. Execute
+4. Interpret
+5. Improve
+
 See: 
+- [A curated list of awesome Chaos Engineering resources](https://github.com/dastergon/awesome-chaos-engineering)
 - [Principle of Chaos Engineering](https://principlesofchaos.org)
 - [Continuous Chaos](https://medium.com/capital-one-tech/continuous-chaos-introducing-chaos-engineering-into-devops-practices-75757e1cca6d)
-
-
-## AB-testing
-
-
-
 
 ## SRE 
 
