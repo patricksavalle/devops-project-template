@@ -1,5 +1,7 @@
 # Pipeline Setup
 
+The pipeline setup determines how the pipeline is structured. 
+
 ```
 Clone this repo and document your pipeline setup here:
 
@@ -14,3 +16,6 @@ Clone this repo and document your pipeline setup here:
 
 
 - [ ] Simplify before automation
+
+
+- [ ] Decentralize as much as possible to create project autonomy

@@ -27,10 +27,10 @@ See:
 - [ ] Align the Delivery strategy with [application architecture](project-plan.md#architectures) and [rollback](rollback-strategy)- and [testing-strategy](acceptance-testing-strategy.md)
 
 
-- [ ] Progressively expose new features to a wider audience to reduce blast radius of bugs
+- [ ] Progressively expose new features to a wider audience to reduce blast radius of [problems](/README.md#bugs-defects-and-problems)
 
 
-- [ ] Decouple deployment and release (user rings, feature flags)
+- [ ] Decouple deployment from release (user rings, feature flags)
 
 
 - [ ] Focus on reducing batch (new features) size
@@ -56,10 +56,10 @@ Non-production environments are often not representative for tests either. The s
 - Feature flags
 - Ring deployments
 - Dark launches
-- Blue Green  
+- [Blue Green](https://martinfowler.com/bliki/BlueGreenDeployment.html)  
 
 
-https://martinfowler.com/bliki/BlueGreenDeployment.html
+
 
 
 

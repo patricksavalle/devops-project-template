@@ -1,6 +1,6 @@
 # Design Guidelines
 
-The design guidelines ensure uniform, understandable design basedon proven solutions.
+The design guidelines ensure uniform, understandable design based on proven solutions.
 
 ```
 Clone this repo and document your project plan here:

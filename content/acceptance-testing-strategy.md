@@ -37,7 +37,7 @@ Clone this repo and document your acceptance testing strategy here:
 - [ ] Use temporary environments only when necessary (initial security tests, load test, etc.)
 
 
-See: [User Acceptance Testing (UAT) – Checklist, Tips and hints, Approach, Example](http://tryqa.com/user-acceptance-testing-uat-checklist-tips-and-hints-approach-example-templates/)
+See: [User Acceptance Testing (UAT) – Checklist, Tips and hints, Approach, Example](https://tryqa.com/user-acceptance-testing-uat-checklist-best-practices-approach-example-templates/)
 
 ## Acceptance testing 
 

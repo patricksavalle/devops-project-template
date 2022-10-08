@@ -1,6 +1,6 @@
 # Developer Testing Strategy
 
-Developer testing (a.k.a unit-testing) is automated testing used to check if the application code is ready to be deployed.
+Developer testing (a.k.a unit-testing) is automated testing used to check if the application code is ready to be integrated in the deployment
 
 
 ```
@@ -17,7 +17,8 @@ Clone this repo and document your developer testing strategy here:
 > - [Behavioral driven development](#bdd-behavioral-driven)
 
 Developer tests are run manually during development and automated during continuous integration.
-As opposed to [acceptance testing](acceptance-testing-strategy.md) that is done after the application is deployed to check if a new deployment can be put into production.
+As opposed to [acceptance testing](acceptance-testing-strategy.md) that is done after the application is deployed
+or [production testing](production-testing-strategy.md) that is done to find errors in operation.  
 
 ## Tips and hints
 
