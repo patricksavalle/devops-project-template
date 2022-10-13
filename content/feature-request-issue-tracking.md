@@ -14,7 +14,7 @@ Clone this repo and document your acceptance testing strategy here:
 
 ## Tips and hints
 
-- [ ] Bug fixing needs the Kanban planning method
+- [ ] Bug fixing needs the [Kanban planning](planning-method.md#kanban) method
 
 
 - [ ] Bug fixing often requires feature teams

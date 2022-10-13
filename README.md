@@ -205,3 +205,26 @@ See [stigmergic collaboration](https://medium.com/@patricksavalle/designing-dist
 - A bug is an error in the code and a potential problem
 - A problem is an actual misfunctioning caused by an error
 
+### Software Quality
+
+- Product quality
+
+  - Functional Suitability
+  - Performance Efficiency
+  - Compatibility
+  - Usability
+  - Reliability
+  - Security
+  - Maintainability
+  - Portability
+
+
+- Quality in use
+
+  - Effectiveness
+  - Efficiency
+  - Satisfaction
+  - Freedom from risk
+  - Context coverage
+
+See [ISO/IEC 25010](https://blog.codacy.com/iso-25010-software-quality-model/)
