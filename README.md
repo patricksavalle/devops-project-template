@@ -28,6 +28,7 @@ This template is constructed as placeholder for different specialized methodolog
 - [ ] [Agile principles](content/lsd-lean.md)
 - [ ] [Project plan](content/project-plan.md)
 - [ ] [Tooling](content/tools.md)
+- [ ] [Software quality](content/softwarequality.md)
 
 ### Continuous Integration 
 

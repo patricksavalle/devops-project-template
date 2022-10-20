@@ -11,11 +11,13 @@ Clone this repo and document your configuration management here:
 ```
 > Content
 > - [Tips and hints](#tips-and-hints)
-> - [IaC](#iac)
 > - [GitOps](#gitops)
 
 
 ## Tips and hints
+
+- [ ] Do GitOps
+
 
 - [ ] Start small
 
@@ -64,10 +66,14 @@ see:
 
 ### CI/CD controller pattern
 
+**(A.k.a. Pull deployment)**
+
 In the CI/CD Controller pattern, an independent application or service is aware of the state of one or many source code repositories. 
 It executes a CI/CD deployment automatically when code changes within a particular repository.
 
 ### SCM controller pattern
+
+**(A.k.a. Push deployment)**
 
 In the SCM Controller pattern, source code that controls CI/CD deployment activity is colocated in the same Git repository as the application source code. 
 Under the SCM Controller, the SCM service can internally execute actions such as builds, tests, and the eventual release to a staging or production target.
