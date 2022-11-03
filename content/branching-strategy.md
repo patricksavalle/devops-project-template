@@ -14,6 +14,7 @@ Clone this repo and document your branching strategy here:
 > - [GitFlow](#gitflow)
 > - [GitLabFlow](#gitlabflow)
 > - [GitHubFlow](#githubflow)
+> - [Trunk-based](#trunk-based)
 
 De industry standard for collaborative coding and revision control is GIT. 
 Integration with GIT is done using merge requests into branches. 
@@ -36,7 +37,7 @@ See:
 - [ ] Keep features and merge request small, avoid merge hell
 
 
-- [ ] Start with [trunk-based development](branching-strategy.md#trunk-based) and switch to a [GitFlow](branching-strategy.md) when the product reaches [MVP stage](project-plan.md#minimum-viable-product) or when the project is crowdsourced
+- [ ] Start with [trunk-based development](branching-strategy.md#trunk-based) and switch to a [GitFlow](branching-strategy.md) when the product can be built in feature increments or when the project is crowdsourced
 
 
 ## GitFlow

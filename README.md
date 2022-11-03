@@ -9,6 +9,7 @@
 >
 > - [Checklist](#checklist)
 > - [Tips and hints](#tips-and-hints)
+> - [Collected best practices](#best-practices)
 > - [Fundamentals](#fundamentals)
 
 DevOps is an [iterative and incremental](#iterations-and-increments) software development approach with emphasis on *autonomy*, *automation*, *continuous
@@ -102,6 +103,10 @@ See:
 
 - [ ] Everything is tested
 
+
+## Best practices
+
+- [Relational databases](content/relational-databases.md)
 
 ## Fundamentals
 

@@ -34,7 +34,7 @@ Clone this repo and document your configuration management here:
   - A repo per service for a large company with plenty of automation and a need for control
 
 
-- [ ] Choose SRE of team deployment
+- [ ] Choose deployment / delivery by either SRE or teams
 
 
 - [ ] Test manifest before committing
@@ -81,7 +81,7 @@ Under the SCM Controller, the SCM service can internally execute actions such as
 
 ## Deployment platform
 
-## LAMP
+## VPS
 
 
 ## Docker

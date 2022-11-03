@@ -36,7 +36,7 @@ Clone this repo and document your project plan here:
 - [ ] Use [prototypes](#prototype) to engineer requirements because all stakeholders can understand those
 
 
-- [ ] Make a [functional design](#functional-design) when the requirements do not have clear, natural increments or when 'iceberg functionality' exists
+- [ ] Make a [functional design](#functional-design) when the requirements do not have clear, natural increments / grouping or when 'iceberg functionality' exists
 
 
 - [ ] Release a MVP as soon as possible, to get [user feedback](optimization-method.md) early and test-run your DevOps setup
