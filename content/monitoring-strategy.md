@@ -1,3 +1,5 @@
+**< [devops-project-template](../README.md)**
+
 # Monitoring and observability strategy
 
 Monitoring and observability and allows teams to watch, debug and understand the state of their systems.

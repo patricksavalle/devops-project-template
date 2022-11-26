@@ -1,3 +1,5 @@
+**< [devops-project-template](../README.md)**
+
 # Acceptance Testing Strategy
 
 User Acceptance Testing (UAT) is used to check if a new feature can be made accessible for all end-users.

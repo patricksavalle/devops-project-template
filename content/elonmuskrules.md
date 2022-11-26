@@ -1,3 +1,5 @@
+**< [devops-project-template](../README.md)**
+
 # Elon Musk's rules for efficient communication
 
 Elon sent this to all Tesla employees in november 2022. **I added rule 0.**

@@ -1,3 +1,5 @@
+**< [devops-project-template](../README.md)**
+
 # Planning method
 
 The planning method determines the content and order of increments to be done on the project.

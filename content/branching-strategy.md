@@ -1,3 +1,5 @@
+**< [devops-project-template](../README.md)**
+
 # Branching strategy
 
 Branching strategy defines how different new features are developed in parallel and integrated into a new release.

@@ -1,3 +1,5 @@
+**< [devops-project-template](../README.md)**
+
 # Integration standard
 
 Integration is the wiring between applications, the standard keeps the entire landscape uniform and robust. 

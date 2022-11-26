@@ -1,3 +1,5 @@
+**< [devops-project-template](../README.md)**
+
 # LEAN Software Development Principles
 
 See [Everything you need to know about Lean Software Development](https://railsware.com/blog/lean-software-development-guide/)

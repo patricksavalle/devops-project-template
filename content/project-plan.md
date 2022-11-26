@@ -1,3 +1,5 @@
+**< [devops-project-template](../README.md)**
+
 # Project plan
 
 The project plan outlines the (intermediate) deliverables and project stages as well as the general development strategy.

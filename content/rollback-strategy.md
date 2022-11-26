@@ -1,3 +1,5 @@
+**< [devops-project-template](../README.md)**
+
 # Rollback strategy
 
 The rollback strategy determines how to bring back the operational system to a previous state.

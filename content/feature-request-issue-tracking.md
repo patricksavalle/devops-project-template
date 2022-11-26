@@ -1,3 +1,5 @@
+**< [devops-project-template](../README.md)**
+
 # Issue tracking
 
 Issue tracking is the method of recording and tracking the progress of customer cases, tickets, or issues, from inbox to resolution.

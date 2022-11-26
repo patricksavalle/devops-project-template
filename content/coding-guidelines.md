@@ -1,3 +1,5 @@
+**< [devops-project-template](../README.md)**
+
 # Coding guidelines
 
 Coding guidelines ensure robust, maintainable code.

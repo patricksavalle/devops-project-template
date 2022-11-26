@@ -1,3 +1,5 @@
+**< [devops-project-template](../README.md)**
+
 # Versioning Strategy
 
 The versioning strategy determines the version numbering of releases.

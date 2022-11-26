@@ -1,3 +1,5 @@
+**< [devops-project-template](../README.md)**
+
 # Delivery Strategy
 
 The delivery strategy determines how changes of all kinds are staged into production.

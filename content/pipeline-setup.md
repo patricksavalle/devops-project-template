@@ -1,3 +1,5 @@
+**< [devops-project-template](../README.md)**
+
 # Pipeline Setup
 
 The pipeline setup determines how the pipeline is structured. 
