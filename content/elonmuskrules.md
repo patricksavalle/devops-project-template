@@ -29,7 +29,7 @@ Elon sent this to all Tesla employees in november 2022. **I added rule 0.**
    - Fast communicators make fast decisions 
    - Fast decisions = competitive advantage
 
-> ## Rule 4: Be clear, not clever
+> ## Rule 4: be clear, not clever
    - Avoid nonsense words and technical jargon as it slows down communication
    - Choose words that are:
      - Concise
@@ -37,7 +37,7 @@ Elon sent this to all Tesla employees in november 2022. **I added rule 0.**
      - Easy to understand 
    - Don’t sound smart. Be efficient.
 
-> ## Rule 5: Ditch frequent meetings
+> ## Rule 5: ditch frequent meetings
    - There’s no better way to waste everyone’s time
    - Use meetings to:
      - Collaborate
@@ -51,7 +51,7 @@ Elon sent this to all Tesla employees in november 2022. **I added rule 0.**
      - Communicate on a discord or slack channel 
    - Don’t interrupt your team’s workflow if it’s unnecessary.
 
-> ## Rule 6: Use common sense
+> ## Rule 6: use common sense
    - If a company rule doesn't:
      - Make sense
      - Contribute to progress
