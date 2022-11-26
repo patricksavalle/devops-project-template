@@ -26,6 +26,7 @@ This template is constructed as placeholder for different specialized methodolog
 
 ### General
 
+- [ ] [Elon Musk rules](content/elonmuskrules.md)
 - [ ] [Agile principles](content/lsd-lean.md)
 - [ ] [Project plan](content/project-plan.md)
 - [ ] [Tooling](content/tools.md)
