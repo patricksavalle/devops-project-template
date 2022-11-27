@@ -21,13 +21,15 @@ This template is constructed as placeholder for different specialized methodolog
 
 ![methods](content/devops-methods.png)
 
+## Culture
+
+- [Elon Musk rules for efficient communication](content/elonmuskrules.md)
+- [Agile principles for efficient production](content/lsd-lean.md)
 
 ## Checklist
 
 ### General
 
-- [ ] [Elon Musk rules](content/elonmuskrules.md)
-- [ ] [Agile principles](content/lsd-lean.md)
 - [ ] [Project plan](content/project-plan.md)
 - [ ] [Tooling](content/tools.md)
 - [ ] [Software quality](content/softwarequality.md)
