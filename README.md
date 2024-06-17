@@ -1,5 +1,7 @@
 # DevOps/Agile Project Template
 
+**For Agile coaches, DevOps architects and Release Train Engineers**
+
 *[CC-NC-SA-BY 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) By Patrick Savalle*
 
 > ## Clone this repo and use it to setup, review or document your own project configuration 
