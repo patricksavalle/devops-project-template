@@ -65,6 +65,7 @@ This template is constructed as placeholder for different specialized methodolog
 - [ ] [Incident management procedure](content/incident-management-procedure.md)
 - [ ] [Rollback procedure](content/rollback-strategy.md)
 - [ ] [Disaster recovery procedure](content/disaster-recovery-procedure.md)
+- [ ] [Capacity planning strategy](content/capacity-planning-strategy.md)
 
 ### Standards & Guidelines
 
